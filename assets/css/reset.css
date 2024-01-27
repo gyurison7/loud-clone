@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+:root {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  cursor: default;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+html,
+body {
+  /* height: 100%; */
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+fieldset {
+  border: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input {
+  border: 0;
+}
+html,
+body {
+  text-size-adjust: none;
+  background-color: #fff;
+  font: 12px/18px "Noto Sans KR", NanumGothic, "나눔고딕", "Nanum Gothic", "맑은 고딕",
+    "Malgun Gothic", Dotum;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  width: 100%;
+}
+html {
+  min-width: 1200px;
+}
+body {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  color: #101c33;
+  font-size: 14px;
+}

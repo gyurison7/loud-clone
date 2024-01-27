@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <div class="top-banner">
+      <img
+        src="./assets/imgs/ad-banner.jpg"
+        alt="현대차 정몽구 재단 ONDREAM SOCIETY ONSO Artist open call 2024 1.11.(목) - 2.12.(월) 지금 참여하기"
+      />
+    </div>
+    <nav class="related-site">
+      <ul>
+        <li class="stunning">
+          <a href="">
+            <svg viewBox="0 0 22 14" class="sc-gKXOVf inzDim">
+              <path
+                d="M21.9876 6.94356L15.3053 0.0694135C15.2814 0.046114 15.2497 0.0331271 15.2167 0.0331271C15.1838 0.0331271 15.1521 0.046114 15.1282 0.0694135L11.371 3.9344C11.2742 4.01848 11.1516 4.0646 11.0248 4.0646C10.8981 4.0646 10.7755 4.01848 10.6787 3.9344L6.8947 0.0362865C6.87078 0.0129869 6.83908 0 6.80614 0C6.77319 0 6.7415 0.0129869 6.71758 0.0362865L0.0352738 6.91043C0.0126244 6.93504 0 6.96764 0 7.00153C0 7.03542 0.0126244 7.06803 0.0352738 7.09264L6.71758 13.9613C6.72812 13.974 6.74133 13.984 6.7562 13.9907C6.77108 13.9974 6.78724 14.0006 6.80346 13.9999C6.82043 14.0003 6.8373 13.997 6.853 13.9904C6.8687 13.9837 6.88289 13.9738 6.8947 13.9613L10.684 10.0632C10.7749 9.98201 10.8911 9.93696 11.0114 9.93616C11.1407 9.93921 11.2646 9.99019 11.3603 10.0797L15.1174 13.9447C15.128 13.9574 15.1412 13.9675 15.156 13.9742C15.1709 13.9809 15.1871 13.984 15.2033 13.9834C15.2203 13.9837 15.2371 13.9805 15.2528 13.9738C15.2685 13.9672 15.2827 13.9573 15.2945 13.9447L21.9769 7.07608C21.9898 7.05692 21.9977 7.03458 21.9996 7.01131C22.0014 6.98804 21.9973 6.96466 21.9876 6.94356Z"
+              ></path>
+              <defs></defs>
+            </svg>
+          </a>
+        </li>
+        <li class="loud">
+          <a href="">
+            <svg viewBox="0 0 36 9" class="sc-gKXOVf dUGvLX">
+              <path
+                d="M0 0.17926V8.80045L6.7001 8.81398V6.78129L2.31758 6.77452V0.182642L0 0.17926Z"
+              ></path>
+              <path
+                d="M7.12793 4.50509C7.12793 7.00791 9.22318 8.96958 11.8978 8.97635C14.5725 8.98311 16.6913 7.01468 16.6913 4.49833V4.47127C16.6913 1.96845 14.5961 0.00678176 11.9214 1.73814e-05C9.24676 -0.00674699 7.12793 1.96169 7.12793 4.47804V4.50509ZM9.48593 4.45774C9.47538 4.1369 9.52991 3.81726 9.64623 3.51824C9.76255 3.21923 9.93822 2.94709 10.1626 2.71836C10.3869 2.48964 10.6552 2.30911 10.9512 2.18776C11.2472 2.0664 11.5647 2.00674 11.8844 2.01242C12.2069 2.00903 12.5268 2.07129 12.8247 2.19542C13.1226 2.31954 13.3924 2.50297 13.6178 2.73465C13.8432 2.96632 14.0195 3.24144 14.1361 3.54339C14.2527 3.84535 14.3072 4.16789 14.2963 4.49156V4.51862C14.3049 4.83632 14.2497 5.15251 14.134 5.44834C14.0183 5.74417 13.8444 6.01358 13.6228 6.24051C13.4012 6.46744 13.1363 6.64725 12.844 6.76921C12.5517 6.89118 12.2379 6.9528 11.9214 6.95041C11.5993 6.95048 11.2805 6.88604 10.9835 6.76088C10.6866 6.63572 10.4174 6.45235 10.1919 6.2215C9.96637 5.99065 9.78896 5.71695 9.67005 5.41643C9.55114 5.1159 9.49313 4.79458 9.4994 4.47127L9.48593 4.45774Z"
+              ></path>
+              <path
+                d="M21.9969 9C23.8765 9 26.12 8.32356 26.12 5.0124V0.21984H23.7991V5.08681C23.7991 6.31792 23.1691 6.99436 22.0205 6.99436C20.8718 6.99436 20.2553 6.27057 20.2553 5.01578V0.213074H17.9377V5.06651C17.9377 7.62683 19.3391 8.99661 21.9969 9Z"
+              ></path>
+              <path
+                d="M34.6694 7.68433C35.1066 7.28797 35.4521 6.80049 35.682 6.256C35.9118 5.71151 36.0204 5.12316 36 4.53214V4.50508C36.0206 3.92275 35.9133 3.34301 35.6856 2.80701C35.458 2.27101 35.1157 1.79188 34.6829 1.40361C33.8138 0.642622 32.5708 0.240138 31.0853 0.236755H27.6763V8.85795H31.0449C32.5338 8.86134 33.7902 8.45547 34.6694 7.68433ZM29.9534 2.19504H31.1088C32.719 2.19504 33.7161 3.09809 33.7161 4.5389V4.58287C33.7161 6.01692 32.7056 6.90643 31.1088 6.90305H29.9534V2.19504Z"
+              ></path>
+              <defs></defs>
+            </svg>
+          </a>
+        </li>
+        <li class="notefolio">
+          <a href="">
+            <svg viewBox="0 0 54 10" class="sc-gKXOVf egNAkr">
+              <path
+                d="M11.1228 2.29382C9.08499 2.29382 7.49255 3.76246 7.49255 5.63875V5.67654C7.49255 7.53663 9.0742 8.99717 11.0958 8.99717C13.1174 8.99717 14.7287 7.52853 14.7287 5.65224V5.62795C14.7287 3.75166 13.1444 2.29382 11.1228 2.29382ZM12.8907 5.67654C12.8979 5.90825 12.8566 6.13891 12.7696 6.35376C12.6826 6.56862 12.5517 6.76294 12.3853 6.9243C12.2189 7.08566 12.0207 7.2105 11.8033 7.29084C11.5859 7.37117 11.3541 7.40524 11.1228 7.39085C10.8895 7.39959 10.6569 7.36103 10.4389 7.27748C10.2209 7.19393 10.0221 7.06712 9.8544 6.90468C9.68671 6.74225 9.55361 6.54755 9.46313 6.33231C9.37265 6.11706 9.32666 5.88573 9.32791 5.65224V5.62795C9.32112 5.39635 9.36262 5.16588 9.44979 4.95122C9.53695 4.73655 9.66786 4.5424 9.83417 4.38112C10.0005 4.21985 10.1986 4.09499 10.4158 4.01451C10.633 3.93402 10.8646 3.89967 11.0958 3.91364C11.3291 3.9049 11.5617 3.94346 11.7797 4.02701C11.9977 4.11056 12.1965 4.23737 12.3642 4.39981C12.5319 4.56224 12.665 4.75694 12.7554 4.97218C12.8459 5.18743 12.8919 5.41875 12.8907 5.65224V5.67654Z"
+              ></path>
+              <path
+                d="M23.6924 2.2938C23.2528 2.28634 22.8162 2.36803 22.4091 2.53394C22.0019 2.69985 21.6326 2.94653 21.3234 3.25912C21.0141 3.5717 20.7714 3.94371 20.6098 4.35269C20.4483 4.76167 20.3712 5.19914 20.3833 5.63873V5.67652C20.3833 7.59871 21.8543 8.99715 23.8786 8.99715C24.395 9.01829 24.9095 8.92132 25.3828 8.71361C25.8562 8.50589 26.2759 8.19291 26.61 7.79848L26.6262 7.77959L25.5142 6.83469L25.498 6.84819C25.2899 7.05868 25.0412 7.22466 24.767 7.33604C24.4928 7.44743 24.1988 7.50189 23.9029 7.49612C23.0932 7.49612 22.5318 7.09386 22.3266 6.36494L22.3077 6.29475H26.9231V6.27316C26.9231 6.11657 26.9474 5.94109 26.9474 5.79531C26.9555 3.2063 25.1957 2.2938 23.6924 2.2938ZM22.2834 5.13658L22.2969 5.06639C22.4859 4.25648 23.0338 3.79753 23.803 3.79753C24.1628 3.787 24.5134 3.91175 24.7858 4.14715C25.0581 4.38255 25.2323 4.71151 25.274 5.06909V5.13658H22.2834Z"
+              ></path>
+              <path
+                d="M35.6784 2.40448C33.6434 2.40448 32.0482 3.87311 32.0482 5.7494V5.7872C32.0482 7.64729 33.6326 9.10782 35.6542 9.10782C37.6757 9.10782 39.2844 7.63919 39.2844 5.7629V5.7386C39.2844 3.86232 37.7 2.40448 35.6784 2.40448ZM37.4463 5.7872C37.4535 6.0189 37.4123 6.24956 37.3253 6.46442C37.2383 6.67928 37.1074 6.8736 36.941 7.03496C36.7746 7.19632 36.5763 7.32116 36.3589 7.40149C36.1415 7.48183 35.9098 7.51589 35.6784 7.5015C35.4452 7.51025 35.2125 7.47169 34.9946 7.38813C34.7766 7.30458 34.5778 7.17777 34.4101 7.01534C34.2424 6.8529 34.1093 6.6582 34.0188 6.44296C33.9283 6.22772 33.8823 5.99639 33.8836 5.7629V5.7386C33.8768 5.50677 33.9183 5.27606 34.0057 5.06119C34.093 4.84633 34.2241 4.65204 34.3907 4.49073C34.5574 4.32942 34.7558 4.20462 34.9733 4.12431C35.1908 4.044 35.4227 4.00994 35.6542 4.0243C35.8873 4.01554 36.1198 4.05412 36.3376 4.1377C36.5555 4.22128 36.7541 4.34813 36.9216 4.51061C37.0891 4.67308 37.2219 4.86781 37.3121 5.08304C37.4023 5.29827 37.448 5.52954 37.4463 5.7629V5.7872Z"
+              ></path>
+              <path d="M42.313 0.169128H40.3778V8.90534H42.313V0.169128Z"></path>
+              <path d="M45.7058 2.84186H43.7841V8.90537H45.7058V2.84186Z"></path>
+              <path
+                d="M50.3967 2.29382C48.3589 2.29382 46.7665 3.76246 46.7665 5.63875V5.67654C46.7665 7.53663 48.3481 8.99717 50.3697 8.99717C52.3913 8.99717 54 7.52853 54 5.65224V5.62795C54 3.75166 52.4183 2.29382 50.3967 2.29382ZM52.1646 5.67654C52.1718 5.90825 52.1306 6.13891 52.0436 6.35376C51.9565 6.56862 51.8256 6.76294 51.6592 6.9243C51.4928 7.08566 51.2946 7.2105 51.0772 7.29084C50.8598 7.37117 50.628 7.40524 50.3967 7.39085C50.1634 7.39959 49.9308 7.36103 49.7128 7.27748C49.4948 7.19393 49.296 7.06712 49.1283 6.90468C48.9606 6.74225 48.8275 6.54755 48.7371 6.33231C48.6466 6.11706 48.6006 5.88573 48.6018 5.65224V5.62795C48.5946 5.39624 48.6359 5.16558 48.7229 4.95073C48.8099 4.73587 48.9408 4.54155 49.1072 4.38019C49.2736 4.21883 49.4718 4.09399 49.6892 4.01365C49.9066 3.93331 50.1384 3.89925 50.3697 3.91364C50.603 3.9049 50.8356 3.94346 51.0536 4.02701C51.2716 4.11056 51.4704 4.23737 51.6381 4.39981C51.8058 4.56224 51.9389 4.75694 52.0294 4.97218C52.1199 5.18743 52.1658 5.41875 52.1646 5.65224V5.67654Z"
+              ></path>
+              <path
+                d="M18.2321 7.10197L18.197 7.05337C18.1188 6.89721 18.0842 6.72275 18.0972 6.54853V4.07291H19.4764V2.54758H18.0972V0.817078H16.3212V2.54758H15.2416V4.07291H16.3212V7.04258C16.3212 8.39242 16.8745 8.98366 18.1782 8.98366C18.6917 9.01212 19.2048 8.91965 19.6761 8.71369V7.18026C18.8799 7.35574 18.3887 7.32874 18.2321 7.10197Z"
+              ></path>
+              <path
+                d="M30.44 0.00716478C30.1589 -0.00282185 29.8786 0.0436348 29.6158 0.143791C29.353 0.243947 29.1128 0.395772 28.9096 0.590299C28.5534 0.93316 28.3698 1.4596 28.3698 2.15342V2.54758H27.4062V4.07291H28.3698V8.91616H30.2592V4.07291H31.8138V2.55028H30.2376V2.25601C30.2376 1.88615 30.4724 1.64858 30.9042 1.58919C31.2127 1.55797 31.5242 1.57528 31.8273 1.64048V0.161047H31.8111C31.3662 0.031661 30.9025 -0.0203889 30.44 0.00716478V0.00716478Z"
+              ></path>
+              <path
+                d="M44.7422 1.99953C45.2863 1.99953 45.7274 1.55835 45.7274 1.01414C45.7274 0.469921 45.2863 0.0287476 44.7422 0.0287476C44.1981 0.0287476 43.7571 0.469921 43.7571 1.01414C43.7571 1.55835 44.1981 1.99953 44.7422 1.99953Z"
+              ></path>
+              <path
+                d="M3.81376 2.1669C3.16934 2.14028 2.53781 2.35276 2.04049 2.76354L1.94872 2.84453V2.36938H0V8.91614H1.94872V5.40654C1.93221 5.21139 1.95577 5.01492 2.01797 4.82921C2.08017 4.6435 2.17968 4.47248 2.31039 4.32666C2.57422 4.07613 2.92646 3.94024 3.29015 3.9487C3.63849 3.94077 3.97855 4.05543 4.25101 4.27267C4.36288 4.38554 4.4494 4.52099 4.50478 4.66996C4.56017 4.81893 4.58315 4.97801 4.5722 5.13657V8.91614H6.5614V4.92329C6.58094 4.55526 6.52385 4.18717 6.39376 3.84236C6.26367 3.49754 6.06341 3.18349 5.80567 2.92012C5.26172 2.42466 4.54937 2.15529 3.81376 2.1669V2.1669Z"
+              ></path>
+              <defs></defs>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header">
+      <div class="header-wrapper">
+        <div class="top-row">
+          <h1 class="logo">
+            <a href=""><img src="./assets/imgs/logo.webp" alt="LOUD 로고" /></a>
+          </h1>
+          <div class="search-area">
+            <input type="text" placeholder="어떤 디자인이 필요하세요?" />
+            <svg color="#101C33" viewBox="0 0 12 12" class="sc-gKXOVf lnAXvg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.16483 8.33C3.41907 8.33 1.99996 6.91 1.99996 5.165C1.99996 3.41917 3.41907 1.99917 5.16483 1.99917C6.91059 1.99917 8.32969 3.41917 8.32969 5.165C8.32969 6.91 6.91059 8.33 5.16483 8.33ZM10.8538 10.1483L8.42886 7.7225C8.98467 7.015 9.32965 6.13417 9.32965 5.165C9.32965 2.86417 7.46473 1 5.16483 1C2.86492 1 1 2.86417 1 5.165C1 7.465 2.86492 9.32917 5.16483 9.32917C6.13395 9.32917 7.01558 8.98417 7.72222 8.42917L10.1471 10.8533C10.2454 10.9517 10.3729 11 10.5004 11C10.6288 11 10.7563 10.9517 10.8538 10.8533C11.0487 10.6592 11.0487 10.3417 10.8538 10.1483Z"
+              ></path>
+              <defs></defs>
+            </svg>
+          </div>
+          <div class="util">
+            <a href="">
+              <span>공모전 대행</span>
+              <sup class="label-hot">hot</sup>
+            </a>
+            <a href=""><span>공모전 소식</span></a>
+            <a href=""><span>이벤트</span></a>
+            <a class="login" href=""><span>로그인/회원가입</span></a>
+          </div>
+        </div>
+        <div class="bottom-row">
+          <nav class="gnb">
+            <ul>
+              <li class="category">
+                <a href="">
+                  <svg class="sc-gKXOVf cAfwXx toolbar-nav-item__icon" viewBox="0 0 24 24">
+                    <rect x="3" y="6" width="18" height="2" rx="1"></rect>
+                    <rect x="3" y="13" width="18" height="2" rx="1"></rect>
+                    <rect x="3" y="20" width="18" height="2" rx="1"></rect>
+                    <defs></defs>
+                  </svg>
+                  <span>카테고리</span>
+                </a>
+              </li>
+              <li class="contest">
+                <a href="">
+                  <span>콘테스트</span>
+                  <sup class="label-best">best</sup>
+                </a>
+              </li>
+              <li class="find">
+                <a href="">
+                  <span>디자이너 찾기</span>
+                  <sup class="label-new">new</sup>
+                </a>
+              </li>
+              <li class="portfolio">
+                <a href=""><span>포트폴리오</span></a>
+              </li>
+              <li class="review">
+                <a href="">
+                  <span>고객 후기</span>
+                  <sup class="label-point">
+                    <svg viewBox="0 0 12 12" class="sc-gKXOVf iFpvod">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M10.9643 4.74338C10.8835 4.50089 10.6777 4.32673 10.4285 4.2884L7.79006 3.88509L6.60669 1.35936C6.38168 0.880213 5.61832 0.880213 5.39331 1.35936L4.20994 3.88509L1.57152 4.2884C1.32235 4.32673 1.11651 4.50089 1.03567 4.74338C0.954003 4.99004 1.01484 5.25836 1.19484 5.44252L3.11741 7.41577L2.66156 10.2073C2.61989 10.469 2.72656 10.7256 2.9424 10.8773C3.0574 10.9589 3.19074 10.9998 3.32408 10.9998C3.43492 10.9998 3.54492 10.9723 3.64576 10.9165L6 9.61401L8.35424 10.9165C8.57675 11.0398 8.84759 11.0264 9.0576 10.8773C9.27344 10.7256 9.38011 10.469 9.33761 10.2065L8.88259 7.41577L10.8052 5.44252C10.9852 5.25836 11.046 4.99004 10.9643 4.74338Z"
+                      ></path>
+                      <defs></defs>
+                    </svg>
+                    4.9점
+                  </sup>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="link-design"><a href="">디자인 의뢰하기</a></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="conitaner">
+      <section class="sc-main-banner">
+        <h2 class="blind"></h2>
+        <div class="btn-area">
+          <button class="btn-prev-main">
+            <svg color="#ffffff" viewBox="0 0 12 12" class="sc-gKXOVf iFpvod">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+              ></path>
+              <defs></defs>
+            </svg>
+          </button>
+          <button class="btn-next-main">
+            <svg color="#ffffff" viewBox="0 0 12 12" class="sc-gKXOVf iFpvod">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+              ></path>
+              <defs></defs>
+            </svg>
+          </button>
+        </div>
+        <div class="swiper-container main-container">
+          <ul class="swiper-wrapper main-wrapper">
+            <li class="swiper-slide contest main-slide">
+              <a class="wrapper-link" href="">
+                <div class="content-wrapper">
+                  <div class="content">
+                    <span class="sub-title">개최부터 심사, 운영, 계약까지 꼼꼼하게</span>
+                    <span class="title">콘테스트 개최를<br />라우드 매니저가 도와드려요</span>
+                    <button>
+                      98.7%가 만족한 이유 더보기
+                      <svg class="sc-gKXOVf iFpvod banner-button-arrow" viewBox="0 0 12 12">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+                        ></path>
+                        <defs></defs>
+                      </svg>
+                    </button>
+                  </div>
+                  <img src="./assets/imgs/main-banner-1.png" alt="" />
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide success main-slide">
+              <a href="">
+                <div class="content-wrapper">
+                  <div class="content">
+                    <span class="sub-title">누구나 연매출 100억 기업처럼</span>
+                    <span class="title">명륜진사갈비처럼<br />성공적인 디자인 방법은?</span>
+                    <button>
+                      콘테스트 실사례 보기
+                      <svg class="sc-gKXOVf iFpvod banner-button-arrow" viewBox="0 0 12 12">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+                        ></path>
+                        <defs></defs>
+                      </svg>
+                    </button>
+                  </div>
+                  <img src="./assets/imgs/main-banner-2.webp" alt="" />
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide satisfied main-slide">
+              <a href="">
+                <div class="content-wrapper">
+                  <div class="content">
+                    <span class="sub-title">이 디자인, 어디서 했지?</span>
+                    <span class="title">유명 기업이 만족한 디자인<br />35만원 부터</span>
+                    <button>
+                      추천 사례 보기
+                      <svg class="sc-gKXOVf iFpvod banner-button-arrow" viewBox="0 0 12 12">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+                        ></path>
+                        <defs></defs>
+                      </svg>
+                    </button>
+                  </div>
+                  <img src="./assets/imgs/main-banner-3.webp" alt="" />
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide new-year main-slide">
+              <a href="">
+                <div class="content-wrapper">
+                  <div class="content">
+                    <span class="sub-title">상위 1%전문가와 가장 빠른 준비</span>
+                    <span class="title">희망찬 청룡의 해!<br />2024 신년 상품</span>
+                    <button>
+                      기획전 보러가기
+                      <svg class="sc-gKXOVf iFpvod banner-button-arrow" viewBox="0 0 12 12">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+                        ></path>
+                        <defs></defs>
+                      </svg>
+                    </button>
+                  </div>
+                  <img src="./assets/imgs/main-banner-4.webp" alt="" /></div
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="sc-loud-contest">
+        <div class="header">
+          <h2 class="common-title">라우드 콘테스트 200% 활용법</h2>
+          <span class="more">
+            <a href="">
+              더보기
+              <svg class="sc-gKXOVf iFpvod icon" color="#8E94A0" viewBox="0 0 12 12">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+                ></path>
+                <defs></defs>
+              </svg>
+            </a>
+          </span>
+        </div>
+        <div class="slider">
+          <div class="swiper-container contest-container">
+            <ul class="swiper-wrapper contest-wrapper">
+              <li class="swiper-slide contest-slide">
+                <a href="">
+                  <img src="" alt="" />
+                  <div class="content-wrapper">
+                    <span class="title"></span>
+                    <div class="tag-wrapper">
+                      <span class="tag1"></span>
+                      <span class="tag2"></span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="slider-btn">
+            <button class="btn-prev-contest">
+              <svg
+                data-role="none"
+                class="sc-gKXOVf cAfwXx slick-arrow slick-prev slick-disabled"
+                viewBox="0 0 24 24"
+                style="display: block"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.97113 22.0001C8.19513 22.0001 8.41713 21.9061 8.58713 21.7191L16.7471 12.7161C17.0841 12.3451 17.0841 11.7451 16.7471 11.3741L8.48613 2.28013C8.14713 1.90813 7.59713 1.90613 7.25613 2.27713C6.91613 2.64813 6.91413 3.25113 7.25313 3.62413L14.9051 12.0471L7.35413 20.3771C7.01513 20.7501 7.01713 21.3531 7.35813 21.7241C7.52813 21.9081 7.74913 22.0001 7.97113 22.0001Z"
+                ></path>
+                <defs></defs>
+              </svg>
+            </button>
+            <button class="btn-next-contest">
+              <svg
+                data-role="none"
+                class="sc-gKXOVf cAfwXx slick-arrow slick-next"
+                viewBox="0 0 24 24"
+                style="display: block"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.97113 22.0001C8.19513 22.0001 8.41713 21.9061 8.58713 21.7191L16.7471 12.7161C17.0841 12.3451 17.0841 11.7451 16.7471 11.3741L8.48613 2.28013C8.14713 1.90813 7.59713 1.90613 7.25613 2.27713C6.91613 2.64813 6.91413 3.25113 7.25313 3.62413L14.9051 12.0471L7.35413 20.3771C7.01513 20.7501 7.01713 21.3531 7.35813 21.7241C7.52813 21.9081 7.74913 22.0001 7.97113 22.0001Z"
+                ></path>
+                <defs></defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="sc-idea inner">
+        <h2 class="common-title">어떤 디자인/아이디어가 필요하세요?</h2>
+        <div class="idea-wrapper">
+          <div class="idea-item">
+            <a href="">
+              <div class="img-wrapper"><img src="./assets/imgs/idea-1.webp" alt="" /></div>
+              <div class="content-wrapper">
+                <div class="title">로고/브랜딩</div>
+                <div class="label-best">best</div>
+                <div class="label-average">평균 35건</div>
+              </div>
+            </a>
+          </div>
+          <div class="idea-item">
+            <a href="">
+              <div class="img-wrapper"><img src="./assets/imgs/idea-2.webp" alt="" /></div>
+              <div class="content-wrapper">
+                <div class="title">패키지/포장</div>
+                <div class="label-best">best</div>
+                <div class="label-average">평균 15건</div>
+              </div>
+            </a>
+          </div>
+          <div class="idea-item">
+            <a href="">
+              <div class="img-wrapper"><img src="./assets/imgs/idea-3.webp" alt="" /></div>
+              <div class="content-wrapper">
+                <div class="title">캐릭터</div>
+                <div class="label-best">best</div>
+                <div class="label-average">평균 20건</div>
+              </div>
+            </a>
+          </div>
+          <div class="idea-item">
+            <a href="">
+              <div class="img-wrapper"><img src="./assets/imgs/idea-4.webp" alt="" /></div>
+              <div class="content-wrapper">
+                <div class="title">네이밍/슬로건</div>
+              </div>
+            </a>
+          </div>
+          <div class="idea-item">
+            <a href="">
+              <div class="img-wrapper"><img src="./assets/imgs/idea-5.webp" alt="" /></div>
+              <div class="content-wrapper">
+                <div class="title">제품/3D</div>
+              </div>
+            </a>
+          </div>
+          <div class="idea-item">
+            <a href="">
+              <div class="img-wrapper"><img src="./assets/imgs/idea-6.webp" alt="" /></div>
+              <div class="content-wrapper">
+                <div class="title">편집/인쇄</div>
+              </div>
+            </a>
+          </div>
+          <div class="idea-item">
+            <a href="">
+              <div class="img-wrapper"><img src="./assets/imgs/idea-7.webp" alt="" /></div>
+              <div class="content-wrapper">
+                <div class="title">앱/웹/웹배너</div>
+              </div>
+            </a>
+          </div>
+          <div class="idea-item">
+            <a href="">
+              <div class="img-wrapper"><img src="./assets/imgs/idea-8.webp" alt="" /></div>
+              <div class="content-wrapper">
+                <div class="title">그래픽</div>
+              </div>
+            </a>
+          </div>
+          <div class="idea-item">
+            <a href="">
+              <div class="img-wrapper"><img src="./assets/imgs/idea-9.webp" alt="" /></div>
+              <div class="content-wrapper">
+                <div class="title">기타</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="sc-design-contest inner">
+        <h2 class="title">다양한 시안이 필요하다면?<br />평균 시안 26.7개 디자인 콘테스트</h2>
+        <div class="section-wrapper">
+          <section class="sc-winner">
+            <div class="header">
+              <div class="title-wrapper">
+                <h3 class="common-title">실시간 우승 작품</h3>
+                <div class="label-new">new</div>
+              </div>
+              <span class="more">
+                <a href="">
+                  더보기
+                  <svg
+                    class="sc-gKXOVf iFpvod icon"
+                    type="arrow12"
+                    color="#8E94A0"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+                    ></path>
+                    <defs></defs>
+                  </svg>
+                </a>
+              </span>
+            </div>
+            <ul class="winner-list">
+              <li class="winner-item">
+                <button>
+                  <div class="img-wrapper"><img src="" alt="" /></div>
+                  <div class="content-wrapper">
+                    <span class="label"></span>
+                    <span class="title"></span>
+                    <span class="prize-money">총 상금 <strong></strong></span>
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </section>
+          <section class="sc-ing-contest">
+            <div class="header">
+              <h3 class="common-title">진행중 콘테스트</h3>
+              <div class="btn-wrapper">
+                <button class="active">상금 순</button>
+                <span> | </span>
+                <button>마감임박 순</button>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <a href="">
+                  <div class="contest-header">
+                    <span>46일 남음</span>
+                    <span>콘텐츠 아이디어</span>
+                    <span class="dot"></span>
+                    <span>일반/기타</span>
+                  </div>
+                  <div class="contest-title">[현대차 정몽구 재단] ONSO MEDIA CONTEST 2024</div>
+                  <div class="contest-bottom">
+                    <span class="profile-wrapper">
+                      <span class="profile"><img src="./assets/imgs/profile-1.webp" alt="" /></span>
+                      <span class="company-name">온드림 소사이어티</span>
+                    </span>
+                    <span class="total-prize">총 상금 <strong>1,500만원</strong></span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="contest-header">
+                    <span>23일 남음</span>
+                    <span>라벨 + 박스</span>
+                    <span class="dot"></span>
+                    <span>식당/카페</span>
+                  </div>
+                  <div class="contest-title">제4회 백미당 디자인 공모전</div>
+                  <div class="contest-bottom">
+                    <span class="profile-wrapper">
+                      <span class="profile"><img src="./assets/imgs/profile-2.webp" alt="" /></span>
+                      <span class="company-name">백미당</span>
+                    </span>
+                    <span class="total-prize">총 상금 <strong>700만원</strong></span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="contest-header">
+                    <span class="deadline">5일 남음</span>
+                    <span>패턴</span>
+                    <span class="dot"></span>
+                    <span>뷰티/패션</span>
+                  </div>
+                  <div class="contest-title">제5회 올포유(ALLFORYOU) 텍스타일 공모전전</div>
+                  <div class="contest-bottom">
+                    <span class="profile-wrapper">
+                      <span class="profile"><img src="./assets/imgs/profile-3.webp" alt="" /></span>
+                      <span class="company-name">올포유(ALLFORYOU)</span>
+                    </span>
+                    <span class="total-prize">총 상금 <strong>600만원</strong></span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="contest-header">
+                    <span>20일 남음</span>
+                    <span>박스(상자)</span>
+                    <span class="dot"></span>
+                    <span>식품/건강</span>
+                  </div>
+                  <div class="contest-title">대웅제약 임팩타민 패키지 리뉴얼 공모전</div>
+                  <div class="contest-bottom">
+                    <span class="profile-wrapper">
+                      <span class="profile"><img src="./assets/imgs/profile-1.webp" alt="" /></span>
+                      <span class="company-name">대웅제약</span>
+                    </span>
+                    <span class="total-prize">총 상금 <strong>500만원</strong></span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="contest-header">
+                    <span class="deadline">2일 남음</span>
+                    <span>캐릭터</span>
+                    <span class="dot"></span>
+                    <span>공공기관</span>
+                  </div>
+                  <div class="contest-title">영화진흥위원회 캐릭터 콘테스트</div>
+                  <div class="contest-bottom">
+                    <span class="profile-wrapper">
+                      <span class="profile"><img src="./assets/imgs/profile-5.webp" alt="" /></span>
+                      <span class="company-name">영화진흥위원회</span>
+                    </span>
+                    <span class="total-prize">총 상금 <strong>500만원</strong></span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <a class="link-more">
+              진행중인 콘테스트 더보기
+              <svg viewBox="0 0 12 12" class="sc-gKXOVf iFpvod">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+                ></path>
+                <defs></defs>
+              </svg>
+            </a>
+          </section>
+        </div>
+      </section>
+
+      <section class="sc-trend inner">
+        <div class="header">
+          <h2 class="common-title">새해 디자인 트렌드, 마켓 HOT 9</h2>
+          <div class="label-recommend">추천</div>
+        </div>
+        <div class="slider">
+          <div class="swiper-container trend-container">
+            <ul class="swiper-wrapper trend-wrapper">
+              <li class="swiper-slide trend-slide">
+                <a href="">
+                  <img src="" alt="" />
+                  <div class="content-wrapper">
+                    <span class="title"></span>
+                    <span class="nickname"></span>
+                    <span class="period"></span>
+                    <span class="price"></span>
+                    <div class="label-wrapper">
+                      <span class="label"></span>
+                      <span class="label"></span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="slider-btn">
+            <button class="btn-prev-trend">
+              <svg
+                data-role="none"
+                class="sc-gKXOVf cAfwXx slick-arrow slick-prev slick-disabled"
+                viewBox="0 0 24 24"
+                style="display: block"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.97113 22.0001C8.19513 22.0001 8.41713 21.9061 8.58713 21.7191L16.7471 12.7161C17.0841 12.3451 17.0841 11.7451 16.7471 11.3741L8.48613 2.28013C8.14713 1.90813 7.59713 1.90613 7.25613 2.27713C6.91613 2.64813 6.91413 3.25113 7.25313 3.62413L14.9051 12.0471L7.35413 20.3771C7.01513 20.7501 7.01713 21.3531 7.35813 21.7241C7.52813 21.9081 7.74913 22.0001 7.97113 22.0001Z"
+                ></path>
+                <defs></defs>
+              </svg>
+            </button>
+            <button class="btn-next-trend">
+              <svg
+                data-role="none"
+                class="sc-gKXOVf cAfwXx slick-arrow slick-next"
+                viewBox="0 0 24 24"
+                style="display: block"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.97113 22.0001C8.19513 22.0001 8.41713 21.9061 8.58713 21.7191L16.7471 12.7161C17.0841 12.3451 17.0841 11.7451 16.7471 11.3741L8.48613 2.28013C8.14713 1.90813 7.59713 1.90613 7.25613 2.27713C6.91613 2.64813 6.91413 3.25113 7.25313 3.62413L14.9051 12.0471L7.35413 20.3771C7.01513 20.7501 7.01713 21.3531 7.35813 21.7241C7.52813 21.9081 7.74913 22.0001 7.97113 22.0001Z"
+                ></path>
+                <defs></defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <a class="link-more">
+          마켓 상품 더보기
+          <svg viewBox="0 0 12 12" class="sc-gKXOVf iFpvod">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+            ></path>
+            <defs></defs>
+          </svg>
+        </a>
+      </section>
+
+      <section class="sc-sourcing inner">
+        <div class="header">
+          <h2 class="common-title">
+            <strong>창업</strong> 고객은 라우드소싱을 어떻게 활용했을까요?
+          </h2>
+          <ul class="tab-list">
+            <li class="active"><button>창업</button></li>
+            <li><button>공공기관</button></li>
+            <li><button>대기업</button></li>
+          </ul>
+        </div>
+        <div class="slider">
+          <div class="swiper-container sourcing-container">
+            <ul class="swiper-wrapper sourcing-wrapper">
+              <li class="swiper-slide sourcing-slide">
+                <a href="">
+                  <div class="img-wrapper"><img src="./assets/imgs/sourcing-1.png" alt="" /></div>
+                  <div class="content-wrapper">
+                    <span class="title">카페 창업 준비를 위한 5가지 체크리스트</span>
+                    <div class="tag-wrapper">
+                      <span class="tag1">#식당/카페</span>
+                      <span class="tag2">#로고디자인</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide sourcing-slide">
+                <a href="">
+                  <div class="img-wrapper"><img src="./assets/imgs/sourcing-2.png" alt="" /></div>
+                  <div class="content-wrapper">
+                    <span class="title"
+                      >가게 오픈 준비 중이라면? 꼭 알아야 할 간판 종류 7가지!
+                    </span>
+                    <div class="tag-wrapper"><span class="tag1">#식당/카페</span></div>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide sourcing-slide">
+                <a href="">
+                  <div class="img-wrapper"><img src="./assets/imgs/sourcing-3.png" alt="" /></div>
+                  <div class="content-wrapper">
+                    <span class="title"
+                      >예비창업자, 소상공인 주목! 감각적인 와인바 로고 디자인 TOP 4</span
+                    >
+                    <div class="tag-wrapper">
+                      <span class="tag1">#식당/카페</span>
+                      <span class="tag2">#로고디자인</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide sourcing-slide">
+                <a href="">
+                  <div class="img-wrapper"><img src="./assets/imgs/sourcing-4.png" alt="" /></div>
+                  <div class="content-wrapper">
+                    <span class="title"
+                      >예비창업자, 소상공인 주목! 한식 브랜드 포트폴리오 TOP 3
+                    </span>
+                    <div class="tag-wrapper">
+                      <span class="tag1">#식당/카페</span>
+                      <span class="tag2">#로고디자인</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide sourcing-slide">
+                <a href="">
+                  <div class="img-wrapper"><img src="./assets/imgs/sourcing-5.png" alt="" /></div>
+                  <div class="content-wrapper">
+                    <span class="title">라우드소싱과 함께 성장하다 - 성일농장 브랜딩</span>
+                    <div class="tag-wrapper">
+                      <span class="tag1">#식품/건강</span>
+                      <span class="tag2">#로고디자인</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="swiper-slide sourcing-slide">
+                <a href="">
+                  <div class="img-wrapper"><img src="./assets/imgs/sourcing-6.png" alt="" /></div>
+                  <div class="content-wrapper">
+                    <span class="title">성공적인 카페 창업을 위한 5가지 디자인 컨셉</span>
+                    <div class="tag-wrapper">
+                      <span class="tag1">#식당/카페</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="slider-btn">
+            <button class="btn-prev-sourcing">
+              <svg
+                data-role="none"
+                class="sc-gKXOVf cAfwXx slick-arrow slick-prev slick-disabled"
+                viewBox="0 0 24 24"
+                style="display: block"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.97113 22.0001C8.19513 22.0001 8.41713 21.9061 8.58713 21.7191L16.7471 12.7161C17.0841 12.3451 17.0841 11.7451 16.7471 11.3741L8.48613 2.28013C8.14713 1.90813 7.59713 1.90613 7.25613 2.27713C6.91613 2.64813 6.91413 3.25113 7.25313 3.62413L14.9051 12.0471L7.35413 20.3771C7.01513 20.7501 7.01713 21.3531 7.35813 21.7241C7.52813 21.9081 7.74913 22.0001 7.97113 22.0001Z"
+                ></path>
+                <defs></defs>
+              </svg>
+            </button>
+            <button class="btn-next-sourcing">
+              <svg
+                data-role="none"
+                class="sc-gKXOVf cAfwXx slick-arrow slick-next"
+                viewBox="0 0 24 24"
+                style="display: block"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.97113 22.0001C8.19513 22.0001 8.41713 21.9061 8.58713 21.7191L16.7471 12.7161C17.0841 12.3451 17.0841 11.7451 16.7471 11.3741L8.48613 2.28013C8.14713 1.90813 7.59713 1.90613 7.25613 2.27713C6.91613 2.64813 6.91413 3.25113 7.25313 3.62413L14.9051 12.0471L7.35413 20.3771C7.01513 20.7501 7.01713 21.3531 7.35813 21.7241C7.52813 21.9081 7.74913 22.0001 7.97113 22.0001Z"
+                ></path>
+                <defs></defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <a class="link-more">
+          성공사례 더보기
+          <svg viewBox="0 0 12 12" class="sc-gKXOVf iFpvod">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+            ></path>
+            <defs></defs>
+          </svg>
+        </a>
+      </section>
+
+      <section class="sc-count inner">
+        <h2 class="common-title">No.1 디자이너 플랫폼, 라우드 소싱</h2>
+        <div class="count-wrapper">
+          <div class="count-item">
+            <div class="content-wrapper">
+              <span class="count-designer">0</span>
+              <span>디자이너 수</span>
+            </div>
+          </div>
+          <div class="count-item">
+            <div class="content-wrapper">
+              <span class="count-request">0</span>
+              <span>디자인 의뢰 수</span>
+            </div>
+          </div>
+          <div class="count-item">
+            <div class="content-wrapper">
+              <span class="count-satisfaction">0</span>
+              <span>의뢰자 만족 비율</span>
+            </div>
+          </div>
+          <div class="count-item">
+            <div class="content-wrapper">
+              <span class="count-domestic">0</span>
+              <span>국내 디자이너 회원 비율</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sc-choice inner">
+        <div class="content-area">
+          <h3 class="title">
+            창업 기업부터 공공기관까지<br />왜 라우드소싱 콘테스트를 선택할까요?
+          </h3>
+          <ul>
+            <li>
+              <h4 class="sub-title">
+                <svg viewBox="0 0 16 16" class="sc-gKXOVf gnuELh">
+                  <path
+                    d="M8 0C3.58214 0 0 3.58214 0 8C0 12.4179 3.58214 16 8 16C12.4179 16 16 12.4179 16 8C16 3.58214 12.4179 0 8 0ZM11.4554 5.3875L7.69464 10.6018C7.64208 10.6751 7.57279 10.7349 7.49251 10.7762C7.41224 10.8174 7.32329 10.8389 7.23304 10.8389C7.14279 10.8389 7.05384 10.8174 6.97356 10.7762C6.89328 10.7349 6.82399 10.6751 6.77143 10.6018L4.54464 7.51607C4.47679 7.42143 4.54464 7.28929 4.66071 7.28929H5.49821C5.68036 7.28929 5.85357 7.37679 5.96071 7.52679L7.23214 9.29107L10.0393 5.39821C10.1464 5.25 10.3179 5.16071 10.5018 5.16071H11.3393C11.4554 5.16071 11.5232 5.29286 11.4554 5.3875V5.3875Z"
+                  ></path>
+                  <defs></defs>
+                </svg>
+                공모전 방식의 우승작 선정
+              </h4>
+              <p class="description">
+                다양한 참여작을 보고 가장 적합한 디자인을 선택할 수 있습니다.
+              </p>
+            </li>
+            <li>
+              <h4 class="sub-title">
+                <svg viewBox="0 0 16 16" class="sc-gKXOVf gnuELh">
+                  <path
+                    d="M8 0C3.58214 0 0 3.58214 0 8C0 12.4179 3.58214 16 8 16C12.4179 16 16 12.4179 16 8C16 3.58214 12.4179 0 8 0ZM11.4554 5.3875L7.69464 10.6018C7.64208 10.6751 7.57279 10.7349 7.49251 10.7762C7.41224 10.8174 7.32329 10.8389 7.23304 10.8389C7.14279 10.8389 7.05384 10.8174 6.97356 10.7762C6.89328 10.7349 6.82399 10.6751 6.77143 10.6018L4.54464 7.51607C4.47679 7.42143 4.54464 7.28929 4.66071 7.28929H5.49821C5.68036 7.28929 5.85357 7.37679 5.96071 7.52679L7.23214 9.29107L10.0393 5.39821C10.1464 5.25 10.3179 5.16071 10.5018 5.16071H11.3393C11.4554 5.16071 11.5232 5.29286 11.4554 5.3875V5.3875Z"
+                  ></path>
+                  <defs></defs>
+                </svg>
+                사전 견적 및 소통 시간 단축
+              </h4>
+              <p class="description">단 한 번의 브리핑으로 소통 시간을 획기적으로 단축합니다.</p>
+            </li>
+            <li>
+              <h4 class="sub-title">
+                <svg viewBox="0 0 16 16" class="sc-gKXOVf gnuELh">
+                  <path
+                    d="M8 0C3.58214 0 0 3.58214 0 8C0 12.4179 3.58214 16 8 16C12.4179 16 16 12.4179 16 8C16 3.58214 12.4179 0 8 0ZM11.4554 5.3875L7.69464 10.6018C7.64208 10.6751 7.57279 10.7349 7.49251 10.7762C7.41224 10.8174 7.32329 10.8389 7.23304 10.8389C7.14279 10.8389 7.05384 10.8174 6.97356 10.7762C6.89328 10.7349 6.82399 10.6751 6.77143 10.6018L4.54464 7.51607C4.47679 7.42143 4.54464 7.28929 4.66071 7.28929H5.49821C5.68036 7.28929 5.85357 7.37679 5.96071 7.52679L7.23214 9.29107L10.0393 5.39821C10.1464 5.25 10.3179 5.16071 10.5018 5.16071H11.3393C11.4554 5.16071 11.5232 5.29286 11.4554 5.3875V5.3875Z"
+                  ></path>
+                  <defs></defs>
+                </svg>
+                안전한 수정 및 거래
+              </h4>
+              <p class="description">에스크로 결제로 대금을 최종 수정까지 안전하게 보관합니다.</p>
+            </li>
+            <li>
+              <h4 class="sub-title">
+                <svg viewBox="0 0 16 16" class="sc-gKXOVf gnuELh">
+                  <path
+                    d="M8 0C3.58214 0 0 3.58214 0 8C0 12.4179 3.58214 16 8 16C12.4179 16 16 12.4179 16 8C16 3.58214 12.4179 0 8 0ZM11.4554 5.3875L7.69464 10.6018C7.64208 10.6751 7.57279 10.7349 7.49251 10.7762C7.41224 10.8174 7.32329 10.8389 7.23304 10.8389C7.14279 10.8389 7.05384 10.8174 6.97356 10.7762C6.89328 10.7349 6.82399 10.6751 6.77143 10.6018L4.54464 7.51607C4.47679 7.42143 4.54464 7.28929 4.66071 7.28929H5.49821C5.68036 7.28929 5.85357 7.37679 5.96071 7.52679L7.23214 9.29107L10.0393 5.39821C10.1464 5.25 10.3179 5.16071 10.5018 5.16071H11.3393C11.4554 5.16071 11.5232 5.29286 11.4554 5.3875V5.3875Z"
+                  ></path>
+                  <defs></defs>
+                </svg>
+                라우드 매니저의 적극적인 서포팅
+              </h4>
+              <p class="description">
+                전담 라우드 매니저가 업력 10년의 경험으로 성공적인 개최를 도와줍니다.
+              </p>
+            </li>
+          </ul>
+          <button class="btn-contest">콘테스트 체험하기</button>
+        </div>
+        <div class="interview-area">
+          <h3 class="title">패키지 바꾸고 B2C에서<br />매출 40% 달성했어요</h3>
+          <p class="description">
+            작은 규모로 판매를 하던 제품을 전국구로 확장을 하는 단계에서 라우드소싱 콘테스트를
+            경험했어요. 지금까지 총 5번의 콘테스트를 진행했고 그 5번이 모두 매우 만족스러웠습니다.
+            라우드소싱의 콘테스트를 통해서 B2C의 기반을 닦을 수 있는 제품들을 많이 준비했거든요.
+            예를 들어 최초에 진행했던 더치커피 워터 패키지부터 플라워 콜드브루 티 패키지, 로고
+            리뉴얼까지. 결과적으로 B2C에서 40% 이상의 매출을 올릴 수 있었습니다.
+          </p>
+          <span class="name"><b>HANDIUM</b> 한준성 대표</span>
+          <button class="btn-interview">인터뷰 영상</button>
+        </div>
+      </section>
+
+      <section class="sc-center-banner inner">
+        <button>
+          <div class="banner-text">
+            <h2 class="common-title">디자인 견적을 무료로 받아 보세요!</h2>
+            <p>24만명 디자이너들이 견적을 보내요</p>
+          </div>
+          <img src="./assets/imgs/center-banner.png" alt="" />
+          <span class="btn-text">매칭 요청하기</span>
+        </button>
+      </section>
+
+      <section class="sc-designer">
+        <div class="header inner">
+          <div class="title-wrapper">
+            <h2 class="common-title"><strong>식당/카페</strong> 전문 디자이너를 만나보세요</h2>
+            <span class="label-recommend">업종 추천</span>
+          </div>
+          <ul class="tab-list">
+            <li class="active"><button>식당/카페</button></li>
+            <li><button>병원</button></li>
+            <li><button>식품/건강</button></li>
+            <li><button>IT/미디어</button></li>
+          </ul>
+        </div>
+        <div class="slider">
+          <ul class="designer-list">
+            <li>
+              <a href="">
+                <div class="card-item">
+                  <div class="top-img-wrapper">
+                    <div class="img-wrapper"><img src="" alt="" /></div>
+                    <div class="img-wrapper"><img src="" alt="" /></div>
+                    <div class="img-wrapper"><img src="" alt="" /></div>
+                  </div>
+                  <div class="profile-img-wrapper"><img src="" alt="" class="profile-img" /></div>
+                  <div class="content-wrapper">
+                    <div class="card-header">
+                      <span class="id"></span>
+                      <span class="follow">팔로우</span>
+                    </div>
+                    <p class="introduction"></p>
+                    <div class="label-wrapper">
+                      <span class="label"></span>
+                      <span class="label"></span>
+                    </div>
+                    <div class="card-info">
+                      <div>
+                        <span class="title">총 수익</span>
+                        <span class="value"></span>
+                      </div>
+                      <div>
+                        <span class="title">우승</span>
+                        <span class="value"></span>
+                      </div>
+                      <div>
+                        <span class="title">총 거래</span>
+                        <span class="value"></span>
+                      </div>
+                      <div>
+                        <span class="title">리뷰</span>
+                        <span class="value">
+                          <span class="star">
+                            <svg class="sc-gKXOVf iFpvod icon" viewBox="0 0 12 12">
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M10.9643 4.74338C10.8835 4.50089 10.6777 4.32673 10.4285 4.2884L7.79006 3.88509L6.60669 1.35936C6.38168 0.880213 5.61832 0.880213 5.39331 1.35936L4.20994 3.88509L1.57152 4.2884C1.32235 4.32673 1.11651 4.50089 1.03567 4.74338C0.954003 4.99004 1.01484 5.25836 1.19484 5.44252L3.11741 7.41577L2.66156 10.2073C2.61989 10.469 2.72656 10.7256 2.9424 10.8773C3.0574 10.9589 3.19074 10.9998 3.32408 10.9998C3.43492 10.9998 3.54492 10.9723 3.64576 10.9165L6 9.61401L8.35424 10.9165C8.57675 11.0398 8.84759 11.0264 9.0576 10.8773C9.27344 10.7256 9.38011 10.469 9.33761 10.2065L8.88259 7.41577L10.8052 5.44252C10.9852 5.25836 11.046 4.99004 10.9643 4.74338Z"
+                              ></path>
+                              <defs></defs>
+                            </svg>
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div class="recommend">
+                <span class="category"></span>
+                <svg class="sc-gKXOVf gnuELh icon" type="questionMark16" viewBox="0 0 16 16">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10.182 7.891C10.059 8.067 9.822 8.291 9.471 8.565L9.125 8.833C8.937 8.98 8.812 9.151 8.75 9.346C8.711 9.47 8.69 9.662 8.687 9.922H7.364C7.383 9.372 7.435 8.993 7.52 8.783C7.604 8.573 7.822 8.33 8.171 8.057L8.527 7.779C8.644 7.691 8.738 7.595 8.81 7.491C8.94 7.312 9.004 7.115 9.004 6.9C9.004 6.653 8.932 6.427 8.787 6.224C8.643 6.02 8.379 5.918 7.995 5.918C7.619 5.918 7.352 6.044 7.195 6.294C7.037 6.545 6.958 6.806 6.958 7.076H5.547C5.586 6.148 5.911 5.491 6.519 5.103C6.903 4.856 7.375 4.732 7.935 4.732C8.67 4.732 9.282 4.908 9.769 5.259C10.255 5.611 10.498 6.132 10.498 6.822C10.498 7.245 10.393 7.602 10.182 7.891ZM7.329 12.002H8.789V10.591H7.329V12.002ZM8 0C3.582 0 0 3.582 0 8C0 12.418 3.582 16 8 16C12.419 16 16 12.418 16 8C16 3.582 12.419 0 8 0Z"
+                  ></path>
+                  <defs></defs>
+                </svg>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <a class="link-more">
+          디자이너 더보기
+          <svg viewBox="0 0 12 12" class="sc-gKXOVf iFpvod">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+            ></path>
+            <defs></defs>
+          </svg>
+        </a>
+      </section>
+
+      <section class="sc-review">
+        <div class="header">
+          <span>만족도 98.7%</span>
+          <h2 class="title">대기업·공공기관·소상공인<br />고객님의 이유있는 선택</h2>
+        </div>
+        <div class="inner">
+          <div class="review-title">
+            <h3 class="common-title">실시간 후기</h3>
+            <span class="label-review">4.9점</span>
+          </div>
+          <span class="more">
+            <a href="">
+              더보기
+              <svg class="sc-gKXOVf iFpvod icon" color="#8E94A0" viewBox="0 0 12 12">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.68888 11.0004C3.85188 11.0004 4.01388 10.9424 4.13688 10.8264L8.81688 6.43738C9.06088 6.20738 9.06088 5.83638 8.81588 5.60738L4.07988 1.17438C3.83288 0.942377 3.43288 0.942377 3.18588 1.17138C2.93888 1.40038 2.93788 1.77238 3.18388 2.00338L7.47788 6.02238L3.24088 9.99738C2.99588 10.2294 2.99688 10.6014 3.24488 10.8294C3.36788 10.9434 3.52888 11.0004 3.68888 11.0004Z"
+                ></path>
+                <defs></defs>
+              </svg>
+            </a>
+          </span>
+        </div>
+        <div class="slider">
+          <ul class="review-list">
+            <li>
+              <a href="">
+                <div class="card-header">
+                  <div class="left-area">
+                    <img class="product-img" src="" alt="" />
+                  </div>
+                  <div class="right-area">
+                    <div class="star"><span></span></div>
+                    <div class="profile">
+                      <img class="profile-img" src="" alt="" />
+                      <span class="nickname"></span>
+                      <span class="date"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p></p>
+                </div>
+                <div class="card-bottom">
+                  <span class="label-contest">콘테스트</span>
+                  <span class="product"></span>
+                  <span class="product-type">구매등급 : </span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,226 @@
+@import url("./common.css");
+@import url("./reset.css");
+
+.top-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 42px;
+  position: relative;
+  background-color: rgb(149, 21, 254);
+  cursor: pointer;
+}
+.top-banner img {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+}
+.related-site {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(249, 250, 252);
+}
+.related-site ul {
+  display: flex;
+}
+.related-site ul li {
+  height: 35px;
+}
+.related-site ul .loud {
+  border-left: 1px solid rgb(223, 223, 223);
+  border-right: 1px solid rgb(223, 223, 223);
+  background-color: #fff;
+}
+.related-site ul li a {
+  display: inline-block;
+}
+.related-site ul .stunning a {
+  padding: 10px 16px;
+  color: rgb(166, 166, 166);
+}
+.related-site ul .loud a {
+  padding: 13px 16px;
+  color: rgb(13, 13, 13);
+}
+.related-site ul .notefolio a {
+  padding: 12px 16px;
+  color: rgb(166, 166, 166);
+}
+.related-site ul li svg {
+  display: block;
+  user-select: none;
+  fill: currentcolor;
+  flex-shrink: 0;
+}
+.related-site ul .stunning svg {
+  width: 22px;
+  height: 14px;
+}
+.related-site ul .loud svg {
+  width: 36px;
+  height: 9px;
+}
+.related-site ul .notefolio svg {
+  width: 54px;
+  height: 10px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(233, 233, 233);
+  z-index: 99;
+}
+header .header-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  min-width: 1200px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+header .top-row {
+  display: flex;
+  height: 56px;
+}
+header .top-row .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .top-row .logo img {
+  width: 99px;
+  margin-right: 19px;
+}
+header .top-row .search-area {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 370px;
+}
+header .top-row .search-area input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 32px 8px 16px;
+  border-radius: 23px;
+  background: rgb(245, 246, 247);
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  font-weight: 500;
+}
+header svg {
+  user-select: none;
+  fill: currentcolor;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+header .top-row .search-area svg {
+  display: inline-block;
+  position: absolute;
+  right: 24px;
+  width: 16px;
+  height: 16px;
+}
+header .top-row .util {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .top-row .util a {
+  display: flex;
+  margin-right: 14px;
+  color: rgb(16, 28, 51);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -0.25px;
+}
+header .top-row .util a.login {
+  color: rgb(110, 109, 122);
+}
+header .top-row .util .label-hot {
+  height: 16px;
+  padding: 0px 4px 1px;
+  margin-left: 2px;
+  border-radius: 32px;
+  background-color: rgb(0, 189, 47);
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  text-transform: uppercase;
+}
+header .bottom-row {
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+}
+header .bottom-row .gnb {
+  display: flex;
+  align-items: center;
+}
+header .bottom-row .gnb ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .bottom-row .gnb ul li + li {
+  padding-left: 24px;
+}
+header .bottom-row .gnb ul li a {
+  display: flex;
+  padding: 15px 0px 18px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: -0.5px;
+}
+header .bottom-row .gnb .category a {
+  display: flex;
+  align-items: center;
+}
+header .bottom-row .gnb .category svg {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}
+header .bottom-row .gnb sup {
+  display: flex;
+  margin-left: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  color: rgb(0, 189, 47);
+  text-transform: uppercase;
+}
+header .bottom-row .gnb sup svg {
+  display: inline-block;
+  fill: currentcolor;
+  flex-shrink: 0;
+  width: 12px;
+  height: 15px;
+}
+header .bottom-row .link-design {
+  display: flex;
+  align-items: center;
+}
+header .bottom-row .link-design a {
+  border-radius: 80px;
+  padding: 6px 22px;
+  background-color: rgb(38, 86, 246);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
