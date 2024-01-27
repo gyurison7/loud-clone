@@ -321,7 +321,71 @@ function reviewData() {
           `;
       });
 
-      $(".review-list").html(html);
+      const reviewList = document.querySelector(".review-list");
+      reviewList.innerHTML = html;
+      reviewList.innerHTML += html;
+      reviewList.style.width = "200%";
     });
 }
 reviewData();
+
+// sc-portfolio
+function topPortfolioData() {
+  fetch("assets/json/portfolioData.json")
+    .then((res) => res.json())
+    .then((json) => {
+      data = json.resultData;
+
+      let topSlide = data.slice(0, 16);
+
+      let html = ``;
+      topSlide.forEach((element) => {
+        html += `
+          <li>
+            <button>
+              <div class="img-wrapper">
+                <img src="${element.cover.url}" alt="" />
+              </div>
+              <div class="title">${element.loudInfo.contest.title}</d>
+            </button>
+          </li>
+          `;
+      });
+
+      const portfolioList = document.querySelector(".top-portfolio-list");
+      portfolioList.innerHTML = html;
+      portfolioList.innerHTML += html;
+      portfolioList.style.width = "200%";
+    });
+}
+topPortfolioData();
+
+function bottomPortfolioData() {
+  fetch("assets/json/portfolioData.json")
+    .then((res) => res.json())
+    .then((json) => {
+      data = json.resultData;
+
+      let bottomSlide = data.slice(16, 32);
+
+      let html = ``;
+      bottomSlide.forEach((element) => {
+        html += `
+          <li>
+            <button>
+              <div class="img-wrapper">
+                <img src="${element.cover.url}" alt="" />
+              </div>
+              <div class="title">${element.loudInfo.contest.title}</d>
+            </button>
+          </li>
+          `;
+      });
+
+      const portfolioList = document.querySelector(".bottom-portfolio-list");
+      portfolioList.innerHTML = html;
+      portfolioList.innerHTML += html;
+      portfolioList.style.width = "200%";
+    });
+}
+bottomPortfolioData();

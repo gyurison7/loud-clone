@@ -224,3 +224,183 @@ header .bottom-row .link-design a {
   letter-spacing: -0.5px;
   text-align: center;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(219, 222, 226);
+}
+footer .footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-top .left-area {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+footer .left-area .logo {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-top: 32px;
+  letter-spacing: -0.25px;
+}
+footer .left-area .logo img {
+  width: 91px;
+  height: 22px;
+  margin-bottom: 9px;
+}
+footer .left-area .logo span a {
+  padding-left: 4px;
+}
+footer .left-area .logo span b {
+  font-weight: bold;
+}
+footer .left-area .company {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+footer .company .line {
+  display: flex;
+  font-size: 12px;
+  letter-spacing: -0.25px;
+  color: rgb(64, 74, 92);
+}
+footer .company .line:first-child {
+  margin-bottom: 13px;
+}
+footer .company .line svg {
+  user-select: none;
+  display: inline-block;
+  fill: #101c33;
+  flex-shrink: 0;
+  width: 92px;
+  height: 12px;
+}
+footer .company .line .bar::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  background: rgb(233, 235, 237);
+  margin: 0px 7px;
+}
+footer .company .line span:not(.bar) {
+  margin-right: 11px;
+}
+footer .company .line:last-child {
+  margin-top: 2px;
+  color: rgb(142, 148, 160);
+}
+footer .footer-top .right-area {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 35px;
+}
+footer .right-area > div > a {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: rgb(16, 28, 51);
+  margin-bottom: 24px;
+}
+footer .right-area .cs a {
+  margin-bottom: 12px;
+}
+footer .right-area .contact {
+  display: flex;
+  color: rgb(64, 74, 92);
+  font-size: 12px;
+  line-height: 18px;
+}
+footer .contact .email,
+footer .contact .time {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 200px;
+}
+footer .contact .title {
+  font-weight: 700;
+  letter-spacing: -0.15px;
+  margin-bottom: 8px;
+}
+footer .contact span:not(.title) {
+  font-weight: 400;
+  letter-spacing: -0.25px;
+  color: rgb(64, 74, 92);
+  margin-bottom: 2px;
+}
+footer .contact .small {
+  font-size: 10px;
+}
+footer .notefolio {
+  display: flex;
+}
+footer .notefolio .notefolio-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  margin-top: 24px;
+  margin-bottom: 0;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: rgb(245, 246, 247);
+}
+footer .notefolio .text-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.25px;
+}
+footer .notefolio .text-wrapper b {
+  font-weight: 700;
+}
+footer .notefolio img {
+  width: 88px;
+  height: 12px;
+}
+footer .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+  border-top: 1px solid rgb(245, 246, 247);
+  padding-top: 22px;
+  padding-bottom: 48px;
+}
+footer .footer-bottom ul {
+  display: flex;
+}
+footer .footer-bottom ul li {
+  display: flex;
+}
+footer .footer-bottom li:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 100%;
+  background: rgb(233, 235, 237);
+  margin: 0px 16px;
+}
+footer .footer-bottom li a {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.15px;
+  color: rgb(64, 74, 92);
+}
+footer .footer-bottom .sns-area {
+  display: flex;
+  gap: 15px;
+}
+footer .footer-bottom .sns-area img {
+  width: 24px;
+  height: 24px;
+}
