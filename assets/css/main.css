@@ -312,8 +312,6 @@ svg {
   display: flex;
   justify-content: space-between;
 }
-.sc-idea .idea-item {
-}
 .sc-idea .idea-item:hover {
   opacity: 0.8;
 }
@@ -496,12 +494,12 @@ svg {
   margin-bottom: 12px;
 }
 .sc-design-contest .sc-ing-contest .header .btn-wrapper {
+  color: rgb(115, 124, 128);
   font-size: 15px;
+  font-weight: 700;
 }
 .sc-design-contest .sc-ing-contest .header button {
   margin: 0px 9px;
-  color: rgb(115, 124, 128);
-  font-weight: 700;
 }
 .sc-design-contest .sc-ing-contest .header button.active {
   border-bottom: 1px solid rgb(45, 47, 57);
@@ -512,6 +510,9 @@ svg {
   border-radius: 4px;
   border: 1px solid rgb(233, 235, 237);
   margin-bottom: 8px;
+}
+.sc-design-contest .sc-ing-contest .deadline-list {
+  display: none;
 }
 .sc-design-contest .sc-ing-contest ul li {
   overflow: hidden;
@@ -553,8 +554,12 @@ svg {
   font-size: 10px;
   line-height: 15px;
 }
-.sc-design-contest .sc-ing-contest .contest-header span.deadline {
+.sc-design-contest .sc-ing-contest .contest-header span.blue {
   background-color: #2656f6;
+  color: #fff;
+}
+.sc-design-contest .sc-ing-contest .contest-header span.deadline {
+  background: rgb(246, 60, 67);
   color: #fff;
 }
 .sc-design-contest .sc-ing-contest .contest-header .dot {
@@ -654,10 +659,7 @@ svg {
   width: 100%;
   height: 100%;
   user-select: none;
-
   overflow: hidden;
-}
-.sc-trend .trend-wrapper {
 }
 .sc-trend .trend-slide {
   display: flex;
@@ -923,8 +925,6 @@ svg {
   flex-direction: column;
   gap: 36px;
 }
-.sc-choice .content-area ul li {
-}
 .sc-choice .content-area .sub-title {
   font-size: 18px;
   font-weight: 700;
@@ -1012,6 +1012,9 @@ svg {
   line-height: 21px;
   letter-spacing: -0.25px;
   font-weight: 500;
+}
+.sc-choice .interview-area .btn-interview:hover {
+  color: rgb(142, 148, 160);
 }
 
 .sc-center-banner {
@@ -1751,8 +1754,6 @@ svg {
   padding-top: 80px;
   padding-bottom: 100px;
 }
-.sc-solution .big-title {
-}
 .sc-solution .solution-list {
   display: flex;
   margin-top: 64px;
@@ -1760,8 +1761,6 @@ svg {
 .sc-solution .solution-list li {
   width: 302px;
   margin-right: 24px;
-}
-.sc-solution .solution-list li img {
 }
 .sc-solution .solution-list .content-wrapper {
   display: flex;

@@ -112,6 +112,20 @@ function winnerData() {
 }
 winnerData();
 
+// sc-ing-contest
+$(".sc-ing-contest button").click(function () {
+  const className = $(this).attr("class");
+  $(this).addClass("active").siblings().removeClass("active");
+
+  if (className.includes("prize")) {
+    $(".prize-list").show();
+    $(".deadline-list").hide();
+  } else {
+    $(".deadline-list").show();
+    $(".prize-list").hide();
+  }
+});
+
 // sc-trend
 function trendData() {
   fetch("assets/json/trendData.json")
