@@ -162,6 +162,9 @@
   line-height: 18px;
   letter-spacing: -0.25px;
 }
+.more a:hover {
+  color: rgb(142, 148, 160);
+}
 /* 공통 */
 svg {
   display: inline-block;
@@ -186,8 +189,6 @@ svg {
   user-select: none;
   overflow: hidden;
 }
-.sc-loud-contest .contest-wrapper {
-}
 .sc-loud-contest .contest-slide {
   display: flex;
   width: 326px;
@@ -199,13 +200,42 @@ svg {
   width: 100%;
   height: fit-content;
 }
-.sc-loud-contest .contest-slide img {
+.sc-loud-contest .contest-slide .img-wrapper {
+  position: relative;
   border-radius: 4px;
   overflow: hidden;
+}
+.sc-loud-contest .contest-slide img {
+  border-radius: 4px;
   width: 100%;
   height: 100%;
   border: 1px solid rgb(245, 246, 247);
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.sc-loud-contest .contest-slide img:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+.sc-loud-contest .contest-slide .label-contest {
+  visibility: hidden;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  padding: 2px 10px;
+  background-color: white;
+  color: #8e94a0;
+  border: 1px solid #8e94a04c;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  z-index: 2;
+}
+.sc-loud-contest .contest-slide:hover .label-contest {
+  visibility: visible;
 }
 .sc-loud-contest .content-wrapper {
   display: -webkit-box;
@@ -238,8 +268,6 @@ svg {
 }
 .sc-loud-contest .content-wrapper .tag-wrapper .tag1 {
   margin-right: 4px;
-}
-.sc-loud-contest .content-wrapper .tag-wrapper .tag2 {
 }
 /* 공통 */
 .slider-btn {
@@ -274,6 +302,9 @@ svg {
   margin: 0 auto;
   padding: 0 80px;
 }
+.sc-idea {
+  transition: all 0.1s ease;
+}
 .sc-idea .common-title {
   margin-bottom: 32px;
 }
@@ -282,6 +313,9 @@ svg {
   justify-content: space-between;
 }
 .sc-idea .idea-item {
+}
+.sc-idea .idea-item:hover {
+  opacity: 0.8;
 }
 .sc-idea .idea-item a {
   display: flex;
@@ -297,6 +331,11 @@ svg {
   background-color: rgb(245, 246, 247);
   margin-bottom: 15px;
   overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.sc-idea .idea-item .img-wrapper:hover {
+  transform: scale(1.1);
+  border: 2px solid rgb(38, 86, 246);
 }
 .sc-idea .idea-item img {
   width: 100%;
@@ -343,6 +382,9 @@ svg {
   font-weight: 700;
   text-align: center;
 }
+.sc-design-contest .big-title {
+  transition: all 0.1s ease;
+}
 .sc-design-contest .section-wrapper {
   display: flex;
   justify-content: space-between;
@@ -385,8 +427,6 @@ svg {
   grid-auto-rows: auto;
   gap: 36px 24px;
 }
-.sc-design-contest .sc-winner .winner-item {
-}
 .sc-design-contest .sc-winner .winner-item button {
   width: 100%;
   height: 100%;
@@ -403,6 +443,10 @@ svg {
   height: 100%;
   border-radius: 4px;
   object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.sc-design-contest .sc-winner img:hover {
+  transform: scale(1.05);
 }
 .sc-design-contest .sc-winner .content-wrapper {
   text-align: left;
@@ -472,8 +516,8 @@ svg {
 .sc-design-contest .sc-ing-contest ul li {
   overflow: hidden;
 }
-.sc-design-contest .sc-ing-contest ul li:hover .contest-title {
-  color: rgb(38, 86, 246);
+.sc-design-contest .sc-ing-contest ul li:hover {
+  opacity: 0.8;
 }
 .sc-design-contest .sc-ing-contest ul li:not(:last-child) {
   border-bottom: 1px solid rgb(233, 235, 237);
@@ -529,6 +573,9 @@ svg {
   line-height: 21px;
   letter-spacing: -0.25px;
   overflow: hidden;
+}
+.sc-design-contest .sc-ing-contest ul li:hover .contest-title {
+  color: rgb(38, 86, 246);
 }
 .sc-design-contest .sc-ing-contest .contest-bottom {
   display: flex;
@@ -623,12 +670,19 @@ svg {
   flex-direction: column;
   width: 100%;
 }
-.sc-trend .trend-slide img {
+.sc-trend .trend-slide .img-wrapper {
+  border-radius: 4px;
   overflow: hidden;
+}
+.sc-trend .trend-slide img {
   border-radius: 4px;
   border: 1px solid rgb(245, 246, 247);
   object-fit: cover;
   flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+.sc-trend .trend-slide img:hover {
+  transform: scale(1.1);
 }
 .sc-trend .trend-slide .content-wrapper {
   display: flex;
@@ -730,8 +784,6 @@ svg {
   background-color: rgb(16, 28, 51);
   border-color: rgb(16, 28, 51);
 }
-.sc-sourcing .header .tab-list li button {
-}
 .sc-sourcing .slider {
   position: relative;
   width: 100%;
@@ -743,13 +795,9 @@ svg {
   user-select: none;
   overflow: hidden;
 }
-.sc-sourcing .sourcing-wrapper {
-}
 .sc-sourcing .sourcing-slide {
   width: 326px;
   padding: 0 12px;
-}
-.sc-sourcing .sourcing-slide a {
 }
 .sc-sourcing .sourcing-slide .img-wrapper {
   width: 100%;
@@ -763,6 +811,11 @@ svg {
   overflow: hidden;
   border: 1px solid rgb(245, 246, 247);
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.sc-sourcing .sourcing-slide img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 .sc-sourcing .sourcing-slide .content-wrapper {
   display: -webkit-box;
@@ -1013,6 +1066,9 @@ svg {
   line-height: 23px;
   letter-spacing: -0.5px;
 }
+.sc-center-banner .btn-text:hover {
+  background-color: rgb(245, 246, 247);
+}
 
 .sc-designer {
   padding: 100px 0px;
@@ -1062,8 +1118,6 @@ svg {
   background-color: rgb(16, 28, 51);
   border-color: rgb(16, 28, 51);
 }
-.sc-designer .header .tab-list button {
-}
 .sc-designer .slider {
   overflow-x: hidden;
 }
@@ -1089,6 +1143,10 @@ svg {
   width: 100%;
   max-width: 320px;
   margin-right: 25px;
+  transition: transform 0.3s ease;
+}
+.sc-designer .designer-list li:hover {
+  transform: translateY(-10px);
 }
 .sc-designer .designer-list li a {
   display: block;
@@ -1097,6 +1155,10 @@ svg {
   border-radius: 8px;
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(233, 235, 237);
+  transition: opacity 0.3s ease;
+}
+.sc-designer .designer-list li a:hover {
+  box-shadow: 0px 7px 12px 2px rgba(142, 148, 160, 0.15);
 }
 .sc-designer .designer-list .card-item {
   width: 100%;
@@ -1176,6 +1238,11 @@ svg {
   line-height: 18px;
   letter-spacing: -0.25px;
 }
+.sc-designer .content-wrapper .card-header .follow:hover {
+  color: rgb(142, 148, 160);
+  background-color: rgb(249, 250, 251);
+  border-radius: 4px;
+}
 .sc-designer .content-wrapper .introduction {
   margin-top: 8px;
   color: rgb(64, 74, 92);
@@ -1251,9 +1318,49 @@ svg {
   width: 12px;
   height: 12px;
 }
+.sc-designer .designer-link {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 24px;
+  width: calc(100% - 48px);
+  gap: 16px;
+  background-color: #fff;
+  padding-top: 6px;
+  opacity: 0;
+  transition: opacity 0.3s ease 0s;
+}
+.sc-designer .designer-list li:hover .designer-link {
+  opacity: 1;
+}
+.sc-designer .designer-link span {
+  flex: 1;
+  text-align: center;
+  padding: 8px 17px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.25px;
+}
+.sc-designer .designer-link .profile {
+  background-color: rgb(245, 248, 255);
+  color: rgb(38, 86, 246);
+}
+.sc-designer .designer-link .profile:hover {
+  background-color: rgb(213, 230, 255);
+}
+.sc-designer .designer-link .request {
+  color: rgb(245, 248, 255);
+  background-color: rgb(38, 86, 246);
+}
+.sc-designer .designer-link .request:hover {
+  background-color: rgb(56, 122, 252);
+}
 .sc-designer .recommend {
   display: flex;
   align-items: center;
+  position: relative;
   width: 100%;
   padding: 8px;
   margin-top: 8px;
@@ -1275,6 +1382,38 @@ svg {
   fill: rgb(170, 177, 188);
   margin-left: 4px;
 }
+.sc-designer .recommend svg:hover + .tooltip {
+  visibility: visible;
+}
+.sc-designer .tooltip {
+  position: absolute;
+  visibility: hidden;
+  right: 25px;
+  top: -55px;
+  text-align: center;
+  padding: 6px 12px;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+.sc-designer .tooltip::before {
+  content: "";
+  position: absolute;
+  right: 74px;
+  bottom: -16px;
+  width: 0px;
+  height: 0px;
+  transform: rotate(90deg);
+  border-width: 8px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0)
+    rgba(0, 0, 0, 0.8);
+}
+.sc-designer .tooltip p {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+}
 .sc-designer .link-more {
   margin: 40px auto auto;
 }
@@ -1287,6 +1426,7 @@ svg {
   display: flex;
   flex-direction: column;
   text-align: center;
+  transition: all 0.1s ease;
 }
 .sc-review .header span {
   font-size: 18px;
@@ -1357,6 +1497,11 @@ svg {
   border: 1px solid #e9ebed;
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+.sc-review .review-list li a:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 7px 12px 2px rgba(142, 148, 160, 0.15);
 }
 .sc-review .review-list .card-header {
   display: flex;
@@ -1510,8 +1655,7 @@ svg {
   font-weight: 700;
   line-height: 44px;
   letter-spacing: -0.5px;
-  transition: all 0.5s ease-in;
-  /* transform: translateY(50px); */
+  transition: all 0.1s ease;
 }
 .sc-portfolio .slider {
   overflow-x: hidden;
@@ -1522,6 +1666,7 @@ svg {
   width: 100%;
   padding-top: 10px;
   margin-bottom: 44px;
+  transition: opacity 0.5s ease;
   animation: topAnimation 100s linear infinite;
 }
 @keyframes topAnimation {
@@ -1576,6 +1721,7 @@ svg {
   width: 100%;
   padding-top: 10px;
   margin-bottom: 44px;
+  transition: opacity 0.5s ease;
   animation: bottomAnimation 100s linear infinite;
 }
 @keyframes bottomAnimation {
@@ -1646,6 +1792,9 @@ svg {
   line-height: 21px;
   letter-spacing: -0.25px;
   color: rgb(38, 86, 246);
+}
+.sc-solution .content-wrapper:hover a {
+  opacity: 0.8;
 }
 .sc-solution .content-wrapper svg {
   width: 16px;

@@ -38,7 +38,10 @@ function loudContestData() {
         html += `
             <li class="swiper-slide contest-slide">
                 <a href="">
-                <img src="${element.cover.url}" alt="" />
+                <div class="img-wrapper">
+                  <img src="${element.cover.url}" alt="" />
+                <span class="label-contest">콘테스트</span>
+                </div>
                 <div class="content-wrapper">
                     <span class="title">${element.title}</span>
                     <div class="tag-wrapper">
@@ -57,6 +60,20 @@ function loudContestData() {
     });
 }
 loudContestData();
+
+$(".animation").each(function (_, element) {
+  gsap.from(element, {
+    scrollTrigger: {
+      trigger: element,
+      start: "0% 100%",
+      end: "100% 0%",
+      toggleActions: "play none none reverse",
+      // markers: true,
+    },
+    opacity: 0,
+    y: 50,
+  });
+});
 
 // sc-design-contest
 function formatPrize(money) {
@@ -111,7 +128,7 @@ function trendData() {
         html += `
           <li class="swiper-slide trend-slide">
             <a href="">
-                <img src="${element.thumbnail.url}" alt="" />
+                <div class="img-wrapper"><img src="${element.thumbnail.url}" alt="" /></div>
                 <div class="content-wrapper">
                 <span class="title">${element.name}</span>
                 <span class="nickname">${element.designer.nick}</span>
@@ -250,6 +267,10 @@ function designerData() {
                       </span>
                     </div>
                   </div>
+                  <div class="designer-link">
+                    <span class="profile">프로필 보기</span>
+                    <span class="request">의뢰하기</span>
+                  </div>
                 </div>
               </div>
             </a>
@@ -257,6 +278,9 @@ function designerData() {
               element.userLoudInfo.representIndustryReviewCount
             }개의 식당/카페</span> 업종에서 추천했습니다.
               <svg class="sc-gKXOVf gnuELh icon" type="questionMark16" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.182 7.891C10.059 8.067 9.822 8.291 9.471 8.565L9.125 8.833C8.937 8.98 8.812 9.151 8.75 9.346C8.711 9.47 8.69 9.662 8.687 9.922H7.364C7.383 9.372 7.435 8.993 7.52 8.783C7.604 8.573 7.822 8.33 8.171 8.057L8.527 7.779C8.644 7.691 8.738 7.595 8.81 7.491C8.94 7.312 9.004 7.115 9.004 6.9C9.004 6.653 8.932 6.427 8.787 6.224C8.643 6.02 8.379 5.918 7.995 5.918C7.619 5.918 7.352 6.044 7.195 6.294C7.037 6.545 6.958 6.806 6.958 7.076H5.547C5.586 6.148 5.911 5.491 6.519 5.103C6.903 4.856 7.375 4.732 7.935 4.732C8.67 4.732 9.282 4.908 9.769 5.259C10.255 5.611 10.498 6.132 10.498 6.822C10.498 7.245 10.393 7.602 10.182 7.891ZM7.329 12.002H8.789V10.591H7.329V12.002ZM8 0C3.582 0 0 3.582 0 8C0 12.418 3.582 16 8 16C12.419 16 16 12.418 16 8C16 3.582 12.419 0 8 0Z"></path><defs></defs></svg>
+              <div class="tooltip">
+                <p>디자이너에게 작성된 후기를 기준으로<br>만족도가 높았던 기업을 알려드려요.</p>
+              </div>
             </div>
           </li>
           `;
@@ -389,3 +413,16 @@ function bottomPortfolioData() {
     });
 }
 bottomPortfolioData();
+
+$(".opacity").each(function (_, element) {
+  gsap.from(element, {
+    scrollTrigger: {
+      trigger: element,
+      start: "0% 100%",
+      end: "100% 0%",
+      toggleActions: "play none none reverse",
+      // markers: true,
+    },
+    opacity: 0,
+  });
+});
