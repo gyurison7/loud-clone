@@ -1,0 +1,3462 @@
+{
+  "trID": "20240126113709598920",
+  "resultCode": "0200",
+  "resultMsg": "GetDesignerList OK",
+  "resultData": [
+    {
+      "uid": "48a8eab5-0e2d-4152-8da4-781097f3fbbf",
+      "createdAt": "2019-10-22T06:54:51Z",
+      "updatedAt": "2023-12-26T08:48:03.58Z",
+      "nick": "CW_Design",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "chdnjs1251",
+      "avatar": {
+        "id": 28938,
+        "createdAt": "2022-05-19T10:06:17.98Z",
+        "uid": "48a8eab5-0e2d-4152-8da4-781097f3fbbf",
+        "type": "Avatar",
+        "originFilename": "라우드마켓.jpg",
+        "filename": "KGMk2XNBvyv9pBs9.라우드마켓.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/48a8eab5-0e2d-4152-8da4-781097f3fbbf/avatar/KGMk2XNBvyv9pBs9.%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%83%E1%85%B3%E1%84%86%E1%85%A1%E1%84%8F%E1%85%A6%E1%86%BA.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/48a8eab5-0e2d-4152-8da4-781097f3fbbf/avatar/KGMk2XNBvyv9pBs9.%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%83%E1%85%B3%E1%84%86%E1%85%A1%E1%84%8F%E1%85%A6%E1%86%BA.jpg.small",
+        "size": 13251,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 434,
+        "height": 434
+      },
+      "allowInquire": "Y",
+      "introduction": "브랜드의 가치와 방향성을 담아드립니다",
+      "label": ["로고/브랜딩", "아이디어"],
+      "userProfile": {
+        "uid": "48a8eab5-0e2d-4152-8da4-781097f3fbbf",
+        "description": "안녕하세요 브랜드의 가치와 방향성을\n담아드리는 CW디자이너입니다.\n오랫동안 다듬어 온 당신의 새로운 도전을\n향한 날개짓에 함께 하겠습니다.",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0000", "1100"]
+      },
+      "userInfo": {
+        "uid": "48a8eab5-0e2d-4152-8da4-781097f3fbbf",
+        "followingCount": 0,
+        "followerCount": 679,
+        "portfolioViewCount": 335534,
+        "portfolioLikeCount": 2669,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 407,
+        "connectBuyCount": 0,
+        "connectSellCount": 22,
+        "connectPriceTotal": 7480000,
+        "responseAvgTime": 4,
+        "responseMsgCount": 3552,
+        "response24hCount": 1206,
+        "response30dCount": 782,
+        "couponCount": 1,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 311,
+        "totalPrice": 128430000
+      },
+      "userLoudInfo": {
+        "uid": "48a8eab5-0e2d-4152-8da4-781097f3fbbf",
+        "contestOpenCount": 0,
+        "contestJoinCount": 589,
+        "contestWinCount": 416,
+        "contestFinalCount": 55,
+        "contestPriceTotal": 186850000,
+        "marketBuyCount": 0,
+        "marketSellCount": 41,
+        "marketPriceTotal": 13550000,
+        "totalReviewRate": 5,
+        "totalReviewCount": 76,
+        "representStyleKey": "contest.design.evantoy",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 31,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 645
+        },
+        "industryReviewCount": {
+          "industry.category.almajacobi": 10,
+          "industry.category.charliewalsh": 3,
+          "industry.category.leonmuller": 11,
+          "industry.category.randyrolfson": 31
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/48a8eab5-0e2d-4152-8da4-781097f3fbbf/covers/R546KftF5EUp6Hs5.%E1%84%8B%E1%85%B2%E1%86%A8%E1%84%91%E1%85%A1%E1%86%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/48a8eab5-0e2d-4152-8da4-781097f3fbbf/covers/6pmPYPp9Reh45PJL.%E1%84%91%E1%85%AE%E1%86%BC%E1%84%85%E1%85%A9%E1%84%8B%E1%85%A9%E1%86%A8.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/48a8eab5-0e2d-4152-8da4-781097f3fbbf/covers/cgf3seh4By2sQH3G.%E1%84%89%E1%85%A9%E1%86%BC%E1%84%91%E1%85%A1%E1%84%89%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A5%E1%86%AB%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%E1%84%92%E1%85%A1%E1%86%A8%E1%84%80%E1%85%AA%E1%84%8B%E1%85%B4%E1%84%8B%E1%85%AF%E1%86%AB.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/48a8eab5-0e2d-4152-8da4-781097f3fbbf/covers/o9DHHhWdLgHjy3dV.%E1%84%90%E1%85%A1%E1%86%BC%E1%84%92%E1%85%AE%E1%84%85%E1%85%AE-%E1%84%91%E1%85%B3%E1%84%85%E1%85%A6%E1%86%AB%E1%84%8C%E1%85%B3.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/48a8eab5-0e2d-4152-8da4-781097f3fbbf/covers/XpnVGTYmp7WzQWbn.%E1%84%86%E1%85%A6%E1%84%80%E1%85%A1%E1%84%83%E1%85%A5%E1%87%81%E1%84%87%E1%85%A1%E1%86%B8.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "98cbdab0-5204-49f3-ade4-31b157500ad7",
+      "createdAt": "2012-02-11T18:30:19Z",
+      "updatedAt": "2024-01-22T14:01:47.163Z",
+      "nick": "teo",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "teo",
+      "avatar": {
+        "id": 787,
+        "createdAt": "2022-05-09T13:00:42.956Z",
+        "uid": "98cbdab0-5204-49f3-ade4-31b157500ad7",
+        "type": "Avatar",
+        "originFilename": "member_0002772_27721401764496.png",
+        "filename": "member_0002772_27721401764496.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/98cbdab0-5204-49f3-ade4-31b157500ad7/avatar/member_0002772_27721401764496.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/98cbdab0-5204-49f3-ade4-31b157500ad7/avatar/member_0002772_27721401764496.png.small",
+        "size": 729895,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 712,
+        "height": 658
+      },
+      "allowInquire": "Y",
+      "introduction": "PLAY DESIGN!",
+      "label": ["로고/브랜딩", "캐릭터"],
+      "userProfile": {
+        "uid": "98cbdab0-5204-49f3-ade4-31b157500ad7",
+        "description": "즐거운 마음으로 즐겁게 디자인하고 있습니다 :-)\n\n브랜드를 위한 로고, 캐릭터부터\n각종 그래픽 작업까지\n브랜드의 시작부터 끝까지 제 브랜드처럼 진행합니다.\n",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0900", "2200"]
+      },
+      "userInfo": {
+        "uid": "98cbdab0-5204-49f3-ade4-31b157500ad7",
+        "followingCount": 0,
+        "followerCount": 215,
+        "portfolioViewCount": 80076,
+        "portfolioLikeCount": 721,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 83,
+        "connectBuyCount": 0,
+        "connectSellCount": 23,
+        "connectPriceTotal": 13379000,
+        "responseAvgTime": 7,
+        "responseMsgCount": 2084,
+        "response24hCount": 529,
+        "response30dCount": 463,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 81,
+        "totalPrice": 55000000
+      },
+      "userLoudInfo": {
+        "uid": "98cbdab0-5204-49f3-ade4-31b157500ad7",
+        "contestOpenCount": 0,
+        "contestJoinCount": 1903,
+        "contestWinCount": 69,
+        "contestFinalCount": 46,
+        "contestPriceTotal": 43100000,
+        "marketBuyCount": 0,
+        "marketSellCount": 19,
+        "marketPriceTotal": 13430000,
+        "totalReviewRate": 5,
+        "totalReviewCount": 24,
+        "representStyleKey": "portfolio.style.rebeccahomenick",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 9,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.joncremin": 1,
+          "user.category.maycarterdvm": 17,
+          "user.category.melbadickinson": 1,
+          "user.category.mrjulianjacobson": 6,
+          "user.category.mrskerrymcglynn": 127,
+          "user.category.sonjawehneri": 1,
+          "user.category.stelladamore": 4
+        },
+        "industryReviewCount": {
+          "industry.category.charliewalsh": 4,
+          "industry.category.genevaankunding": 1,
+          "industry.category.leonmuller": 1,
+          "industry.category.randyrolfson": 9
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/98cbdab0-5204-49f3-ade4-31b157500ad7/covers/u4HiyEnPjRrzbmYS.GafnqVeB6VR229Uw.%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%92%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%87%E1%85%A1%E1%86%B8-01.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/98cbdab0-5204-49f3-ade4-31b157500ad7/covers/A4mscpnyp8jJjfpv.U776wnbnixrUFrcT.%E1%84%89%E1%85%B3%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%91%E1%85%B5%E1%86%A8-01.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/98cbdab0-5204-49f3-ade4-31b157500ad7/covers/8tu2Qfn3XPEbVRYY.W27B8BbAn9GFbgBw.%E1%84%8B%E1%85%A1%E1%84%8E%E1%85%B3%E1%84%86%E1%85%A1-01.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/98cbdab0-5204-49f3-ade4-31b157500ad7/covers/RkG2WoCbP8aXskeJ.MgXMPwbSUNtD2QFx.%E1%84%81%E1%85%A9%E1%84%89%E1%85%AD%E1%86%BC%E1%84%83%E1%85%B3%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5-01.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/98cbdab0-5204-49f3-ade4-31b157500ad7/covers/CYHqyRdoxjwGBHs2.order_sub_3169214_1_221006213649.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc",
+      "createdAt": "2015-01-02T04:58:14Z",
+      "updatedAt": "2024-01-24T07:56:29.323Z",
+      "nick": "GBGD",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "favorite": "200",
+      "url": "gbgd",
+      "avatar": {
+        "id": 9348,
+        "createdAt": "2022-05-09T13:28:16.356Z",
+        "uid": "27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc",
+        "type": "Avatar",
+        "originFilename": "member_34648_1_200310192732.jpg",
+        "filename": "member_34648_1_200310192732.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc/avatar/member_34648_1_200310192732.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc/avatar/member_34648_1_200310192732.jpg.small",
+        "size": 6659,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 200,
+        "height": 200
+      },
+      "allowInquire": "Y",
+      "introduction": "브랜딩 디자인",
+      "userProfile": {
+        "uid": "27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc",
+        "description": ".",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0900", "0800"]
+      },
+      "userInfo": {
+        "uid": "27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc",
+        "followingCount": 0,
+        "followerCount": 176,
+        "portfolioViewCount": 75518,
+        "portfolioLikeCount": 899,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 83,
+        "connectBuyCount": 0,
+        "connectSellCount": 13,
+        "connectPriceTotal": 8175000,
+        "responseAvgTime": 10,
+        "responseMsgCount": 488,
+        "response24hCount": 269,
+        "response30dCount": 148,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 52,
+        "totalPrice": 45470000
+      },
+      "userLoudInfo": {
+        "uid": "27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc",
+        "contestOpenCount": 0,
+        "contestJoinCount": 1721,
+        "contestWinCount": 91,
+        "contestFinalCount": 72,
+        "contestPriceTotal": 82650000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 5,
+        "representStyleKey": "contest.design.velmaschuppe",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.melbadickinson": 1,
+          "user.category.mrskerrymcglynn": 188,
+          "user.category.sonjawehneri": 1
+        },
+        "industryReviewCount": {
+          "industry.category.allenokuneva": 1,
+          "industry.category.almabreitenberg": 1,
+          "industry.category.charliewalsh": 1,
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc/covers/R556KdzNgTYDvF87.everyday%20weekend-02.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc/covers/VmPoFMco3Vcv73ML.conerground-02.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc/covers/fQwJjE7f76FaGWSX.MonteeReve-02.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc/covers/FtmvzZJhGr94eGkY.OTP-02.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/27bcf8c8-9a15-4e92-a3b5-a3b8cb7132fc/covers/UuDZtuYkaJwMDLdW.suze-02.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "bb7a086f-9fc3-4737-9cf1-47a63526ad0d",
+      "createdAt": "2014-04-30T07:06:08Z",
+      "updatedAt": "2024-01-26T01:15:46.279Z",
+      "nick": "1stoh",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "1sto_design",
+      "avatar": {
+        "id": 32892,
+        "createdAt": "2022-09-26T01:07:11.469Z",
+        "uid": "bb7a086f-9fc3-4737-9cf1-47a63526ad0d",
+        "type": "Avatar",
+        "originFilename": "무제-2.jpg",
+        "filename": "Uns8SfDTPc6KNhgB.무제-2.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/bb7a086f-9fc3-4737-9cf1-47a63526ad0d/avatar/Uns8SfDTPc6KNhgB.%EB%AC%B4%EC%A0%9C-2.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/bb7a086f-9fc3-4737-9cf1-47a63526ad0d/avatar/Uns8SfDTPc6KNhgB.%EB%AC%B4%EC%A0%9C-2.jpg.small",
+        "size": 32945,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 1251,
+        "height": 1251
+      },
+      "allowInquire": "Y",
+      "introduction": "생각과 비전을 그리다",
+      "label": ["로고/브랜딩"],
+      "userProfile": {
+        "uid": "bb7a086f-9fc3-4737-9cf1-47a63526ad0d",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0700", "2300"]
+      },
+      "userInfo": {
+        "uid": "bb7a086f-9fc3-4737-9cf1-47a63526ad0d",
+        "followingCount": 0,
+        "followerCount": 136,
+        "portfolioViewCount": 92613,
+        "portfolioLikeCount": 827,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 122,
+        "connectBuyCount": 0,
+        "connectSellCount": 8,
+        "connectPriceTotal": 2450000,
+        "responseAvgTime": 5,
+        "responseMsgCount": 1115,
+        "response24hCount": 459,
+        "response30dCount": 327,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 103,
+        "totalPrice": 42800000
+      },
+      "userLoudInfo": {
+        "uid": "bb7a086f-9fc3-4737-9cf1-47a63526ad0d",
+        "contestOpenCount": 0,
+        "contestJoinCount": 3732,
+        "contestWinCount": 123,
+        "contestFinalCount": 35,
+        "contestPriceTotal": 51150000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 18,
+        "representStyleKey": "portfolio.style.shelleyschamberger",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 4,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 213
+        },
+        "industryReviewCount": {
+          "industry.category.allenokuneva": 2,
+          "industry.category.almabreitenberg": 2,
+          "industry.category.almajacobi": 2,
+          "industry.category.leonmuller": 6,
+          "industry.category.randyrolfson": 4
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/bb7a086f-9fc3-4737-9cf1-47a63526ad0d/covers/dLbqucja9jKbdGeM.%EA%B7%B8%EB%A6%B0%20%EB%B0%B0%EA%B2%BD%EC%97%90%20%EA%B3%A8%EB%93%9C%20%EB%A1%9C%EA%B3%A0%20%EB%B3%B5%EC%82%AC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/bb7a086f-9fc3-4737-9cf1-47a63526ad0d/covers/Eh4v4ZytY44PfVuW.%EA%B7%B8%EB%A6%BC%EC%9E%90%20%EC%9C%84%20%EC%A2%85%EC%9D%B4%20%EB%B3%B5%EC%82%AC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/bb7a086f-9fc3-4737-9cf1-47a63526ad0d/covers/meC4DrMYDNBkmKqJ.%EA%B7%B8%EB%A6%BC%EC%9E%90%20%EC%9C%84%20%EC%A2%85%EC%9D%B4%20%EB%B3%B5%EC%82%AC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/bb7a086f-9fc3-4737-9cf1-47a63526ad0d/covers/8b3dREsbbq5GtRDF.%EB%89%B4%ED%8A%B8%EB%9F%B4%ED%86%A4%20%EA%B7%B8%EB%A6%BC%EC%9E%90%20%EC%9C%84%20%EB%A1%9C%EA%B3%A0%28%EA%B2%80%EC%A0%95%29%20%EB%B3%B5%EC%82%AC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/bb7a086f-9fc3-4737-9cf1-47a63526ad0d/covers/ZEeVFUzqCWxcpFL4.%EA%B7%B8%EB%A6%BC%EC%9E%90%20%EC%9C%84%20%EC%A2%85%EC%9D%B4%20%EB%B3%B5%EC%82%AC.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "613b8480-ee88-4185-a2ef-7b2c6211ffba",
+      "createdAt": "2016-12-05T17:15:23Z",
+      "updatedAt": "2024-01-17T14:39:08.871Z",
+      "nick": "DESIGN_BRICKS",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "design_bricks",
+      "avatar": {
+        "id": 15304,
+        "createdAt": "2022-05-09T14:07:16.55Z",
+        "uid": "613b8480-ee88-4185-a2ef-7b2c6211ffba",
+        "type": "Avatar",
+        "originFilename": "member_0057177_571771504224075.jpg",
+        "filename": "member_0057177_571771504224075.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/613b8480-ee88-4185-a2ef-7b2c6211ffba/avatar/member_0057177_571771504224075.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/613b8480-ee88-4185-a2ef-7b2c6211ffba/avatar/member_0057177_571771504224075.jpg.small",
+        "size": 52593,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 836,
+        "height": 836
+      },
+      "backgroundImage": {
+        "id": 42586,
+        "createdAt": "2023-07-28T14:17:29.647Z",
+        "uid": "613b8480-ee88-4185-a2ef-7b2c6211ffba",
+        "type": "Background",
+        "originFilename": "hgjrtrer.jpg",
+        "filename": "gw6T5XAAjartQXxK.hgjrtrer.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/613b8480-ee88-4185-a2ef-7b2c6211ffba/background/gw6T5XAAjartQXxK.hgjrtrer.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/613b8480-ee88-4185-a2ef-7b2c6211ffba/background/gw6T5XAAjartQXxK.hgjrtrer.jpg.small",
+        "size": 3116990,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 8018,
+        "height": 1004
+      },
+      "allowInquire": "Y",
+      "introduction": "콘테스트 1위 디자인그룹 디자인브릭스",
+      "label": ["로고/브랜딩", "아이디어"],
+      "userProfile": {
+        "uid": "613b8480-ee88-4185-a2ef-7b2c6211ffba",
+        "description": "공공의 미적 가치를 최우선으로 하는 디자인 Company로\n고객에 니즈에 최대한 부합할 수 있는 작품을 제작함에 있어 \n모든 열정과 최선을 다하겠습니다.",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["1000", "2000"]
+      },
+      "userInfo": {
+        "uid": "613b8480-ee88-4185-a2ef-7b2c6211ffba",
+        "followingCount": 15,
+        "followerCount": 57,
+        "portfolioViewCount": 46922,
+        "portfolioLikeCount": 612,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 152,
+        "connectBuyCount": 0,
+        "connectSellCount": 13,
+        "connectPriceTotal": 4650000,
+        "responseAvgTime": 10,
+        "responseMsgCount": 536,
+        "response24hCount": 329,
+        "response30dCount": 264,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 46,
+        "totalPrice": 41500000
+      },
+      "userLoudInfo": {
+        "uid": "613b8480-ee88-4185-a2ef-7b2c6211ffba",
+        "contestOpenCount": 0,
+        "contestJoinCount": 2723,
+        "contestWinCount": 69,
+        "contestFinalCount": 65,
+        "contestPriceTotal": 77400000,
+        "marketBuyCount": 0,
+        "marketSellCount": 5,
+        "marketPriceTotal": 2750000,
+        "totalReviewRate": 4.96,
+        "totalReviewCount": 14,
+        "representStyleKey": "portfolio.style.jorgekris",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 3,
+        "allowOffline": "Y",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 155
+        },
+        "industryReviewCount": {
+          "industry.category.allenokuneva": 2,
+          "industry.category.angelonitzsche": 2,
+          "industry.category.leonmuller": 3,
+          "industry.category.randyrolfson": 3
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/613b8480-ee88-4185-a2ef-7b2c6211ffba/covers/J4tk9f9MLWHhSzwe.%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B02.webp"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/613b8480-ee88-4185-a2ef-7b2c6211ffba/covers/WFmZ3oZfKSB5pMUi.%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B02.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/613b8480-ee88-4185-a2ef-7b2c6211ffba/covers/6Go4n2DHkaDgaV7t.%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B02.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/613b8480-ee88-4185-a2ef-7b2c6211ffba/covers/nvvnsvo4Tr88Rro8.%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B02.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/613b8480-ee88-4185-a2ef-7b2c6211ffba/covers/AiYXK7MgRJLjmbFS.%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B02.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "74390874-3917-4a6d-bdb8-7e233a9a3c42",
+      "createdAt": "2020-07-01T08:22:14Z",
+      "updatedAt": "2022-05-09T12:51:24.549Z",
+      "nick": "Soo_8",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "dlswjfal556",
+      "avatar": {
+        "id": 24029,
+        "createdAt": "2022-05-09T14:31:12.032Z",
+        "uid": "74390874-3917-4a6d-bdb8-7e233a9a3c42",
+        "type": "Avatar",
+        "originFilename": "member_154964_1_210409040801.png",
+        "filename": "member_154964_1_210409040801.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/74390874-3917-4a6d-bdb8-7e233a9a3c42/avatar/member_154964_1_210409040801.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/74390874-3917-4a6d-bdb8-7e233a9a3c42/avatar/member_154964_1_210409040801.png.small",
+        "size": 26905,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 200,
+        "height": 200
+      },
+      "backgroundImage": {
+        "id": 33778,
+        "createdAt": "2022-10-20T13:22:53.898Z",
+        "uid": "74390874-3917-4a6d-bdb8-7e233a9a3c42",
+        "type": "Background",
+        "originFilename": "무제-1.png",
+        "filename": "TnmHQtXhSkd8KMtS.무제-1.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/74390874-3917-4a6d-bdb8-7e233a9a3c42/background/TnmHQtXhSkd8KMtS.%EB%AC%B4%EC%A0%9C-1.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/74390874-3917-4a6d-bdb8-7e233a9a3c42/background/TnmHQtXhSkd8KMtS.%EB%AC%B4%EC%A0%9C-1.png.small",
+        "size": 11489,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 2032,
+        "height": 613
+      },
+      "allowInquire": "Y",
+      "introduction": "design corner by corner",
+      "label": ["로고/브랜딩", "일러스트/그래픽"],
+      "userProfile": {
+        "uid": "74390874-3917-4a6d-bdb8-7e233a9a3c42",
+        "description": "안녕하세요!",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["1000", "2100"]
+      },
+      "userInfo": {
+        "uid": "74390874-3917-4a6d-bdb8-7e233a9a3c42",
+        "followingCount": 3,
+        "followerCount": 249,
+        "portfolioViewCount": 93950,
+        "portfolioLikeCount": 1103,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 471,
+        "connectBuyCount": 0,
+        "connectSellCount": 33,
+        "connectPriceTotal": 8350000,
+        "responseAvgTime": 10,
+        "responseMsgCount": 1694,
+        "response24hCount": 995,
+        "response30dCount": 594,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 107,
+        "totalPrice": 38750000
+      },
+      "userLoudInfo": {
+        "uid": "74390874-3917-4a6d-bdb8-7e233a9a3c42",
+        "contestOpenCount": 0,
+        "contestJoinCount": 1310,
+        "contestWinCount": 80,
+        "contestFinalCount": 18,
+        "contestPriceTotal": 33900000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 18,
+        "representStyleKey": "portfolio.style.rebeccahomenick",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 8,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 150
+        },
+        "industryReviewCount": {
+          "industry.category.almabreitenberg": 2,
+          "industry.category.angelonitzsche": 1,
+          "industry.category.charliewalsh": 2,
+          "industry.category.leonmuller": 4,
+          "industry.category.randyrolfson": 8
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/74390874-3917-4a6d-bdb8-7e233a9a3c42/covers/CKUph57aiE3genfS.%EC%8D%B8%EB%84%A4%EC%9D%BC.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/74390874-3917-4a6d-bdb8-7e233a9a3c42/covers/NHRZ8FxsLgab9s8P.%EC%8D%B8%EB%84%A4%EC%9D%BC.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/74390874-3917-4a6d-bdb8-7e233a9a3c42/covers/cNePs5MoAgy3pn8X.%EC%8D%B8%EB%84%A4%EC%9D%BC.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/74390874-3917-4a6d-bdb8-7e233a9a3c42/covers/Qke3o4syygZLVZLZ.%EC%8D%B8%EB%84%A4%EC%9D%BC.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/74390874-3917-4a6d-bdb8-7e233a9a3c42/covers/kgiZvY7wePfSYUN4.%EC%8D%B8%EB%84%A4%EC%9D%BC.png"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14",
+      "createdAt": "2016-12-27T10:06:08Z",
+      "updatedAt": "2024-01-22T15:47:10.053Z",
+      "nick": "AURA CREATIVE",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "clericbanshee",
+      "avatar": {
+        "id": 41030,
+        "createdAt": "2023-06-16T16:21:49.213Z",
+        "uid": "c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14",
+        "type": "Avatar",
+        "originFilename": "aura.png",
+        "filename": "LZk33CxK2QG8GKpn.aura.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14/avatar/LZk33CxK2QG8GKpn.aura.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14/avatar/LZk33CxK2QG8GKpn.aura.png.small",
+        "size": 6564668,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 1398,
+        "height": 1398
+      },
+      "allowInquire": "Y",
+      "introduction": "Schema over skill.",
+      "userProfile": {
+        "uid": "c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14",
+        "description": "群鷄一鵬.",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["1200", "1600"]
+      },
+      "userInfo": {
+        "uid": "c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14",
+        "followingCount": 0,
+        "followerCount": 174,
+        "portfolioViewCount": 121480,
+        "portfolioLikeCount": 1163,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 147,
+        "connectBuyCount": 0,
+        "connectSellCount": 3,
+        "connectPriceTotal": 1300000,
+        "responseAvgTime": 7,
+        "responseMsgCount": 361,
+        "response24hCount": 44,
+        "response30dCount": 27,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 25,
+        "totalPrice": 33350000
+      },
+      "userLoudInfo": {
+        "uid": "c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14",
+        "contestOpenCount": 0,
+        "contestJoinCount": 767,
+        "contestWinCount": 169,
+        "contestFinalCount": 108,
+        "contestPriceTotal": 159050000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 24,
+        "representStyleKey": "portfolio.style.coryhenderson",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.joncremin": 2,
+          "user.category.mrskerrymcglynn": 281,
+          "user.category.vickijohnsdvm": 7
+        },
+        "industryReviewCount": {
+          "industry.category.almabreitenberg": 4,
+          "industry.category.almajacobi": 4,
+          "industry.category.charliewalsh": 2,
+          "industry.category.leonmuller": 6,
+          "industry.category.randyrolfson": 4
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14/covers/AKCo8rS3KVNKz8Gg.600.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14/covers/sbzaikURyNfVChVy.600.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14/covers/nHkm2PMzmFVy8F3f.600.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14/covers/WYnPRWVVaQrjqni3.600.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/c9a8c5ab-b5b3-4986-b4f6-5704aac3eb14/covers/sWDFi6RKigEsoVt4.600.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "31c8020f-e002-4b9e-adc8-44b2533b52ba",
+      "createdAt": "2018-12-23T09:58:39Z",
+      "updatedAt": "2023-07-19T01:45:09.563Z",
+      "nick": "studio SOYEON",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "studio_soyeon",
+      "avatar": {
+        "id": 42150,
+        "createdAt": "2023-07-18T08:17:35.482Z",
+        "uid": "31c8020f-e002-4b9e-adc8-44b2533b52ba",
+        "type": "Avatar",
+        "originFilename": "1.jpg",
+        "filename": "yZp37eTHZ9WTCHrS.1.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/31c8020f-e002-4b9e-adc8-44b2533b52ba/avatar/yZp37eTHZ9WTCHrS.1.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/31c8020f-e002-4b9e-adc8-44b2533b52ba/avatar/yZp37eTHZ9WTCHrS.1.jpg.small",
+        "size": 46798,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 600,
+        "height": 600
+      },
+      "backgroundImage": {
+        "id": 42151,
+        "createdAt": "2023-07-18T08:18:36.417Z",
+        "uid": "31c8020f-e002-4b9e-adc8-44b2533b52ba",
+        "type": "Background",
+        "originFilename": "2.jpg",
+        "filename": "k9ExvZNxJ6uss9i5.2.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/31c8020f-e002-4b9e-adc8-44b2533b52ba/background/k9ExvZNxJ6uss9i5.2.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/31c8020f-e002-4b9e-adc8-44b2533b52ba/background/k9ExvZNxJ6uss9i5.2.jpg.small",
+        "size": 65713,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 1920,
+        "height": 420
+      },
+      "allowInquire": "Y",
+      "introduction": "로고 브랜딩｜캐릭터｜패키지 디자인",
+      "label": ["로고/브랜딩", "캐릭터"],
+      "userProfile": {
+        "uid": "31c8020f-e002-4b9e-adc8-44b2533b52ba",
+        "description": "일러스트를 기반으로 브랜드에 필요한 로고와 패키지, 캐릭터 등을 작업하며 브랜드 가치에 유효기간이 없는 디자인을 지향합니다.\n- studioSOYEON",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0900", "1800"]
+      },
+      "userInfo": {
+        "uid": "31c8020f-e002-4b9e-adc8-44b2533b52ba",
+        "followingCount": 0,
+        "followerCount": 53,
+        "portfolioViewCount": 44474,
+        "portfolioLikeCount": 549,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 53,
+        "connectBuyCount": 0,
+        "connectSellCount": 33,
+        "connectPriceTotal": 9520000,
+        "responseAvgTime": 15,
+        "responseMsgCount": 739,
+        "response24hCount": 403,
+        "response30dCount": 319,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 67,
+        "totalPrice": 30090000
+      },
+      "userLoudInfo": {
+        "uid": "31c8020f-e002-4b9e-adc8-44b2533b52ba",
+        "contestOpenCount": 0,
+        "contestJoinCount": 670,
+        "contestWinCount": 44,
+        "contestFinalCount": 18,
+        "contestPriceTotal": 32550000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 10,
+        "representStyleKey": "portfolio.style.rebeccahomenick",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 5,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.deweymayert": 1,
+          "user.category.maycarterdvm": 9,
+          "user.category.mrskerrymcglynn": 85,
+          "user.category.sonjawehneri": 1
+        },
+        "industryReviewCount": {
+          "industry.category.almajacobi": 1,
+          "industry.category.charliewalsh": 3,
+          "industry.category.leonmuller": 1,
+          "industry.category.randyrolfson": 5
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/31c8020f-e002-4b9e-adc8-44b2533b52ba/covers/PRjRaMihsiA94R2K.8.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/31c8020f-e002-4b9e-adc8-44b2533b52ba/covers/K6UXbU36FeFVQJXt.8.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/31c8020f-e002-4b9e-adc8-44b2533b52ba/covers/2RK8KztrLG2ZJBwZ.7.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/31c8020f-e002-4b9e-adc8-44b2533b52ba/covers/ZZuT56YphqLxPJpK.8.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/31c8020f-e002-4b9e-adc8-44b2533b52ba/covers/MicHHVxZ6roRT23X.8.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "37db3714-d292-481e-a288-d29b7c2a6279",
+      "createdAt": "2012-07-21T17:13:19Z",
+      "updatedAt": "2024-01-17T11:59:34.752Z",
+      "nick": "DOo",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "doshe",
+      "avatar": {
+        "id": 1552,
+        "createdAt": "2022-05-09T13:03:09.378Z",
+        "uid": "37db3714-d292-481e-a288-d29b7c2a6279",
+        "type": "Avatar",
+        "originFilename": "member_6114_1_201112021622.jpeg",
+        "filename": "member_6114_1_201112021622.jpeg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/37db3714-d292-481e-a288-d29b7c2a6279/avatar/member_6114_1_201112021622.jpeg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/37db3714-d292-481e-a288-d29b7c2a6279/avatar/member_6114_1_201112021622.jpeg.small",
+        "size": 14353,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 200,
+        "height": 200
+      },
+      "backgroundImage": {
+        "id": 44829,
+        "createdAt": "2023-09-27T20:00:14.892Z",
+        "uid": "37db3714-d292-481e-a288-d29b7c2a6279",
+        "type": "Background",
+        "originFilename": "IMG_8802.jpeg",
+        "filename": "WUELCBmM6d46jVRX.IMG_8802.jpeg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/37db3714-d292-481e-a288-d29b7c2a6279/background/WUELCBmM6d46jVRX.IMG_8802.jpeg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/37db3714-d292-481e-a288-d29b7c2a6279/background/WUELCBmM6d46jVRX.IMG_8802.jpeg.small",
+        "size": 1880404,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 4032,
+        "height": 3024
+      },
+      "allowInquire": "Y",
+      "userProfile": {
+        "uid": "37db3714-d292-481e-a288-d29b7c2a6279",
+        "description": "Von",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["1200", "2000"]
+      },
+      "userInfo": {
+        "uid": "37db3714-d292-481e-a288-d29b7c2a6279",
+        "followingCount": 0,
+        "followerCount": 120,
+        "portfolioViewCount": 65781,
+        "portfolioLikeCount": 695,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 56,
+        "connectBuyCount": 0,
+        "connectSellCount": 4,
+        "connectPriceTotal": 1100000,
+        "responseAvgTime": 9,
+        "responseMsgCount": 517,
+        "response24hCount": 198,
+        "response30dCount": 125,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 43,
+        "totalPrice": 29800000
+      },
+      "userLoudInfo": {
+        "uid": "37db3714-d292-481e-a288-d29b7c2a6279",
+        "contestOpenCount": 0,
+        "contestJoinCount": 2194,
+        "contestWinCount": 58,
+        "contestFinalCount": 35,
+        "contestPriceTotal": 47300000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 12,
+        "representStyleKey": "portfolio.style.jorgekris",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 7,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrjulianjacobson": 1,
+          "user.category.mrskerrymcglynn": 114
+        },
+        "industryReviewCount": {
+          "industry.category.allenokuneva": 1,
+          "industry.category.almajacobi": 1,
+          "industry.category.leonmuller": 2,
+          "industry.category.randyrolfson": 7
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/37db3714-d292-481e-a288-d29b7c2a6279/covers/aeK7FhpAmuLMkDLL.%EB%A6%AC%EC%B9%98%ED%94%84%EB%A0%88%EC%89%AC_1.%EC%84%AC%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/37db3714-d292-481e-a288-d29b7c2a6279/covers/URona2mXHeqheZR7.%EB%93%9C%EB%A1%A0_1.%EC%84%AC%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/37db3714-d292-481e-a288-d29b7c2a6279/covers/Dw8BjJeGyKyPnEwH.%EC%9C%A0%EB%84%A4%EC%82%AC%EC%A7%84%EA%B4%80_1.%EC%84%AC%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/37db3714-d292-481e-a288-d29b7c2a6279/covers/kjAx7wFdBcEAhUrZ.%EB%8B%A4%EC%98%A8_1.%EC%84%AC%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/37db3714-d292-481e-a288-d29b7c2a6279/covers/dy9Fa4Ai2tK8bck2.%EB%AF%B8%EC%8A%A4%ED%84%B0%ED%83%80%EC%9D%B4%EA%B1%B0_1.%EC%84%AC%EB%84%A4%EC%9D%BC.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "1a90968f-c2e1-4b56-852f-96f986d4d748",
+      "createdAt": "2022-01-08T02:32:47Z",
+      "updatedAt": "2024-01-26T08:07:59.538Z",
+      "nick": "유서준",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "seojunyu",
+      "avatar": {
+        "id": 27891,
+        "createdAt": "2022-05-09T14:41:18.343Z",
+        "uid": "1a90968f-c2e1-4b56-852f-96f986d4d748",
+        "type": "Avatar",
+        "originFilename": "member_233785_1_220509133909.jpg",
+        "filename": "member_233785_1_220509133909.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/1a90968f-c2e1-4b56-852f-96f986d4d748/avatar/member_233785_1_220509133909.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/1a90968f-c2e1-4b56-852f-96f986d4d748/avatar/member_233785_1_220509133909.jpg.small",
+        "size": 3853,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 200,
+        "height": 200
+      },
+      "allowInquire": "Y",
+      "introduction": "로고,패키지,일러스트 디자이너",
+      "userProfile": {
+        "uid": "1a90968f-c2e1-4b56-852f-96f986d4d748",
+        "description": "안녕하세요. 그래픽 디자이너 유서준입니다. ",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0000", "1100"]
+      },
+      "userInfo": {
+        "uid": "1a90968f-c2e1-4b56-852f-96f986d4d748",
+        "followingCount": 1,
+        "followerCount": 42,
+        "portfolioViewCount": 32268,
+        "portfolioLikeCount": 234,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 50,
+        "connectBuyCount": 0,
+        "connectSellCount": 1,
+        "connectPriceTotal": 50000,
+        "responseAvgTime": 6,
+        "responseMsgCount": 604,
+        "response24hCount": 143,
+        "response30dCount": 86,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 52,
+        "totalPrice": 25250000
+      },
+      "userLoudInfo": {
+        "uid": "1a90968f-c2e1-4b56-852f-96f986d4d748",
+        "contestOpenCount": 0,
+        "contestJoinCount": 2137,
+        "contestWinCount": 51,
+        "contestFinalCount": 8,
+        "contestPriceTotal": 25200000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 5,
+        "representStyleKey": "portfolio.style.rebeccahomenick",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 2,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrjulianjacobson": 2,
+          "user.category.mrskerrymcglynn": 97
+        },
+        "industryReviewCount": {
+          "industry.category.almabreitenberg": 1,
+          "industry.category.almajacobi": 1,
+          "industry.category.randyrolfson": 2,
+          "industry.category.rooseveltadams": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/1a90968f-c2e1-4b56-852f-96f986d4d748/covers/gNyBNYkKZ5PezCe8.3.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/1a90968f-c2e1-4b56-852f-96f986d4d748/covers/PRnMnjGqHGASwcQk.1.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/1a90968f-c2e1-4b56-852f-96f986d4d748/covers/ZSbeJFycAHPW3g2F.3.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/1a90968f-c2e1-4b56-852f-96f986d4d748/covers/7YrjSUEo3NYfL5vz.10.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/1a90968f-c2e1-4b56-852f-96f986d4d748/covers/ykkEuW6u6S6tsbMw.0.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "5c00385f-1d3c-4b4c-9d84-d30cef1ecb00",
+      "createdAt": "2020-03-02T06:30:43Z",
+      "updatedAt": "2022-12-14T00:31:47.757Z",
+      "nick": "JJANGYU_",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "gattemon",
+      "avatar": {
+        "id": 23264,
+        "createdAt": "2022-05-09T14:29:11.26Z",
+        "uid": "5c00385f-1d3c-4b4c-9d84-d30cef1ecb00",
+        "type": "Avatar",
+        "originFilename": "member_142233_1_220125153736.png",
+        "filename": "member_142233_1_220125153736.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/5c00385f-1d3c-4b4c-9d84-d30cef1ecb00/avatar/member_142233_1_220125153736.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/5c00385f-1d3c-4b4c-9d84-d30cef1ecb00/avatar/member_142233_1_220125153736.png.small",
+        "size": 31665,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 200,
+        "height": 186
+      },
+      "backgroundImage": {
+        "id": 33108,
+        "createdAt": "2022-09-30T12:47:13.316Z",
+        "uid": "5c00385f-1d3c-4b4c-9d84-d30cef1ecb00",
+        "type": "Background",
+        "originFilename": "Artboard 1.png",
+        "filename": "YqnSBcqEtRH738Ec.Artboard 1.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/5c00385f-1d3c-4b4c-9d84-d30cef1ecb00/background/YqnSBcqEtRH738Ec.Artboard%201.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/5c00385f-1d3c-4b4c-9d84-d30cef1ecb00/background/YqnSBcqEtRH738Ec.Artboard%201.png.small",
+        "size": 44173,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 2560,
+        "height": 376
+      },
+      "allowInquire": "Y",
+      "introduction": "따뜻하고 감각적인 디자인 :-)",
+      "userProfile": {
+        "uid": "5c00385f-1d3c-4b4c-9d84-d30cef1ecb00",
+        "description": "안녕하세요, 밝고 감각적인 패키지를 추구하는 디자이너 장유진입니다.\r\nhttps://notefolio.net/jjangyu",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0900", "1800"]
+      },
+      "userInfo": {
+        "uid": "5c00385f-1d3c-4b4c-9d84-d30cef1ecb00",
+        "followingCount": 0,
+        "followerCount": 98,
+        "portfolioViewCount": 26349,
+        "portfolioLikeCount": 313,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 26,
+        "connectBuyCount": 0,
+        "connectSellCount": 12,
+        "connectPriceTotal": 4800000,
+        "responseAvgTime": 4,
+        "responseMsgCount": 993,
+        "response24hCount": 92,
+        "response30dCount": 32,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 44,
+        "totalPrice": 23270000
+      },
+      "userLoudInfo": {
+        "uid": "5c00385f-1d3c-4b4c-9d84-d30cef1ecb00",
+        "contestOpenCount": 0,
+        "contestJoinCount": 95,
+        "contestWinCount": 9,
+        "contestFinalCount": 7,
+        "contestPriceTotal": 6700000,
+        "marketBuyCount": 0,
+        "marketSellCount": 32,
+        "marketPriceTotal": 18470000,
+        "totalReviewRate": 4.973,
+        "totalReviewCount": 26,
+        "representStyleKey": "portfolio.style.julieperry",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.melbadickinson": 10,
+          "user.category.mrjulianjacobson": 41,
+          "user.category.sonjawehneri": 1
+        },
+        "industryReviewCount": {
+          "industry.category.almabreitenberg": 2,
+          "industry.category.charliewalsh": 1,
+          "industry.category.leonmuller": 2,
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/5c00385f-1d3c-4b4c-9d84-d30cef1ecb00/covers/portfolio_142233_1_220324230224.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/5c00385f-1d3c-4b4c-9d84-d30cef1ecb00/covers/portfolio_142233_1_220324225752.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/5c00385f-1d3c-4b4c-9d84-d30cef1ecb00/covers/portfolio_142233_1_220324224314.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/5c00385f-1d3c-4b4c-9d84-d30cef1ecb00/covers/portfolio_142233_1_220324224148.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/5c00385f-1d3c-4b4c-9d84-d30cef1ecb00/covers/portfolio_142233_1_220324223516.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "25f455c5-44b7-4e45-840d-28ab1cd65b91",
+      "createdAt": "2019-02-14T00:30:25Z",
+      "updatedAt": "2024-01-25T06:16:59.371Z",
+      "nick": "coca",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "coca75",
+      "avatar": {
+        "id": 20135,
+        "createdAt": "2022-05-09T14:20:37.171Z",
+        "uid": "25f455c5-44b7-4e45-840d-28ab1cd65b91",
+        "type": "Avatar",
+        "originFilename": "member_107995_1_200625092049.jpg",
+        "filename": "member_107995_1_200625092049.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/25f455c5-44b7-4e45-840d-28ab1cd65b91/avatar/member_107995_1_200625092049.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/25f455c5-44b7-4e45-840d-28ab1cd65b91/avatar/member_107995_1_200625092049.jpg.small",
+        "size": 29608,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 200,
+        "height": 200
+      },
+      "allowInquire": "Y",
+      "introduction": "최선을 다하는 디자이너가 되겠습니다.",
+      "userProfile": {
+        "uid": "25f455c5-44b7-4e45-840d-28ab1cd65b91",
+        "description": "25년 디자인 경력으로 최선을 다해 최고의 디자인을 만들어 드리겠습니다.",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0000", "1100"]
+      },
+      "userInfo": {
+        "uid": "25f455c5-44b7-4e45-840d-28ab1cd65b91",
+        "followingCount": 0,
+        "followerCount": 23,
+        "portfolioViewCount": 25321,
+        "portfolioLikeCount": 90,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 12,
+        "connectBuyCount": 0,
+        "connectSellCount": 0,
+        "connectPriceTotal": 0,
+        "responseAvgTime": 4,
+        "responseMsgCount": 123,
+        "response24hCount": 89,
+        "response30dCount": 47,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 12,
+        "totalPrice": 22200000
+      },
+      "userLoudInfo": {
+        "uid": "25f455c5-44b7-4e45-840d-28ab1cd65b91",
+        "contestOpenCount": 0,
+        "contestJoinCount": 59,
+        "contestWinCount": 15,
+        "contestFinalCount": 5,
+        "contestPriceTotal": 27400000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 2,
+        "representStyleKey": "portfolio.style.julieperry",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.maycarterdvm": 28
+        },
+        "industryReviewCount": {
+          "industry.category.randyrolfson": 1,
+          "industry.category.rooseveltadams": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/25f455c5-44b7-4e45-840d-28ab1cd65b91/covers/fP32mwaQmsnKxY4U.ss.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/25f455c5-44b7-4e45-840d-28ab1cd65b91/covers/FnxgDKyua5D9zggp.17%EC%97%B0%EC%B2%9Cs.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/25f455c5-44b7-4e45-840d-28ab1cd65b91/covers/R54bp8vjDALsU2Fg.001_s.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/25f455c5-44b7-4e45-840d-28ab1cd65b91/covers/FSiohno4KWPBMJtM.snjpg.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/25f455c5-44b7-4e45-840d-28ab1cd65b91/covers/YzgmLodMknjsoMQd.sss.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "e0d06556-f026-4bfb-a6ae-8d8c55e1ee21",
+      "createdAt": "2021-07-07T21:52:03Z",
+      "updatedAt": "2023-12-21T02:55:28.048Z",
+      "nick": "Fordays",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "fordays",
+      "avatar": {
+        "id": 36908,
+        "createdAt": "2023-02-03T14:03:09.953Z",
+        "uid": "e0d06556-f026-4bfb-a6ae-8d8c55e1ee21",
+        "type": "Avatar",
+        "originFilename": "무제-2.png",
+        "filename": "ZgLEnGSUqjQyVqU8.무제-2.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/e0d06556-f026-4bfb-a6ae-8d8c55e1ee21/avatar/ZgLEnGSUqjQyVqU8.%EB%AC%B4%EC%A0%9C-2.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/e0d06556-f026-4bfb-a6ae-8d8c55e1ee21/avatar/ZgLEnGSUqjQyVqU8.%EB%AC%B4%EC%A0%9C-2.png.small",
+        "size": 5248,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 600,
+        "height": 600
+      },
+      "allowInquire": "Y",
+      "userProfile": {
+        "uid": "e0d06556-f026-4bfb-a6ae-8d8c55e1ee21",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["1700", "0000"]
+      },
+      "userInfo": {
+        "uid": "e0d06556-f026-4bfb-a6ae-8d8c55e1ee21",
+        "followingCount": 0,
+        "followerCount": 52,
+        "portfolioViewCount": 26129,
+        "portfolioLikeCount": 215,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 19,
+        "connectBuyCount": 0,
+        "connectSellCount": 3,
+        "connectPriceTotal": 700000,
+        "responseAvgTime": 10,
+        "responseMsgCount": 359,
+        "response24hCount": 153,
+        "response30dCount": 99,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 24,
+        "totalPrice": 18150000
+      },
+      "userLoudInfo": {
+        "uid": "e0d06556-f026-4bfb-a6ae-8d8c55e1ee21",
+        "contestOpenCount": 0,
+        "contestJoinCount": 294,
+        "contestWinCount": 20,
+        "contestFinalCount": 6,
+        "contestPriceTotal": 17500000,
+        "marketBuyCount": 0,
+        "marketSellCount": 1,
+        "marketPriceTotal": 250000,
+        "totalReviewRate": 5,
+        "totalReviewCount": 4,
+        "representStyleKey": "portfolio.style.jorgekris",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 3,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 36
+        },
+        "industryReviewCount": {
+          "industry.category.randyrolfson": 3
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e0d06556-f026-4bfb-a6ae-8d8c55e1ee21/covers/FDPV8bqjwYY8Fsws.%EB%A9%94%EC%9D%B8.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e0d06556-f026-4bfb-a6ae-8d8c55e1ee21/covers/DMqBxZSAEKjarDZ5.main.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e0d06556-f026-4bfb-a6ae-8d8c55e1ee21/covers/YeueD3W4GsXp2oYn.main.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e0d06556-f026-4bfb-a6ae-8d8c55e1ee21/covers/HZvBo53FRm5mF8MT.main.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e0d06556-f026-4bfb-a6ae-8d8c55e1ee21/covers/gHWveA4J8ckrtpSz.order_sub_3193595_1_221104232758.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "854afe5b-7a68-42a1-b2f0-0fb247243d1b",
+      "createdAt": "2015-12-18T21:25:27Z",
+      "updatedAt": "2024-01-26T06:49:28.216Z",
+      "nick": "moly",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "moly",
+      "avatar": {
+        "id": 12117,
+        "createdAt": "2022-05-09T13:37:19.051Z",
+        "uid": "854afe5b-7a68-42a1-b2f0-0fb247243d1b",
+        "type": "Avatar",
+        "originFilename": "member_0044680_446801484467827.png",
+        "filename": "member_0044680_446801484467827.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/854afe5b-7a68-42a1-b2f0-0fb247243d1b/avatar/member_0044680_446801484467827.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/854afe5b-7a68-42a1-b2f0-0fb247243d1b/avatar/member_0044680_446801484467827.png.small",
+        "size": 3044,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 132,
+        "height": 132
+      },
+      "allowInquire": "Y",
+      "introduction": "　 ",
+      "label": ["로고/브랜딩", "일러스트/그래픽"],
+      "userProfile": {
+        "uid": "854afe5b-7a68-42a1-b2f0-0fb247243d1b",
+        "description": "　 ",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0000", "1100"]
+      },
+      "userInfo": {
+        "uid": "854afe5b-7a68-42a1-b2f0-0fb247243d1b",
+        "followingCount": 0,
+        "followerCount": 28,
+        "portfolioViewCount": 27194,
+        "portfolioLikeCount": 198,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 39,
+        "connectBuyCount": 0,
+        "connectSellCount": 0,
+        "connectPriceTotal": 0,
+        "responseAvgTime": 6,
+        "responseMsgCount": 207,
+        "response24hCount": 150,
+        "response30dCount": 72,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 21,
+        "totalPrice": 12250000
+      },
+      "userLoudInfo": {
+        "uid": "854afe5b-7a68-42a1-b2f0-0fb247243d1b",
+        "contestOpenCount": 0,
+        "contestJoinCount": 757,
+        "contestWinCount": 43,
+        "contestFinalCount": 9,
+        "contestPriceTotal": 25150000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 2,
+        "representStyleKey": "portfolio.style.rebeccahomenick",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 2,
+        "allowOffline": "None",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 70
+        },
+        "industryReviewCount": {
+          "industry.category.randyrolfson": 2
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/854afe5b-7a68-42a1-b2f0-0fb247243d1b/covers/K9kh6EYU68QPhL3i.%E1%84%86%E1%85%B5%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B51.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/854afe5b-7a68-42a1-b2f0-0fb247243d1b/covers/TknJ5Winjk3GLDer.%E1%84%86%E1%85%B5%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B52.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/854afe5b-7a68-42a1-b2f0-0fb247243d1b/covers/5R2N3wRgxRj44nNa.%E1%84%86%E1%85%B5%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B51.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/854afe5b-7a68-42a1-b2f0-0fb247243d1b/covers/nG7pgxXUwD4kz23A.%E1%84%86%E1%85%B5%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B51.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/854afe5b-7a68-42a1-b2f0-0fb247243d1b/covers/LNM46cTCxW8ykMSo.%E1%84%86%E1%85%B5%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "f053d7f5-2e63-4bc4-aed4-31c930e5d915",
+      "createdAt": "2015-07-29T03:17:16Z",
+      "updatedAt": "2024-01-23T13:42:27.918Z",
+      "nick": "Brand Master",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "favorite": "200,201",
+      "url": "thedesigner",
+      "avatar": {
+        "id": 28913,
+        "createdAt": "2022-05-18T16:21:01.439Z",
+        "uid": "f053d7f5-2e63-4bc4-aed4-31c930e5d915",
+        "type": "Avatar",
+        "originFilename": "profile.jpg",
+        "filename": "cHWZPgEgmw4h7VMS.profile.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/f053d7f5-2e63-4bc4-aed4-31c930e5d915/avatar/cHWZPgEgmw4h7VMS.profile.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/f053d7f5-2e63-4bc4-aed4-31c930e5d915/avatar/cHWZPgEgmw4h7VMS.profile.jpg.small",
+        "size": 5296,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 200,
+        "height": 200
+      },
+      "allowInquire": "Y",
+      "introduction": "CI & BI & Naming 전문가입니다.",
+      "label": ["로고/브랜딩", "PPT/제안서"],
+      "userProfile": {
+        "uid": "f053d7f5-2e63-4bc4-aed4-31c930e5d915",
+        "description": "다수의 대한민국 대표브랜드를 만들어 온 친절하고 프로페셔널한 리얼 브랜드 스페셜리스트입니다. \n저는 대형 브랜드전문회사의 프로젝트 디렉터를 맡아오면서 대기업은 물론,중소기업의 브랜딩 기획,네이밍 및 슬로건, 브랜드 아이덴티티 디자인 일체를 수백여개 수행한 경력이 있습니다.",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0900", "0800"]
+      },
+      "userInfo": {
+        "uid": "f053d7f5-2e63-4bc4-aed4-31c930e5d915",
+        "followingCount": 0,
+        "followerCount": 34,
+        "portfolioViewCount": 33540,
+        "portfolioLikeCount": 279,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 96,
+        "connectBuyCount": 0,
+        "connectSellCount": 8,
+        "connectPriceTotal": 1973000,
+        "responseAvgTime": 9,
+        "responseMsgCount": 132,
+        "response24hCount": 41,
+        "response30dCount": 17,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 21,
+        "totalPrice": 12223000
+      },
+      "userLoudInfo": {
+        "uid": "f053d7f5-2e63-4bc4-aed4-31c930e5d915",
+        "contestOpenCount": 0,
+        "contestJoinCount": 2334,
+        "contestWinCount": 52,
+        "contestFinalCount": 23,
+        "contestPriceTotal": 29950000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 9,
+        "representStyleKey": "portfolio.style.coryhenderson",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "Y",
+        "categoryCount": {
+          "user.category.joncremin": 1,
+          "user.category.mrskerrymcglynn": 76,
+          "user.category.vickijohnsdvm": 8
+        },
+        "industryReviewCount": {
+          "industry.category.allenokuneva": 3,
+          "industry.category.charliewalsh": 1,
+          "industry.category.genevaankunding": 2,
+          "industry.category.leonmuller": 2,
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/f053d7f5-2e63-4bc4-aed4-31c930e5d915/covers/5o5Ss6SvrH4TRFEN..png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/f053d7f5-2e63-4bc4-aed4-31c930e5d915/covers/GSuzmdQZQfcR6bca..png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/f053d7f5-2e63-4bc4-aed4-31c930e5d915/covers/CSydzdL8Fbovzfwn..png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/f053d7f5-2e63-4bc4-aed4-31c930e5d915/covers/aeuiDmVgSJTU2hd4..png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/f053d7f5-2e63-4bc4-aed4-31c930e5d915/covers/2esgWKtUvdfudgn4.1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "ec619e88-4e43-4c9a-9964-3d736c3ac731",
+      "createdAt": "2022-07-11T09:16:12.65Z",
+      "updatedAt": "2024-01-19T11:46:29.845Z",
+      "nick": "AAT Studio",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "aatdesign",
+      "avatar": {
+        "id": 43118,
+        "createdAt": "2023-08-11T03:13:45.574Z",
+        "uid": "ec619e88-4e43-4c9a-9964-3d736c3ac731",
+        "type": "Avatar",
+        "originFilename": "프로필_대지 1.png",
+        "filename": "sj5rdvR9Gfe7XjPH.프로필_대지 1.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/ec619e88-4e43-4c9a-9964-3d736c3ac731/avatar/sj5rdvR9Gfe7XjPH.%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%91%E1%85%B5%E1%86%AF_%E1%84%83%E1%85%A2%E1%84%8C%E1%85%B5%201.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/ec619e88-4e43-4c9a-9964-3d736c3ac731/avatar/sj5rdvR9Gfe7XjPH.%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%91%E1%85%B5%E1%86%AF_%E1%84%83%E1%85%A2%E1%84%8C%E1%85%B5%201.png.small",
+        "size": 108924,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 3508,
+        "height": 3508
+      },
+      "backgroundImage": {
+        "id": 43119,
+        "createdAt": "2023-08-11T03:14:47.183Z",
+        "uid": "ec619e88-4e43-4c9a-9964-3d736c3ac731",
+        "type": "Background",
+        "originFilename": "상단배너_라우드소싱_대지 1.png",
+        "filename": "VsSiyqzuju4tFvx7.상단배너_라우드소싱_대지 1.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/ec619e88-4e43-4c9a-9964-3d736c3ac731/background/VsSiyqzuju4tFvx7.%E1%84%89%E1%85%A1%E1%86%BC%E1%84%83%E1%85%A1%E1%86%AB%E1%84%87%E1%85%A2%E1%84%82%E1%85%A5_%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%83%E1%85%B3%E1%84%89%E1%85%A9%E1%84%89%E1%85%B5%E1%86%BC_%E1%84%83%E1%85%A2%E1%84%8C%E1%85%B5%201.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/ec619e88-4e43-4c9a-9964-3d736c3ac731/background/VsSiyqzuju4tFvx7.%E1%84%89%E1%85%A1%E1%86%BC%E1%84%83%E1%85%A1%E1%86%AB%E1%84%87%E1%85%A2%E1%84%82%E1%85%A5_%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%83%E1%85%B3%E1%84%89%E1%85%A9%E1%84%89%E1%85%B5%E1%86%BC_%E1%84%83%E1%85%A2%E1%84%8C%E1%85%B5%201.png.small",
+        "size": 80170,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 8000,
+        "height": 1000
+      },
+      "allowInquire": "Y",
+      "label": ["로고/브랜딩", "패키지"],
+      "userProfile": {
+        "uid": "ec619e88-4e43-4c9a-9964-3d736c3ac731",
+        "description": "앗트 디자인웍스는 새로운 디자인 경험을 제공하고자 브랜드의 가능성을 끊임없이 고민하며 합리적인 방향과 창의적인 해결책을 제시합니다.\n브랜드와 소비자가 깊이있게 연결될 수 있도록 제품과 서비스의 가치를 전달해 드리겠습니다.\n\n의뢰 문의 사항 및 궁금한 점은 1:1 채팅창 또는 메일을 통해 연락부탁드립니다.\nE-mail - aatdesign4@gmail.com\n\n* 1:1 의뢰 및 메시지 응대 가능 시간 am 09:00 - pm 18:00\n* 라우드소싱을 통한 모든 업무는 온라인으로 진행하고 있습니다. 모든 진행은 온라인으로 이루어집니다.",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0900", "1800"]
+      },
+      "userInfo": {
+        "uid": "ec619e88-4e43-4c9a-9964-3d736c3ac731",
+        "followingCount": 0,
+        "followerCount": 15,
+        "portfolioViewCount": 13767,
+        "portfolioLikeCount": 109,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 17,
+        "connectBuyCount": 0,
+        "connectSellCount": 4,
+        "connectPriceTotal": 1050000,
+        "responseAvgTime": 8,
+        "responseMsgCount": 576,
+        "response24hCount": 482,
+        "response30dCount": 366,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 16,
+        "totalPrice": 11650000
+      },
+      "userLoudInfo": {
+        "uid": "ec619e88-4e43-4c9a-9964-3d736c3ac731",
+        "contestOpenCount": 0,
+        "contestJoinCount": 66,
+        "contestWinCount": 14,
+        "contestFinalCount": 2,
+        "contestPriceTotal": 11000000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 2,
+        "representStyleKey": "portfolio.style.marcosbergstrom",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrjulianjacobson": 24
+        },
+        "industryReviewCount": {
+          "industry.category.charliewalsh": 1,
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ec619e88-4e43-4c9a-9964-3d736c3ac731/covers/nnU5RSJXcEx6dZDS.%E1%84%8A%E1%85%A5%E1%86%B7%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ec619e88-4e43-4c9a-9964-3d736c3ac731/covers/hQUmqZnEgEAukQMZ.%E1%84%8A%E1%85%A5%E1%86%B7%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ec619e88-4e43-4c9a-9964-3d736c3ac731/covers/aM5ZYpcL6UECfLRM.%E1%84%8A%E1%85%A5%E1%86%B7%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ec619e88-4e43-4c9a-9964-3d736c3ac731/covers/F7okq3b3uZjancPi.%E1%84%8A%E1%85%A5%E1%86%B7%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ec619e88-4e43-4c9a-9964-3d736c3ac731/covers/ywToLfdqwdwpMHAh.%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "9a22412e-1675-4dca-8f9f-73e037dae4d2",
+      "createdAt": "2023-06-11T02:13:53.474Z",
+      "updatedAt": "2024-01-02T14:29:41.731Z",
+      "nick": "ur_so_nice",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "ursonice",
+      "avatar": {
+        "id": 43096,
+        "createdAt": "2023-08-10T16:54:49.145Z",
+        "uid": "9a22412e-1675-4dca-8f9f-73e037dae4d2",
+        "type": "Avatar",
+        "originFilename": "00_3-02.png",
+        "filename": "A5xHoAefsFD5HkmT.00_3-02.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/9a22412e-1675-4dca-8f9f-73e037dae4d2/avatar/A5xHoAefsFD5HkmT.00_3-02.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/9a22412e-1675-4dca-8f9f-73e037dae4d2/avatar/A5xHoAefsFD5HkmT.00_3-02.png.small",
+        "size": 17228,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 1182,
+        "height": 1182
+      },
+      "allowInquire": "Y",
+      "introduction": "라우드2023어워즈 올해의신예디자이너",
+      "label": ["로고/브랜딩"],
+      "userProfile": {
+        "uid": "9a22412e-1675-4dca-8f9f-73e037dae4d2",
+        "description": "UR.SO.NICE는 두 가지 의미를 가집니다.\n읽는 그대로 UR(YOU ARE) = SO NICE라는 의미와\n제 이름의 이니셜인 UR = SO NICE라는 의미가 있습니다.\n의뢰인의 만족도와 저의 만족도가 일치할 때까지 책임감 있게 임하겠습니다.",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["1100", "2300"]
+      },
+      "userInfo": {
+        "uid": "9a22412e-1675-4dca-8f9f-73e037dae4d2",
+        "followingCount": 0,
+        "followerCount": 9,
+        "portfolioViewCount": 7995,
+        "portfolioLikeCount": 35,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 14,
+        "connectBuyCount": 0,
+        "connectSellCount": 2,
+        "connectPriceTotal": 950000,
+        "responseAvgTime": 6,
+        "responseMsgCount": 164,
+        "response24hCount": 164,
+        "response30dCount": 117,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 18,
+        "totalPrice": 11150000
+      },
+      "userLoudInfo": {
+        "uid": "9a22412e-1675-4dca-8f9f-73e037dae4d2",
+        "contestOpenCount": 0,
+        "contestJoinCount": 577,
+        "contestWinCount": 15,
+        "contestFinalCount": 7,
+        "contestPriceTotal": 10050000,
+        "marketBuyCount": 0,
+        "marketSellCount": 1,
+        "marketPriceTotal": 150000,
+        "totalReviewRate": 5,
+        "totalReviewCount": 1,
+        "representStyleKey": "portfolio.style.rebeccahomenick",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 25
+        },
+        "industryReviewCount": {
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/9a22412e-1675-4dca-8f9f-73e037dae4d2/covers/yQx8yyimhbU7UXza.%EC%96%91%EC%A3%BC%EB%86%8D%EB%B6%80%EB%A7%88%EC%BC%93_f.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/9a22412e-1675-4dca-8f9f-73e037dae4d2/covers/gxuwYpQvgAYPNitP.%EC%9D%B4%EB%B4%84_f.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/9a22412e-1675-4dca-8f9f-73e037dae4d2/covers/JokwCKyQTxucQdPj.%EC%9C%A0%EB%A1%9C%EC%8A%A4%EC%BF%A8_f.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/9a22412e-1675-4dca-8f9f-73e037dae4d2/covers/8T5SGWnUdss4WQYP.m-BeMyFriend1.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/9a22412e-1675-4dca-8f9f-73e037dae4d2/covers/eLxYkQTXigzXprHx.EveryRoutine_f.png"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f",
+      "createdAt": "2021-09-30T02:34:49Z",
+      "updatedAt": "2024-01-24T10:15:24.558Z",
+      "nick": "탠디",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "mimi99",
+      "avatar": {
+        "id": 27159,
+        "createdAt": "2022-05-09T14:39:24.69Z",
+        "uid": "7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f",
+        "type": "Avatar",
+        "originFilename": "member_217845_1_220112162202.jpg",
+        "filename": "member_217845_1_220112162202.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f/avatar/member_217845_1_220112162202.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f/avatar/member_217845_1_220112162202.jpg.small",
+        "size": 4557,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 200,
+        "height": 200
+      },
+      "allowInquire": "Y",
+      "introduction": "CI BI 전문 디자이너 탠디입니다.",
+      "label": ["로고/브랜딩", "일러스트/그래픽"],
+      "userProfile": {
+        "uid": "7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f",
+        "description": "심플하고 트렌디한 로고제작 자신있습니다. \n브랜드의 방향성을 잡아드리겠습니다.",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0000", "0000"]
+      },
+      "userInfo": {
+        "uid": "7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f",
+        "followingCount": 10,
+        "followerCount": 5,
+        "portfolioViewCount": 8722,
+        "portfolioLikeCount": 74,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 19,
+        "connectBuyCount": 0,
+        "connectSellCount": 5,
+        "connectPriceTotal": 900000,
+        "responseAvgTime": 7,
+        "responseMsgCount": 191,
+        "response24hCount": 68,
+        "response30dCount": 68,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 17,
+        "totalPrice": 10040000
+      },
+      "userLoudInfo": {
+        "uid": "7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f",
+        "contestOpenCount": 0,
+        "contestJoinCount": 142,
+        "contestWinCount": 12,
+        "contestFinalCount": 9,
+        "contestPriceTotal": 9300000,
+        "marketBuyCount": 0,
+        "marketSellCount": 1,
+        "marketPriceTotal": 240000,
+        "totalReviewRate": 5,
+        "totalReviewCount": 2,
+        "representStyleKey": "portfolio.style.coryhenderson",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 31
+        },
+        "industryReviewCount": {
+          "industry.category.randyrolfson": 1,
+          "industry.category.rooseveltadams": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f/covers/ap4EcPSAyKVaTvDM.WLB_%EC%8D%B81-1.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f/covers/deV2S7d9ZxWiUmvX.M_%EC%8D%B81-1.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f/covers/a9ApM2KCywKKfmTj.%EC%86%8C%EA%B3%BC_%EC%8D%B81-1.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f/covers/Cgv3A4pZVjtPuZtV.%ED%9B%88%EC%97%B0_%EC%8D%B81-1.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/7d3e0ec0-e94d-4d2d-9cca-97c46e4c0b5f/covers/LwyHr78usMUBKrKX.order_sub_3140743_1_220901235813.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "00995fcd-0a6e-4b78-b077-350008d6035f",
+      "createdAt": "2021-08-17T06:24:30Z",
+      "updatedAt": "2022-06-15T15:36:36.668Z",
+      "nick": "Winter",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "Jaywinter_12",
+      "avatar": {
+        "id": 26816,
+        "createdAt": "2022-05-09T14:38:30.798Z",
+        "uid": "00995fcd-0a6e-4b78-b077-350008d6035f",
+        "type": "Avatar",
+        "originFilename": "member_209765_1_220425215937.jpg",
+        "filename": "member_209765_1_220425215937.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/00995fcd-0a6e-4b78-b077-350008d6035f/avatar/member_209765_1_220425215937.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/00995fcd-0a6e-4b78-b077-350008d6035f/avatar/member_209765_1_220425215937.jpg.small",
+        "size": 44894,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 200,
+        "height": 299
+      },
+      "backgroundImage": {
+        "id": 29771,
+        "createdAt": "2022-06-22T09:51:23.914Z",
+        "uid": "00995fcd-0a6e-4b78-b077-350008d6035f",
+        "type": "Background",
+        "originFilename": "shutterstock_1651150801.jpg",
+        "filename": "5XScwkpk56emPm2G.shutterstock_1651150801.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/00995fcd-0a6e-4b78-b077-350008d6035f/background/5XScwkpk56emPm2G.shutterstock_1651150801.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/00995fcd-0a6e-4b78-b077-350008d6035f/background/5XScwkpk56emPm2G.shutterstock_1651150801.jpg.small",
+        "size": 4567656,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 4880,
+        "height": 3185
+      },
+      "allowInquire": "Y",
+      "userProfile": {
+        "uid": "00995fcd-0a6e-4b78-b077-350008d6035f",
+        "lastLogin": "0001-01-01T00:00:00Z"
+      },
+      "userInfo": {
+        "uid": "00995fcd-0a6e-4b78-b077-350008d6035f",
+        "followingCount": 4,
+        "followerCount": 73,
+        "portfolioViewCount": 16784,
+        "portfolioLikeCount": 313,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 36,
+        "connectBuyCount": 0,
+        "connectSellCount": 13,
+        "connectPriceTotal": 5150000,
+        "responseAvgTime": 7,
+        "responseMsgCount": 323,
+        "response24hCount": 47,
+        "response30dCount": 24,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 23,
+        "totalPrice": 9450000
+      },
+      "userLoudInfo": {
+        "uid": "00995fcd-0a6e-4b78-b077-350008d6035f",
+        "contestOpenCount": 0,
+        "contestJoinCount": 129,
+        "contestWinCount": 13,
+        "contestFinalCount": 2,
+        "contestPriceTotal": 5200000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 3,
+        "representStyleKey": "portfolio.style.crystalcarr",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 21
+        },
+        "industryReviewCount": {
+          "industry.category.allenokuneva": 1,
+          "industry.category.randyrolfson": 2
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/00995fcd-0a6e-4b78-b077-350008d6035f/covers/PJmVbExzGDYXoPXi.order_sub_3083172_1_220629000056.jpeg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/00995fcd-0a6e-4b78-b077-350008d6035f/covers/8GvjEypQucR9d88j.order_sub_3090273_1_220708000125.jpeg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/00995fcd-0a6e-4b78-b077-350008d6035f/covers/dNMAN2LgyRZu6pH8.XxAKn7pYjVkY7K84.ACOC%2001_out-02.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/00995fcd-0a6e-4b78-b077-350008d6035f/covers/kGwRsiBgpcXzJbyv.order_sub_3171028_1_221009000147.jpeg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/00995fcd-0a6e-4b78-b077-350008d6035f/covers/EQtDhFUjhGzbejeW.larang_OUT-02.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "2537ebda-21a6-4e78-9bc4-1dac6e463108",
+      "createdAt": "2021-06-16T11:43:37Z",
+      "updatedAt": "2024-01-22T15:00:06.519Z",
+      "nick": "다정공감",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "empathy_design",
+      "avatar": {
+        "id": 43097,
+        "createdAt": "2023-08-10T19:12:20.117Z",
+        "uid": "2537ebda-21a6-4e78-9bc4-1dac6e463108",
+        "type": "Avatar",
+        "originFilename": "03-02.jpg",
+        "filename": "BQFP5pYi8gJd7K3T.03-02.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/2537ebda-21a6-4e78-9bc4-1dac6e463108/avatar/BQFP5pYi8gJd7K3T.03-02.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/2537ebda-21a6-4e78-9bc4-1dac6e463108/avatar/BQFP5pYi8gJd7K3T.03-02.jpg.small",
+        "size": 220428,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 3527,
+        "height": 3527
+      },
+      "backgroundImage": {
+        "id": 43105,
+        "createdAt": "2023-08-10T19:30:08.925Z",
+        "uid": "2537ebda-21a6-4e78-9bc4-1dac6e463108",
+        "type": "Background",
+        "originFilename": "07-03.jpg",
+        "filename": "Nn4P5c5ZxSMVy9j5.07-03.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/2537ebda-21a6-4e78-9bc4-1dac6e463108/background/Nn4P5c5ZxSMVy9j5.07-03.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/2537ebda-21a6-4e78-9bc4-1dac6e463108/background/Nn4P5c5ZxSMVy9j5.07-03.jpg.small",
+        "size": 468710,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 8000,
+        "height": 1000
+      },
+      "allowInquire": "Y",
+      "introduction": "안녕하세요. 다정공감입니다.",
+      "label": ["로고/브랜딩", "패키지"],
+      "userProfile": {
+        "uid": "2537ebda-21a6-4e78-9bc4-1dac6e463108",
+        "description": "당신의 이야기에 귀를 기울이고, \n당신의 마음을 담아,\n다정한 공감을 이끌어 내는 디자이너입니다. \n\n언제나 설렘 가득한 다정공감과 함께 시작하세요!   \n",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0900", "2100"]
+      },
+      "userInfo": {
+        "uid": "2537ebda-21a6-4e78-9bc4-1dac6e463108",
+        "followingCount": 0,
+        "followerCount": 6,
+        "portfolioViewCount": 11657,
+        "portfolioLikeCount": 43,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 17,
+        "connectBuyCount": 0,
+        "connectSellCount": 7,
+        "connectPriceTotal": 1290000,
+        "responseAvgTime": 4,
+        "responseMsgCount": 498,
+        "response24hCount": 421,
+        "response30dCount": 421,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 22,
+        "totalPrice": 8890000
+      },
+      "userLoudInfo": {
+        "uid": "2537ebda-21a6-4e78-9bc4-1dac6e463108",
+        "contestOpenCount": 0,
+        "contestJoinCount": 73,
+        "contestWinCount": 16,
+        "contestFinalCount": 2,
+        "contestPriceTotal": 8000000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 3,
+        "representStyleKey": "portfolio.style.rebeccahomenick",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.deweymayert": 1,
+          "user.category.melbadickinson": 1,
+          "user.category.mrjulianjacobson": 17,
+          "user.category.stelladamore": 1
+        },
+        "industryReviewCount": {
+          "industry.category.allenokuneva": 1,
+          "industry.category.charliewalsh": 1,
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/2537ebda-21a6-4e78-9bc4-1dac6e463108/covers/kP5DTaE6X3ULSFwG.01.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/2537ebda-21a6-4e78-9bc4-1dac6e463108/covers/VpoeDCdMbMX3aowk.01.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/2537ebda-21a6-4e78-9bc4-1dac6e463108/covers/HhmfNfqs3ttekVih.01.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/2537ebda-21a6-4e78-9bc4-1dac6e463108/covers/KMPJ3CRDAzHgdFcG.01.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/2537ebda-21a6-4e78-9bc4-1dac6e463108/covers/J6nJxNHQgscA3Ew8.01.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "2249f42c-5152-4449-a5e2-4ce317ff2f26",
+      "createdAt": "2021-08-21T16:07:49Z",
+      "updatedAt": "2023-08-22T06:57:17.723Z",
+      "nick": "holywise",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "holywise",
+      "allowInquire": "Y",
+      "label": ["로고/브랜딩", "일러스트/그래픽"],
+      "userProfile": {
+        "uid": "2249f42c-5152-4449-a5e2-4ce317ff2f26",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["1000", "2300"]
+      },
+      "userInfo": {
+        "uid": "2249f42c-5152-4449-a5e2-4ce317ff2f26",
+        "followingCount": 10,
+        "followerCount": 48,
+        "portfolioViewCount": 21317,
+        "portfolioLikeCount": 425,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 22,
+        "connectBuyCount": 0,
+        "connectSellCount": 5,
+        "connectPriceTotal": 1800000,
+        "responseAvgTime": 3,
+        "responseMsgCount": 327,
+        "response24hCount": 29,
+        "response30dCount": 24,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 20,
+        "totalPrice": 8400000
+      },
+      "userLoudInfo": {
+        "uid": "2249f42c-5152-4449-a5e2-4ce317ff2f26",
+        "contestOpenCount": 0,
+        "contestJoinCount": 77,
+        "contestWinCount": 15,
+        "contestFinalCount": 0,
+        "contestPriceTotal": 6600000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 2,
+        "representStyleKey": "portfolio.style.coryhenderson",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.joncremin": 1,
+          "user.category.mrjulianjacobson": 7,
+          "user.category.mrskerrymcglynn": 12
+        },
+        "industryReviewCount": {
+          "industry.category.charliewalsh": 1,
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/2249f42c-5152-4449-a5e2-4ce317ff2f26/covers/bqxRFZ6oXAmxa3Mo.fJo3Jyu2wpdQy3zM.error%20%281%29.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/2249f42c-5152-4449-a5e2-4ce317ff2f26/covers/BodMPmZeL26ZDeQn.TBpvEba5qEreWX7m.%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%91%E1%85%A7%E1%86%BC%E1%84%8E%E1%85%A5%E1%86%BC%E1%84%82%E1%85%A7%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%8C%E1%85%A6_%E1%84%89%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A6.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/2249f42c-5152-4449-a5e2-4ce317ff2f26/covers/order_sub_3076782_1_220621225951.jpeg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/2249f42c-5152-4449-a5e2-4ce317ff2f26/covers/dwGn4WaseDyhRhdk.handy-wicaksono-grFOVo_kEEQ-unsplash.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/2249f42c-5152-4449-a5e2-4ce317ff2f26/covers/pFT8p7LnXR4uGfVG.Sign-on-Brick-Building-Mockup.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "121c7c77-5736-48ad-9350-e570055c7b9b",
+      "createdAt": "2017-09-28T02:47:26Z",
+      "updatedAt": "2023-12-18T14:59:42.359Z",
+      "nick": "fave",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "ja1031",
+      "avatar": {
+        "id": 41105,
+        "createdAt": "2023-06-19T08:09:33.48Z",
+        "uid": "121c7c77-5736-48ad-9350-e570055c7b9b",
+        "type": "Avatar",
+        "originFilename": "fave studio.jpg",
+        "filename": "K9mgHzReipgAWevs.fave studio.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/121c7c77-5736-48ad-9350-e570055c7b9b/avatar/K9mgHzReipgAWevs.fave%20studio.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/121c7c77-5736-48ad-9350-e570055c7b9b/avatar/K9mgHzReipgAWevs.fave%20studio.jpg.small",
+        "size": 109058,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 1000,
+        "height": 1000
+      },
+      "allowInquire": "Y",
+      "label": ["로고/브랜딩", "일러스트/그래픽"],
+      "userProfile": {
+        "uid": "121c7c77-5736-48ad-9350-e570055c7b9b",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0900", "1900"]
+      },
+      "userInfo": {
+        "uid": "121c7c77-5736-48ad-9350-e570055c7b9b",
+        "followingCount": 1,
+        "followerCount": 141,
+        "portfolioViewCount": 31816,
+        "portfolioLikeCount": 651,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 9,
+        "connectBuyCount": 0,
+        "connectSellCount": 12,
+        "connectPriceTotal": 4620000,
+        "responseAvgTime": 7,
+        "responseMsgCount": 244,
+        "response24hCount": 46,
+        "response30dCount": 24,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 19,
+        "totalPrice": 7720000
+      },
+      "userLoudInfo": {
+        "uid": "121c7c77-5736-48ad-9350-e570055c7b9b",
+        "contestOpenCount": 0,
+        "contestJoinCount": 105,
+        "contestWinCount": 9,
+        "contestFinalCount": 3,
+        "contestPriceTotal": 4100000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 6,
+        "representStyleKey": "portfolio.style.shelleyschamberger",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "Y",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 14
+        },
+        "industryReviewCount": {
+          "industry.category.charliewalsh": 1,
+          "industry.category.leonmuller": 1,
+          "industry.category.randyrolfson": 4
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/121c7c77-5736-48ad-9350-e570055c7b9b/covers/order_sub_3057044_1_220607151303.jpeg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/121c7c77-5736-48ad-9350-e570055c7b9b/covers/order_sub_2976726_1_220222135632.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/121c7c77-5736-48ad-9350-e570055c7b9b/covers/order_sub_2951067_1_220121111316.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/121c7c77-5736-48ad-9350-e570055c7b9b/covers/portfolio_73330_1_220104165348.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/121c7c77-5736-48ad-9350-e570055c7b9b/covers/order_sub_2923355_1_211220000124.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "db048607-9306-4a6d-977d-b3803af5be4c",
+      "createdAt": "2020-08-22T20:36:48Z",
+      "updatedAt": "2023-03-14T11:59:08.526Z",
+      "nick": "묘안",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "myoan",
+      "avatar": {
+        "id": 38158,
+        "createdAt": "2023-03-14T11:55:48.595Z",
+        "uid": "db048607-9306-4a6d-977d-b3803af5be4c",
+        "type": "Avatar",
+        "originFilename": "_channels_profile.png",
+        "filename": "tHbQjTng5qdxBqSP._channels_profile.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/db048607-9306-4a6d-977d-b3803af5be4c/avatar/tHbQjTng5qdxBqSP._channels_profile.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/db048607-9306-4a6d-977d-b3803af5be4c/avatar/tHbQjTng5qdxBqSP._channels_profile.png.small",
+        "size": 46367,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 176,
+        "height": 176
+      },
+      "allowInquire": "Y",
+      "introduction": "안녕하세요 MYOAN 입니다 -",
+      "label": ["로고/브랜딩", "아이디어"],
+      "userProfile": {
+        "uid": "db048607-9306-4a6d-977d-b3803af5be4c",
+        "description": "　",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0600", "2000"]
+      },
+      "userInfo": {
+        "uid": "db048607-9306-4a6d-977d-b3803af5be4c",
+        "followingCount": 26,
+        "followerCount": 28,
+        "portfolioViewCount": 16744,
+        "portfolioLikeCount": 130,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 20,
+        "connectBuyCount": 0,
+        "connectSellCount": 0,
+        "connectPriceTotal": 0,
+        "responseAvgTime": 2,
+        "responseMsgCount": 87,
+        "response24hCount": 5,
+        "response30dCount": 5,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 13,
+        "totalPrice": 6900000
+      },
+      "userLoudInfo": {
+        "uid": "db048607-9306-4a6d-977d-b3803af5be4c",
+        "contestOpenCount": 0,
+        "contestJoinCount": 210,
+        "contestWinCount": 20,
+        "contestFinalCount": 1,
+        "contestPriceTotal": 9300000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 6,
+        "representStyleKey": "portfolio.style.coryhenderson",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 4,
+          "user.category.vickijohnsdvm": 22
+        },
+        "industryReviewCount": {
+          "industry.category.allenokuneva": 1,
+          "industry.category.almabreitenberg": 2,
+          "industry.category.charliewalsh": 1,
+          "industry.category.leonmuller": 1,
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/db048607-9306-4a6d-977d-b3803af5be4c/covers/ikSwcrz8TwWYP9Ug..png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/db048607-9306-4a6d-977d-b3803af5be4c/covers/H2wNqmTFnB9GVtoE..png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/db048607-9306-4a6d-977d-b3803af5be4c/covers/B3FLGesCDoiPaVsi..png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/db048607-9306-4a6d-977d-b3803af5be4c/covers/dvxSQkzPAvAW3PpD.order_sub_3135260_1_220828132020.jpeg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/db048607-9306-4a6d-977d-b3803af5be4c/covers/order_sub_3039698_1_220508222347.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "d1de6c05-f15a-47f3-ab13-b5a1ed283aa3",
+      "createdAt": "2020-02-23T14:44:12Z",
+      "updatedAt": "2022-05-09T13:23:44.486Z",
+      "nick": "dsn",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "oror",
+      "avatar": {
+        "id": 23213,
+        "createdAt": "2022-05-09T14:29:03.4Z",
+        "uid": "d1de6c05-f15a-47f3-ab13-b5a1ed283aa3",
+        "type": "Avatar",
+        "originFilename": "member_141447_1_220123214753.jpg",
+        "filename": "member_141447_1_220123214753.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/d1de6c05-f15a-47f3-ab13-b5a1ed283aa3/avatar/member_141447_1_220123214753.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/d1de6c05-f15a-47f3-ab13-b5a1ed283aa3/avatar/member_141447_1_220123214753.jpg.small",
+        "size": 1878,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 132,
+        "height": 132
+      },
+      "allowInquire": "Y",
+      "userProfile": {
+        "uid": "d1de6c05-f15a-47f3-ab13-b5a1ed283aa3",
+        "lastLogin": "0001-01-01T00:00:00Z"
+      },
+      "userInfo": {
+        "uid": "d1de6c05-f15a-47f3-ab13-b5a1ed283aa3",
+        "followingCount": 0,
+        "followerCount": 11,
+        "portfolioViewCount": 15747,
+        "portfolioLikeCount": 86,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 22,
+        "connectBuyCount": 0,
+        "connectSellCount": 1,
+        "connectPriceTotal": 100000,
+        "responseAvgTime": 12,
+        "responseMsgCount": 162,
+        "response24hCount": 27,
+        "response30dCount": 0,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 14,
+        "totalPrice": 6350000
+      },
+      "userLoudInfo": {
+        "uid": "d1de6c05-f15a-47f3-ab13-b5a1ed283aa3",
+        "contestOpenCount": 0,
+        "contestJoinCount": 1195,
+        "contestWinCount": 22,
+        "contestFinalCount": 16,
+        "contestPriceTotal": 9850000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 3,
+        "representStyleKey": "portfolio.style.rebeccahomenick",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 47
+        },
+        "industryReviewCount": {
+          "industry.category.allenokuneva": 1,
+          "industry.category.almabreitenberg": 1,
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/d1de6c05-f15a-47f3-ab13-b5a1ed283aa3/covers/afxLUn3db35NpXTL.small.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/d1de6c05-f15a-47f3-ab13-b5a1ed283aa3/covers/DnkLSemG2MifUrGm.small.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/d1de6c05-f15a-47f3-ab13-b5a1ed283aa3/covers/B6BzbNTwPcZa3Bhi.small.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/d1de6c05-f15a-47f3-ab13-b5a1ed283aa3/covers/HQBpquCsRMyHa2xS.order_sub_3196892_1_221108235832.jpeg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/d1de6c05-f15a-47f3-ab13-b5a1ed283aa3/covers/hUGc5UbSqJ5tYqNZ.order_sub_3156632_1_220922235655.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "ff17b024-fc0d-435b-8b9e-e79d1571d3bf",
+      "createdAt": "2017-10-26T06:18:46Z",
+      "updatedAt": "2023-08-12T02:39:50.643Z",
+      "nick": "NURIM STUDIO",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "nurim",
+      "avatar": {
+        "id": 37996,
+        "createdAt": "2023-03-09T08:34:06.277Z",
+        "uid": "ff17b024-fc0d-435b-8b9e-e79d1571d3bf",
+        "type": "Avatar",
+        "originFilename": "4.png",
+        "filename": "gcmxRAmDBpWsFJAJ.4.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/ff17b024-fc0d-435b-8b9e-e79d1571d3bf/avatar/gcmxRAmDBpWsFJAJ.4.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/ff17b024-fc0d-435b-8b9e-e79d1571d3bf/avatar/gcmxRAmDBpWsFJAJ.4.png.small",
+        "size": 6701,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 591,
+        "height": 591
+      },
+      "allowInquire": "Y",
+      "introduction": "다채로운 디자인 브랜드 누림스튜디오",
+      "label": ["로고/브랜딩", "인쇄/홍보물"],
+      "userProfile": {
+        "uid": "ff17b024-fc0d-435b-8b9e-e79d1571d3bf",
+        "description": "고객님과의 소통을 중요하게 생각하는 디자인 브랜드 '누림스튜디오'입니다.\n고객님과 함께 충분한 대화를 통해 함께 고민해가며 최상의\n가치있는 디자인으로 최고의 디자인을 선사해 드리겠습니다.",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["1000", "0600"]
+      },
+      "userInfo": {
+        "uid": "ff17b024-fc0d-435b-8b9e-e79d1571d3bf",
+        "followingCount": 16,
+        "followerCount": 24,
+        "portfolioViewCount": 26974,
+        "portfolioLikeCount": 144,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 31,
+        "connectBuyCount": 0,
+        "connectSellCount": 0,
+        "connectPriceTotal": 0,
+        "responseAvgTime": 10,
+        "responseMsgCount": 275,
+        "response24hCount": 53,
+        "response30dCount": 22,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 19,
+        "totalPrice": 5880000
+      },
+      "userLoudInfo": {
+        "uid": "ff17b024-fc0d-435b-8b9e-e79d1571d3bf",
+        "contestOpenCount": 0,
+        "contestJoinCount": 652,
+        "contestWinCount": 34,
+        "contestFinalCount": 5,
+        "contestPriceTotal": 12650000,
+        "marketBuyCount": 0,
+        "marketSellCount": 10,
+        "marketPriceTotal": 2230000,
+        "totalReviewRate": 5,
+        "totalReviewCount": 13,
+        "representStyleKey": "portfolio.style.rebeccahomenick",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 4,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 56
+        },
+        "industryReviewCount": {
+          "industry.category.almajacobi": 2,
+          "industry.category.randyrolfson": 2
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ff17b024-fc0d-435b-8b9e-e79d1571d3bf/covers/PW63E68RMEHWBBYP.gif.webp"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ff17b024-fc0d-435b-8b9e-e79d1571d3bf/covers/hJnq65oxQ6TMDbci.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ff17b024-fc0d-435b-8b9e-e79d1571d3bf/covers/2kLzVqeht4uzaRnk.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ff17b024-fc0d-435b-8b9e-e79d1571d3bf/covers/ArZVBa72zHDYno8w.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ff17b024-fc0d-435b-8b9e-e79d1571d3bf/covers/VzTEeeHpm857XwAp.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "ffe3f04a-ec4b-440b-881e-7803c4c3eab2",
+      "createdAt": "2018-01-27T13:02:50Z",
+      "updatedAt": "2022-11-09T06:07:52.404Z",
+      "nick": "bluema",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "bluema",
+      "avatar": {
+        "id": 17884,
+        "createdAt": "2022-05-09T14:14:39.666Z",
+        "uid": "ffe3f04a-ec4b-440b-881e-7803c4c3eab2",
+        "type": "Avatar",
+        "originFilename": "member_81064_1_220125025956.png",
+        "filename": "member_81064_1_220125025956.png",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/ffe3f04a-ec4b-440b-881e-7803c4c3eab2/avatar/member_81064_1_220125025956.png",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/ffe3f04a-ec4b-440b-881e-7803c4c3eab2/avatar/member_81064_1_220125025956.png.small",
+        "size": 28980,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 200,
+        "height": 200
+      },
+      "allowInquire": "Y",
+      "introduction": "bluema",
+      "label": ["로고/브랜딩"],
+      "userProfile": {
+        "uid": "ffe3f04a-ec4b-440b-881e-7803c4c3eab2",
+        "description": "보여주고 싶은 디자인 제작해드립니다",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0900", "2300"]
+      },
+      "userInfo": {
+        "uid": "ffe3f04a-ec4b-440b-881e-7803c4c3eab2",
+        "followingCount": 0,
+        "followerCount": 18,
+        "portfolioViewCount": 14900,
+        "portfolioLikeCount": 232,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 16,
+        "connectBuyCount": 0,
+        "connectSellCount": 1,
+        "connectPriceTotal": 115000,
+        "responseAvgTime": 12,
+        "responseMsgCount": 122,
+        "response24hCount": 18,
+        "response30dCount": 3,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 13,
+        "totalPrice": 5765000
+      },
+      "userLoudInfo": {
+        "uid": "ffe3f04a-ec4b-440b-881e-7803c4c3eab2",
+        "contestOpenCount": 0,
+        "contestJoinCount": 818,
+        "contestWinCount": 19,
+        "contestFinalCount": 12,
+        "contestPriceTotal": 8950000,
+        "marketBuyCount": 0,
+        "marketSellCount": 3,
+        "marketPriceTotal": 1300000,
+        "totalReviewRate": 4.9565,
+        "totalReviewCount": 9,
+        "representStyleKey": "portfolio.style.coryhenderson",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 2,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 41
+        },
+        "industryReviewCount": {
+          "industry.category.leonmuller": 4,
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ffe3f04a-ec4b-440b-881e-7803c4c3eab2/covers/mxkQzQqGMf8zj28G.%EC%8D%B8%EB%84%A4%EC%9D%BC.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ffe3f04a-ec4b-440b-881e-7803c4c3eab2/covers/cSaMJfLUBNGBVtos.%EC%8D%B8%EB%84%A4%EC%9D%BC.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ffe3f04a-ec4b-440b-881e-7803c4c3eab2/covers/AxnuNDpGxM4tAFp5.%EC%8D%B8%EB%84%A4%EC%9D%BC.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ffe3f04a-ec4b-440b-881e-7803c4c3eab2/covers/LuwsnU7gQUE7TMGi.order_sub_3134753_1_220826192056.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/ffe3f04a-ec4b-440b-881e-7803c4c3eab2/covers/order_sub_3041417_1_220510203440.png"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "e8b1a853-cad1-45d3-a56a-6fdc32fafb8d",
+      "createdAt": "2019-04-12T00:26:54Z",
+      "updatedAt": "2023-07-26T04:28:51.318Z",
+      "nick": "연잎",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "wwd1157",
+      "avatar": {
+        "id": 42455,
+        "createdAt": "2023-07-26T08:06:49.96Z",
+        "uid": "e8b1a853-cad1-45d3-a56a-6fdc32fafb8d",
+        "type": "Avatar",
+        "originFilename": "IMG_0742.jpeg",
+        "filename": "5fo856XBoD6AGdXA.IMG_0742.jpeg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/e8b1a853-cad1-45d3-a56a-6fdc32fafb8d/avatar/5fo856XBoD6AGdXA.IMG_0742.jpeg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/e8b1a853-cad1-45d3-a56a-6fdc32fafb8d/avatar/5fo856XBoD6AGdXA.IMG_0742.jpeg.small",
+        "size": 212339,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 749,
+        "height": 850
+      },
+      "allowInquire": "Y",
+      "introduction": "안녕하세요, 디자이너 연잎 입니다.",
+      "label": ["로고/브랜딩", "패키지"],
+      "userProfile": {
+        "uid": "e8b1a853-cad1-45d3-a56a-6fdc32fafb8d",
+        "description": "디자인을 통해 일회성이 아닌 지속적인 흥미를 전달하고자 합니다.\n\n전체적으로 일관성 있고 신뢰감이 느껴지는 브랜드를 만들어 나갈 수 있도록 고민하여 \n최선의 방향으로 디자인을 제작해드립니다 :)",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0000", "1100"]
+      },
+      "userInfo": {
+        "uid": "e8b1a853-cad1-45d3-a56a-6fdc32fafb8d",
+        "followingCount": 0,
+        "followerCount": 19,
+        "portfolioViewCount": 4916,
+        "portfolioLikeCount": 99,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 6,
+        "connectBuyCount": 0,
+        "connectSellCount": 2,
+        "connectPriceTotal": 2300000,
+        "responseAvgTime": 9,
+        "responseMsgCount": 51,
+        "response24hCount": 51,
+        "response30dCount": 48,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 5,
+        "totalPrice": 5400000
+      },
+      "userLoudInfo": {
+        "uid": "e8b1a853-cad1-45d3-a56a-6fdc32fafb8d",
+        "contestOpenCount": 0,
+        "contestJoinCount": 13,
+        "contestWinCount": 3,
+        "contestFinalCount": 0,
+        "contestPriceTotal": 3100000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 1,
+        "representStyleKey": "portfolio.style.coryhenderson",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "None",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 3
+        },
+        "industryReviewCount": {
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e8b1a853-cad1-45d3-a56a-6fdc32fafb8d/covers/ynSMrGx8AVtqyGiL.%EB%A7%89%EC%A7%80-%EC%8D%B8%EB%84%A4%EC%9D%BC.webp"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e8b1a853-cad1-45d3-a56a-6fdc32fafb8d/covers/Fzhcji4KtMG4EbBX.DG%EC%8D%B8%EB%84%A4%EC%9D%BC-2.webp"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e8b1a853-cad1-45d3-a56a-6fdc32fafb8d/covers/aaFYjY98Sq4PPaAG.%EC%8D%B8%EB%84%A4%EC%9D%BC%202.png"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e8b1a853-cad1-45d3-a56a-6fdc32fafb8d/covers/5n8hjmZXgTyxZWBP.%EB%A1%9C%EA%B3%A01.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e8b1a853-cad1-45d3-a56a-6fdc32fafb8d/covers/L6hGQLLWtBYGgsrx.%EB%B2%A0%ED%81%AC%EB%8B%88%20%EC%8D%B8%EB%84%A4%EC%9D%BC2.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "6c25e3ab-93ac-42db-84c4-8b484d504146",
+      "createdAt": "2014-01-13T03:30:20Z",
+      "updatedAt": "2022-12-06T01:06:44.852Z",
+      "nick": "NotAnotherSociety",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "aliencool",
+      "avatar": {
+        "id": 35009,
+        "createdAt": "2022-12-06T01:07:09.857Z",
+        "uid": "6c25e3ab-93ac-42db-84c4-8b484d504146",
+        "type": "Avatar",
+        "originFilename": "logo.JPG",
+        "filename": "tjW6XuhjBbkXXYsp.logo.JPG",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/6c25e3ab-93ac-42db-84c4-8b484d504146/avatar/tjW6XuhjBbkXXYsp.logo.JPG",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/6c25e3ab-93ac-42db-84c4-8b484d504146/avatar/tjW6XuhjBbkXXYsp.logo.JPG.small",
+        "size": 38795,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 165,
+        "height": 165
+      },
+      "allowInquire": "Y",
+      "userProfile": {
+        "uid": "6c25e3ab-93ac-42db-84c4-8b484d504146",
+        "description": "WE MUST TRAVEL IN THE DIRECTION OF OUR FEAR",
+        "lastLogin": "0001-01-01T00:00:00Z"
+      },
+      "userInfo": {
+        "uid": "6c25e3ab-93ac-42db-84c4-8b484d504146",
+        "followingCount": 0,
+        "followerCount": 37,
+        "portfolioViewCount": 15855,
+        "portfolioLikeCount": 337,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 14,
+        "connectBuyCount": 0,
+        "connectSellCount": 2,
+        "connectPriceTotal": 600000,
+        "responseAvgTime": 9,
+        "responseMsgCount": 174,
+        "response24hCount": 31,
+        "response30dCount": 9,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 11,
+        "totalPrice": 5150000
+      },
+      "userLoudInfo": {
+        "uid": "6c25e3ab-93ac-42db-84c4-8b484d504146",
+        "contestOpenCount": 0,
+        "contestJoinCount": 300,
+        "contestWinCount": 14,
+        "contestFinalCount": 5,
+        "contestPriceTotal": 10450000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 5,
+        "totalReviewCount": 3,
+        "representStyleKey": "portfolio.style.jorgekris",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 2,
+        "allowOffline": "N",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 27,
+          "user.category.vickijohnsdvm": 2
+        },
+        "industryReviewCount": {
+          "industry.category.leonmuller": 1,
+          "industry.category.randyrolfson": 2
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/6c25e3ab-93ac-42db-84c4-8b484d504146/covers/zQqsEksQWCrFWSdS.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/6c25e3ab-93ac-42db-84c4-8b484d504146/covers/yzp3HFf9aqUKmijm.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/6c25e3ab-93ac-42db-84c4-8b484d504146/covers/PhQ9yviYrP9zyKkU.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/6c25e3ab-93ac-42db-84c4-8b484d504146/covers/rgBd8JmETix9WuS7.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/6c25e3ab-93ac-42db-84c4-8b484d504146/covers/4iFfWeoanAdRRT2a.order_sub_3184694_1_221026160749.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "29ee92e4-a29b-484c-8534-05c06e10d4b4",
+      "createdAt": "2015-12-13T08:53:24Z",
+      "updatedAt": "2023-08-23T08:25:12.446Z",
+      "nick": "란마",
+      "userRole": "Designer",
+      "userStatus": "Active",
+      "url": "ranma911",
+      "avatar": {
+        "id": 12071,
+        "createdAt": "2022-05-09T13:37:09.496Z",
+        "uid": "29ee92e4-a29b-484c-8534-05c06e10d4b4",
+        "type": "Avatar",
+        "originFilename": "member_44493_1_190501175759.jpg",
+        "filename": "member_44493_1_190501175759.jpg",
+        "url": "https://cdn-dantats.stunning.kr/prod/users/29ee92e4-a29b-484c-8534-05c06e10d4b4/avatar/member_44493_1_190501175759.jpg",
+        "smallUrl": "https://cdn-dantats.stunning.kr/prod/users/29ee92e4-a29b-484c-8534-05c06e10d4b4/avatar/member_44493_1_190501175759.jpg.small",
+        "size": 41382,
+        "nextOffset": 0,
+        "state": "Completed",
+        "mimeType": "",
+        "width": 200,
+        "height": 159
+      },
+      "allowInquire": "Y",
+      "introduction": "즐길 줄 아는 디자이너 란마입니다",
+      "label": ["로고/브랜딩", "웹/모바일"],
+      "userProfile": {
+        "uid": "29ee92e4-a29b-484c-8534-05c06e10d4b4",
+        "description": "안녕하세요.\n경력 11년차 디자이너 란마입니다.\n이미지 및 서체의 라이선스를 모두 보유하였습니다.\n감사합니다.",
+        "lastLogin": "0001-01-01T00:00:00Z",
+        "workTime": ["0600", "2300"]
+      },
+      "userInfo": {
+        "uid": "29ee92e4-a29b-484c-8534-05c06e10d4b4",
+        "followingCount": 0,
+        "followerCount": 9,
+        "portfolioViewCount": 8209,
+        "portfolioLikeCount": 50,
+        "portfolioCollectCount": 0,
+        "portfolioPublicCount": 11,
+        "connectBuyCount": 0,
+        "connectSellCount": 2,
+        "connectPriceTotal": 850000,
+        "responseAvgTime": 5,
+        "responseMsgCount": 284,
+        "response24hCount": 98,
+        "response30dCount": 82,
+        "couponCount": 0,
+        "unuseCouponCount": 0,
+        "totalDealTaskCount": 11,
+        "totalPrice": 5085000
+      },
+      "userLoudInfo": {
+        "uid": "29ee92e4-a29b-484c-8534-05c06e10d4b4",
+        "contestOpenCount": 0,
+        "contestJoinCount": 146,
+        "contestWinCount": 10,
+        "contestFinalCount": 2,
+        "contestPriceTotal": 4950000,
+        "marketBuyCount": 0,
+        "marketSellCount": 0,
+        "marketPriceTotal": 0,
+        "totalReviewRate": 4.75,
+        "totalReviewCount": 4,
+        "representStyleKey": "portfolio.style.coryhenderson",
+        "representIndustryID": 148,
+        "representIndustryReviewCount": 1,
+        "allowOffline": "Y",
+        "categoryCount": {
+          "user.category.mrskerrymcglynn": 10,
+          "user.category.sonjawehneri": 2,
+          "user.category.stelladamore": 4
+        },
+        "industryReviewCount": {
+          "industry.category.almabreitenberg": 1,
+          "industry.category.almajacobi": 1,
+          "industry.category.leonmuller": 1,
+          "industry.category.randyrolfson": 1
+        },
+        "matchRecommendScore": 100,
+        "representIndustry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "portfolios": [
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/29ee92e4-a29b-484c-8534-05c06e10d4b4/covers/Vcq5mfrTJvwTpmqe.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/29ee92e4-a29b-484c-8534-05c06e10d4b4/covers/xMiezoRtGpTM7HTQ.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/29ee92e4-a29b-484c-8534-05c06e10d4b4/covers/hEqJBeL8odzga3KT.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/29ee92e4-a29b-484c-8534-05c06e10d4b4/covers/6KJAa4dtZhTYTDbs.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        },
+        {
+          "cover": {
+            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/29ee92e4-a29b-484c-8534-05c06e10d4b4/covers/CJb2ev4BMCvtEoSi.%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          }
+        }
+      ]
+    }
+  ],
+  "cursor": "W3sidGFibGUiOiJ1c2VyX2luZm9zIiwiY29sdW1uIjoidG90YWxfcHJpY2UiLCJ2YWx1ZSI6IjQ5MDAwMDAiLCJoYXZpbmciOmZhbHNlLCJzb3J0IjoiZGVzYyJ9LHsidGFibGUiOiJ1c2VycyIsImNvbHVtbiI6InVpZCIsInZhbHVlIjoiNDE0OTE3MTYtNzA0MS00YmJhLWE0NTQtMjg4NzNmYThiYmE1IiwiaGF2aW5nIjpmYWxzZSwic29ydCI6ImRlc2MifV0=",
+  "seoItem": null
+}

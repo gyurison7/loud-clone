@@ -1,7 +1,5 @@
 // sc-main-banner
 const mainBanner = new Swiper(".main-container", {
-  wrapperClass: "main-wrapper",
-  slideClass: "main-slide",
   slidesPerView: 1,
   loop: true,
   navigation: {
@@ -16,15 +14,11 @@ const mainBanner = new Swiper(".main-container", {
 
 // sc-loud-contest
 const contestBanner = new Swiper(".contest-container", {
-  wrapperClass: "contest-wrapper",
-  slideClass: "contest-slide",
   slidesPerView: 4,
-  loop: true,
   navigation: {
     prevEl: ".btn-prev-contest",
     nextEl: ".btn-next-contest",
   },
-  autoplay: false,
 });
 
 function loudContestData() {
@@ -164,49 +158,49 @@ function trendData() {
 trendData();
 
 const trendBanner = new Swiper(".trend-container", {
-  wrapperClass: "trend-wrapper",
-  slideClass: "trend-slide",
   slidesPerView: 5,
-  loop: true,
   navigation: {
     prevEl: ".btn-prev-trend",
     nextEl: ".btn-next-trend",
   },
-  autoplay: false,
 });
 
 // sc-sourcing
 const sourcingBanner = new Swiper(".sourcing-container", {
-  wrapperClass: "sourcing-wrapper",
-  slideClass: "sourcing-slide",
   slidesPerView: 4,
-  loop: true,
   navigation: {
     prevEl: ".btn-prev-sourcing",
     nextEl: ".btn-next-sourcing",
   },
-  autoplay: false,
+});
+
+$(".sc-sourcing .tab-list li").click(function () {
+  const className = $(this).attr("class");
+  const element = $(this).closest(".header").find("strong");
+  const text = $(this).text();
+  element.text(text);
+  $(this).addClass("active").siblings().removeClass("active");
+  $(`.sourcing-container.${className}`).show().siblings(".sourcing-container").hide();
 });
 
 // sc-count
 const counter = { counter: 0 };
-function countUp(element, number, unit) {
+function countUp(selector, value, unit) {
+  const element = document.querySelector(selector);
+  const isInteger = Number.isInteger(value);
   gsap.to(counter, {
-    counter: number,
+    counter: value,
     duration: 2,
     scrollTrigger: {
       trigger: ".sc-count",
       start: "0% 100%",
       end: "100% 0%",
-      toggleActions: "play none none reverse",
       // markers: true,
     },
     onUpdate: () => {
-      if (counter.counter < number) {
-        document.querySelector(element).innerHTML = Math.round(counter.counter) + unit;
-      } else {
-        document.querySelector(element).innerHTML = counter.counter + unit;
-      }
+      element.innerHTML = isInteger
+        ? counter.counter.toFixed() + unit
+        : counter.counter.toFixed(1) + unit;
     },
   });
 }
@@ -216,13 +210,32 @@ countUp(".count-satisfaction", 98.7, "%");
 countUp(".count-domestic", 80, "%");
 
 // sc-designer
-function designerData() {
-  fetch("assets/json/designerData.json")
+$(".sc-designer .tab-list li").click(function () {
+  const tabIndex = $(this).index();
+  const element = $(this).closest(".header").find("strong");
+  const text = $(this).text();
+
+  designerData(tabIndex, text);
+  element.text(text);
+  $(this).addClass("active").siblings().removeClass("active");
+});
+
+function designerData(tabIndex = 0, text) {
+  const jsonFiles = [
+    "assets/json/designerData1.json",
+    "assets/json/designerData2.json",
+    "assets/json/designerData3.json",
+    "assets/json/designerData4.json",
+  ];
+  const jsonData = jsonFiles[tabIndex];
+
+  fetch(jsonData)
     .then((res) => res.json())
     .then((json) => {
-      data = json.resultData;
+      const data = json.resultData;
 
       let html = ``;
+
       data.forEach((element) => {
         const formattedPrize = formatPrize(element.userInfo.totalPrice);
         const label1 = element.label ? element.label[0] : "";
@@ -233,27 +246,30 @@ function designerData() {
             <a href="">
               <div class="card-item">
                 <div class="top-img-wrapper">
-                  <div class="img-wrapper"><img src="${
-                    element.portfolios[0].cover.url
-                  }" alt="" /></div>
-                  <div class="img-wrapper"><img src="${
-                    element.portfolios[1].cover.url
-                  }" alt="" /></div>
-                  <div class="img-wrapper"><img src="${
-                    element.portfolios[2].cover.url
-                  }" alt="" /></div>
+                  <div class="img-wrapper">
+                    <img src="${element.portfolios[0].cover.url}" alt="" />
+                  </div>
+                  <div class="img-wrapper">
+                    <img src="${element.portfolios[1].cover.url}" alt="" />
+                  </div>
+                  <div class="img-wrapper">
+                    <img src="${element.portfolios[2].cover.url}" alt="" />
+                  </div>
                 </div>
-                <div class="profile-img-wrapper"><img src="${
-                  element.avatar ? element.avatar.url : "./assets/imgs/profile-1.webp"
-                }" alt="${element.nick}의 프로필" class="profile-img" /></div>
+                <div class="profile-img-wrapper">
+                  <img src="${element.avatar ? element.avatar.url : "./assets/imgs/profile-1.webp"}"
+                    alt="${element.nick}의 프로필" class="profile-img" />
+                </div>
                 <div class="content-wrapper">
                   <div class="card-header">
                     <span class="id">${element.nick}</span>
                     <span class="follow">팔로우</span>
                   </div>
-                  <p class="introduction">${
-                    element.introduction ? element.introduction : "정보 없음"
-                  }</p>
+                  ${
+                    element.introduction
+                      ? `<p class="introduction">${element.introduction}</p>`
+                      : `<p class="introduction empty">정보 없음</p>`
+                  }
                   <div class="label-wrapper">
                     ${label1 ? `<span class="label">${label1}</span>` : ""}
                     ${label2 ? `<span class="label">${label2}</span>` : ""}
@@ -290,7 +306,7 @@ function designerData() {
             </a>
             <div class="recommend"><span class="category">${
               element.userLoudInfo.representIndustryReviewCount
-            }개의 식당/카페</span> 업종에서 추천했습니다.
+            }개의 ${text || "식당/카페"}</span>&nbsp;업종에서 추천했습니다.
               <svg class="sc-gKXOVf gnuELh icon" type="questionMark16" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.182 7.891C10.059 8.067 9.822 8.291 9.471 8.565L9.125 8.833C8.937 8.98 8.812 9.151 8.75 9.346C8.711 9.47 8.69 9.662 8.687 9.922H7.364C7.383 9.372 7.435 8.993 7.52 8.783C7.604 8.573 7.822 8.33 8.171 8.057L8.527 7.779C8.644 7.691 8.738 7.595 8.81 7.491C8.94 7.312 9.004 7.115 9.004 6.9C9.004 6.653 8.932 6.427 8.787 6.224C8.643 6.02 8.379 5.918 7.995 5.918C7.619 5.918 7.352 6.044 7.195 6.294C7.037 6.545 6.958 6.806 6.958 7.076H5.547C5.586 6.148 5.911 5.491 6.519 5.103C6.903 4.856 7.375 4.732 7.935 4.732C8.67 4.732 9.282 4.908 9.769 5.259C10.255 5.611 10.498 6.132 10.498 6.822C10.498 7.245 10.393 7.602 10.182 7.891ZM7.329 12.002H8.789V10.591H7.329V12.002ZM8 0C3.582 0 0 3.582 0 8C0 12.418 3.582 16 8 16C12.419 16 16 12.418 16 8C16 3.582 12.419 0 8 0Z"></path><defs></defs></svg>
               <div class="tooltip">
                 <p>디자이너에게 작성된 후기를 기준으로<br>만족도가 높았던 기업을 알려드려요.</p>
@@ -303,7 +319,6 @@ function designerData() {
       const designerList = document.querySelector(".designer-list");
       designerList.innerHTML = html;
       designerList.innerHTML += html;
-      designerList.style.width = "200%";
     });
 }
 designerData();
@@ -350,7 +365,7 @@ function reviewData() {
                 <p>${element.comment}</p>
               </div>
               <div class="card-bottom">
-                <span class="label-contest">콘테스트</span>
+                <span class="badge">콘테스트</span>
                 <span class="product">${element.product}</span>
                 <span class="product-type">구매등급 : ${element.target.contest.product.name}</span>
               </div>
@@ -362,7 +377,6 @@ function reviewData() {
       const reviewList = document.querySelector(".review-list");
       reviewList.innerHTML = html;
       reviewList.innerHTML += html;
-      reviewList.style.width = "200%";
     });
 }
 reviewData();
@@ -393,7 +407,6 @@ function topPortfolioData() {
       const portfolioList = document.querySelector(".top-portfolio-list");
       portfolioList.innerHTML = html;
       portfolioList.innerHTML += html;
-      portfolioList.style.width = "200%";
     });
 }
 topPortfolioData();
@@ -423,7 +436,6 @@ function bottomPortfolioData() {
       const portfolioList = document.querySelector(".bottom-portfolio-list");
       portfolioList.innerHTML = html;
       portfolioList.innerHTML += html;
-      portfolioList.style.width = "200%";
     });
 }
 bottomPortfolioData();

@@ -356,21 +356,21 @@ footer .left-area .logo span a {
 footer .left-area .logo span b {
   font-weight: bold;
 }
-footer .left-area .company {
+footer .left-area address {
   display: flex;
   flex-direction: column;
   margin-top: auto;
 }
-footer .company .line {
+footer address .line {
   display: flex;
   font-size: 12px;
   letter-spacing: -0.25px;
   color: rgb(64, 74, 92);
 }
-footer .company .line:first-child {
+footer address .line:first-child {
   margin-bottom: 13px;
 }
-footer .company .line svg {
+footer address .line svg {
   user-select: none;
   display: inline-block;
   fill: #101c33;
@@ -378,7 +378,7 @@ footer .company .line svg {
   width: 92px;
   height: 12px;
 }
-footer .company .line .bar::after {
+footer address .line .bar::after {
   content: "";
   display: inline-block;
   width: 1px;
@@ -386,10 +386,10 @@ footer .company .line .bar::after {
   background: rgb(233, 235, 237);
   margin: 0px 7px;
 }
-footer .company .line span:not(.bar) {
+footer address .line span:not(.bar) {
   margin-right: 11px;
 }
-footer .company .line:last-child {
+footer address small.line {
   margin-top: 2px;
   color: rgb(142, 148, 160);
 }
@@ -417,19 +417,18 @@ footer .right-area .contact {
   font-size: 12px;
   line-height: 18px;
 }
-footer .contact .email,
-footer .contact .time {
+footer .contact dl {
   display: flex;
   flex-direction: column;
   width: 50%;
   max-width: 200px;
 }
-footer .contact .title {
+footer .contact dt {
   font-weight: 700;
   letter-spacing: -0.15px;
   margin-bottom: 8px;
 }
-footer .contact span:not(.title) {
+footer .contact dd {
   font-weight: 400;
   letter-spacing: -0.25px;
   color: rgb(64, 74, 92);

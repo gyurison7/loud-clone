@@ -217,7 +217,8 @@ svg {
   opacity: 0.8;
   transform: scale(1.1);
 }
-.sc-loud-contest .contest-slide .label-contest {
+/* 공통 */
+.label-contest {
   visibility: hidden;
   position: absolute;
   top: 10px;
@@ -280,7 +281,6 @@ svg {
 .slider-btn button {
   position: absolute;
   top: 33%;
-  color: rgb(170, 177, 188);
   color: rgb(64, 74, 92);
   width: 20px;
   height: 20px;
@@ -291,6 +291,9 @@ svg {
 }
 .slider-btn [class*="btn-next-"] {
   right: -36px;
+}
+.slider-btn button.swiper-button-disabled {
+  color: rgb(170, 177, 188);
 }
 
 /* 공통 */
@@ -770,18 +773,20 @@ svg {
   gap: 8px;
   margin-bottom: 24px;
 }
-.sc-sourcing .header .tab-list li {
-  padding: 7px 15px 8px;
+.sc-sourcing .tab-list li {
   color: rgb(111, 119, 133);
   border-radius: 80px;
   border: 1px solid rgb(219, 222, 226);
   background-color: rgb(255, 255, 255);
+}
+.sc-sourcing .tab-list li button {
+  padding: 7px 15px 8px;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.25px;
 }
-.sc-sourcing .header .tab-list li.active {
+.sc-sourcing .tab-list li.active {
   color: rgb(255, 255, 255);
   background-color: rgb(16, 28, 51);
   border-color: rgb(16, 28, 51);
@@ -797,16 +802,26 @@ svg {
   user-select: none;
   overflow: hidden;
 }
-.sc-sourcing .sourcing-slide {
+.sc-sourcing .sourcing-container.tab-3,
+.sc-sourcing .sourcing-container.tab-2 {
+  display: none;
+}
+.sc-sourcing .swiper-slide {
   width: 326px;
   padding: 0 12px;
 }
-.sc-sourcing .sourcing-slide .img-wrapper {
+.sc-sourcing .swiper-slide a {
+  position: relative;
+}
+.sc-sourcing .swiper-slide a:hover .label-contest {
+  visibility: visible;
+}
+.sc-sourcing .swiper-slide .img-wrapper {
   width: 100%;
   aspect-ratio: 3 / 2;
   overflow: hidden;
 }
-.sc-sourcing .sourcing-slide img {
+.sc-sourcing .swiper-slide img {
   width: 100%;
   height: 100%;
   border-radius: 4px;
@@ -815,11 +830,11 @@ svg {
   object-fit: cover;
   transition: transform 0.3s ease;
 }
-.sc-sourcing .sourcing-slide img:hover {
+.sc-sourcing .swiper-slide img:hover {
   transform: scale(1.1);
   opacity: 0.8;
 }
-.sc-sourcing .sourcing-slide .content-wrapper {
+.sc-sourcing .swiper-slide .content-wrapper {
   display: -webkit-box;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
@@ -827,7 +842,7 @@ svg {
   margin-top: 12px;
   margin-bottom: 4px;
 }
-.sc-sourcing .sourcing-slide .content-wrapper .title {
+.sc-sourcing .swiper-slide .content-wrapper .title {
   -webkit-line-clamp: 2;
   word-break: break-all;
   margin-bottom: 4px;
@@ -836,7 +851,7 @@ svg {
   line-height: 24px;
   letter-spacing: -0.5px;
 }
-.sc-sourcing .sourcing-slide .content-wrapper .tag-wrapper {
+.sc-sourcing .swiper-slide .content-wrapper .tag-wrapper {
   -webkit-line-clamp: 1;
   white-space: nowrap;
   word-break: keep-all;
@@ -1106,11 +1121,13 @@ svg {
   margin-top: 16px;
 }
 .sc-designer .header .tab-list li {
-  padding: 7px 15px 8px;
   color: rgb(111, 119, 133);
   border-radius: 80px;
   border: 1px solid rgb(219, 222, 226);
   background-color: rgb(255, 255, 255);
+}
+.sc-designer .header .tab-list button {
+  padding: 7px 15px 8px;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
@@ -1122,12 +1139,12 @@ svg {
   border-color: rgb(16, 28, 51);
 }
 .sc-designer .slider {
+  display: flex;
   overflow-x: hidden;
 }
 .sc-designer .designer-list {
   display: flex;
   align-items: center;
-  width: 100%;
   padding-top: 30px;
   animation: designerAnimation 200s linear infinite;
 }
@@ -1136,7 +1153,7 @@ svg {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-329.3%);
+    transform: translateX(-50%);
   }
 }
 .sc-designer .designer-list:hover {
@@ -1257,6 +1274,9 @@ svg {
   white-space: nowrap;
   overflow: hidden;
   word-break: break-all;
+}
+.sc-designer .content-wrapper .empty {
+  color: rgb(170, 177, 188);
 }
 .sc-designer .content-wrapper .label-wrapper {
   display: flex;
@@ -1467,13 +1487,12 @@ svg {
   text-align: center;
 }
 .sc-review .slider {
+  display: flex;
   overflow-x: hidden;
 }
 .sc-review .slider .review-list {
   display: flex;
   align-items: center;
-  width: 100%;
-  height: 100%;
   padding: 10px 0px;
   animation: reviewAnimation 200s linear infinite;
 }
@@ -1482,7 +1501,7 @@ svg {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-281%);
+    transform: translateX(-50%);
   }
 }
 .sc-review .slider .review-list:hover {
@@ -1605,7 +1624,7 @@ svg {
   display: flex;
   align-items: center;
 }
-.sc-review .review-list .label-contest {
+.sc-review .review-list .badge {
   background: rgb(225, 237, 255);
   color: rgb(38, 86, 246);
   border-radius: 4px;
@@ -1661,12 +1680,12 @@ svg {
   transition: all 0.1s ease;
 }
 .sc-portfolio .slider {
+  display: flex;
   overflow-x: hidden;
 }
 .sc-portfolio .top-portfolio-list {
   display: flex;
   align-items: center;
-  width: 100%;
   padding-top: 10px;
   margin-bottom: 44px;
   transition: opacity 0.5s ease;
@@ -1677,10 +1696,11 @@ svg {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-140%);
+    transform: translateX(-50%);
   }
 }
 .sc-portfolio li {
+  flex: 1;
   margin-right: 24px;
   transition: transform 0.3s 0.1s ease-in-out;
 }
@@ -1721,7 +1741,6 @@ svg {
 .sc-portfolio .bottom-portfolio-list {
   display: flex;
   align-items: center;
-  width: 100%;
   padding-top: 10px;
   margin-bottom: 44px;
   transition: opacity 0.5s ease;
@@ -1729,7 +1748,7 @@ svg {
 }
 @keyframes bottomAnimation {
   0% {
-    transform: translateX(-140%);
+    transform: translateX(-50%);
   }
   100% {
     transform: translateX(0);

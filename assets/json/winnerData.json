@@ -1,794 +1,758 @@
 {
-    "trID": "20240125170604564621",
-    "resultCode": "0200",
-    "resultMsg": "GetLatestWinContestList OK",
-    "resultData": [
-        {
-            "id": 120215,
-            "createdAt": "2023-12-19T01:56:18.15Z",
-            "updatedAt": "2024-01-25T02:32:19.362Z",
-            "deletedAt": 0,
-            "clientUID": "24dd5957-1624-40a1-90bc-76b3e958a5f6",
-            "label": "라벨 + 박스",
-            "title": "쌍화차 패키지 디자인 콘테스트",
-            "startDate": "2024-01-12T04:09:04Z",
-            "recruitEndDate": "2024-01-18T14:59:59.999Z",
-            "endDate": "2024-01-25T14:59:59.999Z",
-            "prizePolicy": "Distribution",
-            "totalPrize": 1300000,
-            "allPrize": "N",
-            "state": "End",
-            "secret": "N",
-            "nda": "N",
-            "avoidSearch": "N",
-            "typeID": 1,
-            "typeEnum": "AllOptionContest",
-            "productTypeID": 5,
-            "productID": 1164,
-            "categoryID": 111,
-            "adminExamine": "None",
-            "blind": "N",
-            "visible": "Y",
-            "preExamine": "N",
-            "winnerDate": "2024-01-25T02:32:19.117Z",
-            "remark": null,
-            "binaryWorkFile": "N",
-            "briefOpen": "N",
-            "pollAvailable": "N",
-            "contestInfo": {
-                "contestID": 120215,
-                "viewCount": 6623,
-                "bookmarkCount": 120,
-                "postCount": 3,
-                "portfolioCount": 31,
-                "passPortfolioCount": 0,
-                "designerCount": 28,
-                "participationCount": 0
-            },
-            "clientInfo": {
-                "contestID": 120215,
-                "company": "태후자연식품 영농조합법인",
-                "companyDescription": "태후자연식품 \"이제부터\" 브랜드는 더 건강하게, 더 맛있게, 더 신선하게 만든 프리미엄 건강 식(食) 전문 브랜드입니다.",
-                "industryID": 149,
-                "industry": {
-                    "id": 149,
-                    "type": "Industry",
-                    "key": "industry.common.shaunhickle",
-                    "tag": "industry.category.charliewalsh",
-                    "parentID": 0,
-                    "subCategories": null
-                }
-            },
-            "prizes": [
-                {
-                    "id": 55185,
-                    "createdAt": "2023-12-19T02:51:33.979Z",
-                    "winAt": "2024-01-25T02:32:18.307Z",
-                    "contestID": 120215,
-                    "prize": 1300000,
-                    "rank": 1,
-                    "portfolioID": 3546712,
-                    "portfolio": {
-                        "id": 3546712,
-                        "createdAt": "0001-01-01T00:00:00Z",
-                        "updatedAt": "0001-01-01T00:00:00Z",
-                        "deletedAt": 0,
-                        "coverCropBlob": {
-                            "crops": [
-                                {
-                                    "height": 2500,
-                                    "type": "square",
-                                    "width": 2500,
-                                    "x": 0,
-                                    "y": 0
-                                },
-                                {
-                                    "height": 0,
-                                    "type": "rectangle",
-                                    "width": 0,
-                                    "x": 0,
-                                    "y": 0
-                                }
-                            ]
-                        },
-                        "cover": {
-                            "id": 3677162,
-                            "createdAt": "2024-01-14T12:20:09.679Z",
-                            "updatedAt": "2024-01-14T12:20:13.891Z",
-                            "deletedAt": 0,
-                            "refID": 3546712,
-                            "type": "Cover",
-                            "originFilename": "이제부터 쌍화차 600X600_아웃박스.jpg",
-                            "filename": "LKqJS5Bs6m7doP3d.이제부터 쌍화차 600X600_아웃박스.jpg",
-                            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e57e35f5-dc46-40ce-bf1f-a485dba279a1/covers/LKqJS5Bs6m7doP3d.%EC%9D%B4%EC%A0%9C%EB%B6%80%ED%84%B0%20%EC%8C%8D%ED%99%94%EC%B0%A8%20600X600_%EC%95%84%EC%9B%83%EB%B0%95%EC%8A%A4.jpg",
-                            "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/e57e35f5-dc46-40ce-bf1f-a485dba279a1/covers/LKqJS5Bs6m7doP3d.%EC%9D%B4%EC%A0%9C%EB%B6%80%ED%84%B0%20%EC%8C%8D%ED%99%94%EC%B0%A8%20600X600_%EC%95%84%EC%9B%83%EB%B0%95%EC%8A%A4.jpg.small",
-                            "size": 416567,
-                            "nextOffset": 0,
-                            "state": "Completed",
-                            "mimeType": "",
-                            "width": 2500,
-                            "height": 2500
-                        }
-                    }
-                }
-            ],
-            "pays": null,
-            "category": {
-                "id": 111,
-                "type": "Contest",
-                "key": "contest.common.nettiesanford",
-                "tag": "contest.subCategory.joybaumbach",
-                "parentID": 108,
-                "extra": {
-                    "portfolioCountPerDay": [
-                        1930,
-                        385,
-                        183,
-                        97,
-                        54
-                    ],
-                    "portfolioMostUploadTime": 0,
-                    "portfolioMostUploadedTime": 118939
-                },
-                "subCategories": null
-            },
-            "portfolios": null
-        },
-        {
-            "id": 120015,
-            "createdAt": "2023-12-16T07:20:41.901Z",
-            "updatedAt": "2024-01-24T06:05:10.588Z",
-            "deletedAt": 0,
-            "clientUID": "49f2c9d1-c616-4391-948d-298437c03321",
-            "label":"로고 + 간판",
-            "title": "프리미엄 All-in-one 의료 건강 컨설팅 Eva 리브랜딩",
-            "startDate": "2024-01-03T15:00:00Z",
-            "recruitEndDate": "2024-01-17T14:59:59.999Z",
-            "endDate": "2024-01-24T14:59:59.999Z",
-            "prizePolicy": "Distribution",
-            "totalPrize": 1200000,
-            "allPrize": "N",
-            "state": "End",
-            "secret": "N",
-            "nda": "N",
-            "avoidSearch": "N",
-            "typeID": 1,
-            "typeEnum": "AllOptionContest",
-            "productTypeID": 1,
-            "productID": 1166,
-            "categoryID": 105,
-            "adminExamine": "None",
-            "blind": "N",
-            "visible": "Y",
-            "preExamine": "N",
-            "winnerDate": "2024-01-24T06:05:10.331Z",
-            "remark": null,
-            "binaryWorkFile": "N",
-            "briefOpen": "N",
-            "pollAvailable": "N",
-            "contestInfo": {
-                "contestID": 120015,
-                "viewCount": 5155,
-                "bookmarkCount": 92,
-                "postCount": 2,
-                "portfolioCount": 66,
-                "passPortfolioCount": 0,
-                "designerCount": 63,
-                "participationCount": 0
-            },
-            "clientInfo": {
-                "contestID": 120015,
-                "company": "Nimbyx",
-                "companyDescription": "Innovating for a Healthier World",
-                "industryID": 150,
-                "industry": {
-                    "id": 150,
-                    "type": "Industry",
-                    "key": "industry.common.shaunhickle",
-                    "tag": "industry.category.almabreitenberg",
-                    "parentID": 0,
-                    "subCategories": null
-                }
-            },
-            "prizes": [
-                {
-                    "id": 55085,
-                    "createdAt": "2023-12-16T07:25:44.638Z",
-                    "winAt": "2024-01-24T06:05:09.245Z",
-                    "contestID": 120015,
-                    "prize": 1200000,
-                    "rank": 1,
-                    "portfolioID": 3544348,
-                    "portfolio": {
-                        "id": 3544348,
-                        "createdAt": "0001-01-01T00:00:00Z",
-                        "updatedAt": "0001-01-01T00:00:00Z",
-                        "deletedAt": 0,
-                        "coverCropBlob": {
-                            "crops": [
-                                {
-                                    "height": 1247.0111846923828,
-                                    "type": "square",
-                                    "width": 1247.0111846923828,
-                                    "x": 0,
-                                    "y": 0
-                                },
-                                {
-                                    "height": 0,
-                                    "type": "rectangle",
-                                    "width": 0,
-                                    "x": 0,
-                                    "y": 0
-                                }
-                            ]
-                        },
-                        "cover": {
-                            "id": 3670831,
-                            "createdAt": "2024-01-12T02:59:07.208Z",
-                            "updatedAt": "2024-01-12T03:04:53.111Z",
-                            "deletedAt": 0,
-                            "refID": 3544348,
-                            "type": "Cover",
-                            "originFilename": "eva-02.jpg",
-                            "filename": "QChTaedMnz52gsZN.eva-02.jpg",
-                            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/22b9ffbc-7da4-40dd-8c5f-c7c33706b0af/covers/QChTaedMnz52gsZN.eva-02.jpg",
-                            "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/22b9ffbc-7da4-40dd-8c5f-c7c33706b0af/covers/QChTaedMnz52gsZN.eva-02.jpg.small",
-                            "size": 309677,
-                            "nextOffset": 0,
-                            "state": "Completed",
-                            "mimeType": "",
-                            "width": 1250,
-                            "height": 1250
-                        }
-                    }
-                }
-            ],
-            "pays": null,
-            "category": {
-                "id": 105,
-                "type": "Contest",
-                "key": "contest.common.nettiesanford",
-                "tag": "contest.subCategory.crystalsimonis",
-                "parentID": 102,
-                "extra": {
-                    "portfolioCountPerDay": [
-                        11209,
-                        2723,
-                        1098,
-                        719,
-                        437
-                    ],
-                    "portfolioMostUploadTime": 0,
-                    "portfolioMostUploadedTime": 118688
-                },
-                "subCategories": null
-            },
-            "portfolios": null
-        },
-        {
-            "id": 122098,
-            "createdAt": "2024-01-10T07:58:56.82Z",
-            "updatedAt": "2024-01-24T04:56:36.386Z",
-            "deletedAt": 0,
-            "clientUID": "e3ade5f1-8fde-4cba-9088-51237e7ae9aa",
-            "label":"로고",
-            "title": "건기식 브랜드 로고 콘테스트",
-            "startDate": "2024-01-10T15:00:00Z",
-            "recruitEndDate": "2024-01-17T14:59:59.999Z",
-            "endDate": "2024-01-24T14:59:59.999Z",
-            "prizePolicy": "Distribution",
-            "totalPrize": 1000000,
-            "allPrize": "N",
-            "state": "End",
-            "secret": "N",
-            "nda": "N",
-            "avoidSearch": "N",
-            "typeID": 1,
-            "typeEnum": "AllOptionContest",
-            "productTypeID": 1,
-            "productID": 1168,
-            "categoryID": 103,
-            "adminExamine": "None",
-            "blind": "N",
-            "visible": "Y",
-            "preExamine": "Y",
-            "winnerDate": "2024-01-24T04:56:36.138Z",
-            "remark": null,
-            "binaryWorkFile": "N",
-            "briefOpen": "N",
-            "pollAvailable": "N",
-            "contestInfo": {
-                "contestID": 122098,
-                "viewCount": 5346,
-                "bookmarkCount": 104,
-                "postCount": 2,
-                "portfolioCount": 64,
-                "passPortfolioCount": 1,
-                "designerCount": 59,
-                "participationCount": 0
-            },
-            "clientInfo": {
-                "contestID": 122098,
-                "company": "주식회사 엠델",
-                "companyDescription": "엠델 뉴트리웰은 엠델의 건기식 브랜드로 영양과 웰빙을 결합하여 건강하고 영양가 있는 삶을 지향하는 브랜드입니다. 출시될 제품으로는 여성갱년기건강, 혈행건강, 관절건강 등과 청소년 타겟용 비타민 등을 출시할 것으로 예상됩니다. 추후에는 화장품 쪽 브랜드를 하나 더 만들 예정입니다.",
-                "industryID": 149,
-                "industry": {
-                    "id": 149,
-                    "type": "Industry",
-                    "key": "industry.common.shaunhickle",
-                    "tag": "industry.category.charliewalsh",
-                    "parentID": 0,
-                    "subCategories": null
-                }
-            },
-            "prizes": [
-                {
-                    "id": 55961,
-                    "createdAt": "2024-01-10T08:24:48.564Z",
-                    "winAt": "2024-01-24T04:56:35.352Z",
-                    "contestID": 122098,
-                    "prize": 1000000,
-                    "rank": 1,
-                    "portfolioID": 3551508,
-                    "portfolio": {
-                        "id": 3551508,
-                        "createdAt": "0001-01-01T00:00:00Z",
-                        "updatedAt": "0001-01-01T00:00:00Z",
-                        "deletedAt": 0,
-                        "coverCropBlob": {
-                            "crops": [
-                                {
-                                    "height": 480,
-                                    "type": "square",
-                                    "width": 480,
-                                    "x": 0,
-                                    "y": 0
-                                },
-                                {
-                                    "height": 0,
-                                    "type": "rectangle",
-                                    "width": 0,
-                                    "x": 0,
-                                    "y": 0
-                                }
-                            ]
-                        },
-                        "cover": {
-                            "id": 3690248,
-                            "createdAt": "2024-01-17T13:58:50.243Z",
-                            "updatedAt": "2024-01-17T13:59:10.419Z",
-                            "deletedAt": 0,
-                            "refID": 3551508,
-                            "type": "Cover",
-                            "originFilename": "480_480.jpg",
-                            "filename": "DUkGafPczERvRVQn.480_480.jpg",
-                            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/12c49302-9a3e-4922-af7d-bb930f692ba9/covers/DUkGafPczERvRVQn.480_480.jpg",
-                            "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/12c49302-9a3e-4922-af7d-bb930f692ba9/covers/DUkGafPczERvRVQn.480_480.jpg.small",
-                            "size": 109039,
-                            "nextOffset": 0,
-                            "state": "Completed",
-                            "mimeType": "",
-                            "width": 480,
-                            "height": 480
-                        }
-                    }
-                }
-            ],
-            "pays": null,
-            "category": {
-                "id": 103,
-                "type": "Contest",
-                "key": "contest.common.nettiesanford",
-                "tag": "contest.subCategory.lorrainehane",
-                "parentID": 102,
-                "extra": {
-                    "portfolioCountPerDay": [
-                        51128,
-                        12544,
-                        4630,
-                        3318,
-                        2041
-                    ],
-                    "portfolioMostUploadTime": 0,
-                    "portfolioMostUploadedTime": 115847
-                },
-                "subCategories": null
-            },
-            "portfolios": null
-        },
-        {
-            "id": 122438,
-            "createdAt": "2024-01-14T05:07:38.604Z",
-            "updatedAt": "2024-01-23T14:12:28.95Z",
-            "deletedAt": 0,
-            "clientUID": "d36fc02d-c245-416a-bf04-487c44038de7",
-            "label":"브랜딩",
-            "title": "파인땡큐앤드유외과 브랜딩 콘테스트",
-            "startDate": "2024-01-14T06:07:24Z",
-            "recruitEndDate": "2024-01-20T14:59:59.999Z",
-            "endDate": "2024-01-27T14:59:59.999Z",
-            "prizePolicy": "Distribution",
-            "totalPrize": 1000000,
-            "allPrize": "N",
-            "state": "End",
-            "secret": "N",
-            "nda": "N",
-            "avoidSearch": "N",
-            "typeID": 1,
-            "typeEnum": "AllOptionContest",
-            "productTypeID": 1,
-            "productID": 1196,
-            "categoryID": 107,
-            "adminExamine": "None",
-            "blind": "N",
-            "visible": "Y",
-            "preExamine": "Y",
-            "winnerDate": "2024-01-23T14:12:28.716Z",
-            "remark": null,
-            "binaryWorkFile": "N",
-            "briefOpen": "N",
-            "pollAvailable": "N",
-            "contestInfo": {
-                "contestID": 122438,
-                "viewCount": 2502,
-                "bookmarkCount": 74,
-                "postCount": 0,
-                "portfolioCount": 49,
-                "passPortfolioCount": 1,
-                "designerCount": 46,
-                "participationCount": 0
-            },
-            "clientInfo": {
-                "contestID": 122438,
-                "company": "파인땡큐앤드유외과",
-                "companyDescription": "유방외과 입니다 보통 ㅇㅇㅇ 유 외과로 많이 짓는데, 하기 싫은 유방검사를\n편하고 부끄럽지 않게 안녕하게 한다는 의미로 파인땡큐앤드유 외과로 이름을 지었습니다",
-                "industryID": 152,
-                "industry": {
-                    "id": 152,
-                    "type": "Industry",
-                    "key": "industry.common.shaunhickle",
-                    "tag": "industry.category.almajacobi",
-                    "parentID": 0,
-                    "subCategories": null
-                }
-            },
-            "prizes": [
-                {
-                    "id": 56124,
-                    "createdAt": "2024-01-14T05:48:32.086Z",
-                    "winAt": "2024-01-23T14:12:27.933Z",
-                    "contestID": 122438,
-                    "prize": 1000000,
-                    "rank": 1,
-                    "portfolioID": 3552994,
-                    "portfolio": {
-                        "id": 3552994,
-                        "createdAt": "0001-01-01T00:00:00Z",
-                        "updatedAt": "0001-01-01T00:00:00Z",
-                        "deletedAt": 0,
-                        "coverCropBlob": {
-                            "crops": [
-                                {
-                                    "height": 900.0000000000001,
-                                    "type": "square",
-                                    "width": 900.0000000000001,
-                                    "x": 300,
-                                    "y": 112.50000000000001
-                                },
-                                {
-                                    "height": 0,
-                                    "type": "rectangle",
-                                    "width": 0,
-                                    "x": 0,
-                                    "y": 0
-                                }
-                            ]
-                        },
-                        "cover": {
-                            "id": 3694232,
-                            "createdAt": "2024-01-18T12:41:43.735Z",
-                            "updatedAt": "2024-01-18T15:06:31.053Z",
-                            "deletedAt": 0,
-                            "refID": 3552994,
-                            "type": "Cover",
-                            "originFilename": "223N6BZDN28sW6ZK.명함2-목업.jpg",
-                            "filename": "3fBaEmzusuNqQ2Ke.223N6BZDN28sW6ZK.명함2-목업.jpg",
-                            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/966d1bef-1331-483a-bcb7-bb0cca39d757/covers/3fBaEmzusuNqQ2Ke.223N6BZDN28sW6ZK.%E1%84%86%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B72-%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8.jpg",
-                            "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/966d1bef-1331-483a-bcb7-bb0cca39d757/covers/3fBaEmzusuNqQ2Ke.223N6BZDN28sW6ZK.%E1%84%86%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B72-%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8.jpg.small",
-                            "size": 649836,
-                            "nextOffset": 0,
-                            "state": "Completed",
-                            "mimeType": "",
-                            "width": 1500,
-                            "height": 1125
-                        }
-                    }
-                }
-            ],
-            "pays": null,
-            "category": {
-                "id": 107,
-                "type": "Contest",
-                "key": "contest.common.nettiesanford",
-                "tag": "contest.subCategory.paulahagenes",
-                "parentID": 102,
-                "extra": {
-                    "portfolioCountPerDay": [
-                        4430,
-                        1065,
-                        437,
-                        289,
-                        173
-                    ],
-                    "portfolioMostUploadTime": 0,
-                    "portfolioMostUploadedTime": 165238
-                },
-                "subCategories": null
-            },
-            "portfolios": null
-        },
-        {
-            "id": 122272,
-            "createdAt": "2024-01-11T14:12:48.523Z",
-            "updatedAt": "2024-01-22T09:15:19.419Z",
-            "deletedAt": 0,
-            "clientUID": "cae775da-c2a7-41a2-b49c-0f5c3a4ddc6e",
-            "label":"로고",
-            "title": "LLL.f 로고 콘테스트",
-            "startDate": "2024-01-11T15:00:54Z",
-            "recruitEndDate": "2024-01-18T14:59:59.999Z",
-            "endDate": "2024-01-25T14:59:59.999Z",
-            "prizePolicy": "Distribution",
-            "totalPrize": 1000000,
-            "allPrize": "Y",
-            "state": "End",
-            "secret": "N",
-            "nda": "N",
-            "avoidSearch": "N",
-            "typeID": 1,
-            "typeEnum": "AllOptionContest",
-            "productTypeID": 1,
-            "productID": 1168,
-            "categoryID": 103,
-            "adminExamine": "None",
-            "blind": "N",
-            "visible": "Y",
-            "preExamine": "N",
-            "winnerDate": "2024-01-22T09:15:19.176Z",
-            "remark": null,
-            "binaryWorkFile": "N",
-            "briefOpen": "N",
-            "pollAvailable": "N",
-            "contestInfo": {
-                "contestID": 122272,
-                "viewCount": 10853,
-                "bookmarkCount": 237,
-                "postCount": 9,
-                "portfolioCount": 197,
-                "passPortfolioCount": 0,
-                "designerCount": 171,
-                "participationCount": 0
-            },
-            "clientInfo": {
-                "contestID": 122272,
-                "company": "LLL.f 가구 디자인 쇼룸",
-                "companyDescription": "저희는 가구 디자인 쇼룸입니다.\n크게는 소파, 작게는 라이프 스타일 굿즈들 \n만들어서 시즌별로 새로운 디자인 + 공간을 다르게 구성하여\n그 속에서 커피도 마실 수 있고\n머물다 갈 수 있는 공간입니다\n\n- Furniture design studio \n- Cafe\n- Vintage product select shop\n\n",
-                "industryID": 148,
-                "industry": {
-                    "id": 148,
-                    "type": "Industry",
-                    "key": "industry.common.shaunhickle",
-                    "tag": "industry.category.randyrolfson",
-                    "parentID": 0,
-                    "subCategories": null
-                }
-            },
-            "prizes": [
-                {
-                    "id": 56037,
-                    "createdAt": "2024-01-11T14:33:36.119Z",
-                    "winAt": "2024-01-22T09:15:18.347Z",
-                    "contestID": 122272,
-                    "prize": 1000000,
-                    "rank": 1,
-                    "portfolioID": 3552972,
-                    "portfolio": {
-                        "id": 3552972,
-                        "createdAt": "0001-01-01T00:00:00Z",
-                        "updatedAt": "0001-01-01T00:00:00Z",
-                        "deletedAt": 0,
-                        "coverCropBlob": {
-                            "crops": [
-                                {
-                                    "height": 595.5029585798817,
-                                    "type": "square",
-                                    "width": 595.5029585798817,
-                                    "x": 321.9726273576183,
-                                    "y": 138.10999618620497
-                                },
-                                {
-                                    "height": 0,
-                                    "type": "rectangle",
-                                    "width": 0,
-                                    "x": 0,
-                                    "y": 0
-                                }
-                            ]
-                        },
-                        "cover": {
-                            "id": 3694174,
-                            "createdAt": "2024-01-18T12:30:29.712Z",
-                            "updatedAt": "2024-01-18T12:32:20.961Z",
-                            "deletedAt": 0,
-                            "refID": 3552972,
-                            "type": "Cover",
-                            "originFilename": "6zruEMQYSZmoe4eW.LLLF2pt.jpg",
-                            "filename": "DH8vaWgMURm89gty.6zruEMQYSZmoe4eW.LLLF2pt.jpg",
-                            "url": "https://github.com/gyurison7/legospace-clone/assets/135217349/741d7a74-59aa-4451-be4b-d2e07f027b06",
-                            "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/ccb9e9b9-a485-4eae-9299-029d183db583/covers/DH8vaWgMURm89gty.6zruEMQYSZmoe4eW.LLLF2pt.jpg.small",
-                            "size": 5235117,
-                            "nextOffset": 0,
-                            "state": "Completed",
-                            "mimeType": "",
-                            "width": 1200,
-                            "height": 9252
-                        }
-                    }
-                }
-            ],
-            "pays": null,
-            "category": {
-                "id": 103,
-                "type": "Contest",
-                "key": "contest.common.nettiesanford",
-                "tag": "contest.subCategory.lorrainehane",
-                "parentID": 102,
-                "extra": {
-                    "portfolioCountPerDay": [
-                        51128,
-                        12544,
-                        4630,
-                        3318,
-                        2041
-                    ],
-                    "portfolioMostUploadTime": 0,
-                    "portfolioMostUploadedTime": 115847
-                },
-                "subCategories": null
-            },
-            "portfolios": null
-        },
-        {
-            "id": 121489,
-            "createdAt": "2024-01-04T01:21:30.961Z",
-            "updatedAt": "2024-01-22T02:42:54.626Z",
-            "deletedAt": 0,
-            "clientUID": "df5a2620-db4b-40d0-b99e-cb42952bb1e5",
-            "label":"로고",
-            "title": "(주)뉴텍웰니스 로고 콘테스트",
-            "startDate": "2024-01-05T01:23:22Z",
-            "recruitEndDate": "2024-01-18T14:59:59.999Z",
-            "endDate": "2024-01-25T14:59:59.999Z",
-            "prizePolicy": "Distribution",
-            "totalPrize": 1800000,
-            "allPrize": "N",
-            "state": "End",
-            "secret": "N",
-            "nda": "N",
-            "avoidSearch": "N",
-            "typeID": 1,
-            "typeEnum": "AllOptionContest",
-            "productTypeID": 1,
-            "productID": 1206,
-            "categoryID": 103,
-            "adminExamine": "None",
-            "blind": "N",
-            "visible": "Y",
-            "preExamine": "N",
-            "winnerDate": "2024-01-22T02:42:54.391Z",
-            "remark": null,
-            "binaryWorkFile": "N",
-            "briefOpen": "N",
-            "pollAvailable": "N",
-            "contestInfo": {
-                "contestID": 121489,
-                "viewCount": 15922,
-                "bookmarkCount": 312,
-                "postCount": 0,
-                "portfolioCount": 181,
-                "passPortfolioCount": 0,
-                "designerCount": 168,
-                "participationCount": 0
-            },
-            "clientInfo": {
-                "contestID": 121489,
-                "company": "(주)뉴텍웰니스",
-                "companyDescription": "저희는 헬스기구 개발 및 제조업체입니다.",
-                "industryID": 149,
-                "industry": {
-                    "id": 149,
-                    "type": "Industry",
-                    "key": "industry.common.shaunhickle",
-                    "tag": "industry.category.charliewalsh",
-                    "parentID": 0,
-                    "subCategories": null
-                }
-            },
-            "prizes": [
-                {
-                    "id": 55696,
-                    "createdAt": "2024-01-04T02:39:23.379Z",
-                    "winAt": "2024-01-22T02:42:53.578Z",
-                    "contestID": 121489,
-                    "prize": 1800000,
-                    "rank": 1,
-                    "portfolioID": 3550896,
-                    "portfolio": {
-                        "id": 3550896,
-                        "createdAt": "0001-01-01T00:00:00Z",
-                        "updatedAt": "0001-01-01T00:00:00Z",
-                        "deletedAt": 0,
-                        "coverCropBlob": {
-                            "crops": [
-                                {
-                                    "height": 885.6000000000001,
-                                    "type": "square",
-                                    "width": 885.6000000000001,
-                                    "x": 295.19999999999993,
-                                    "y": 110.69999999999993
-                                },
-                                {
-                                    "height": 0,
-                                    "type": "rectangle",
-                                    "width": 0,
-                                    "x": 0,
-                                    "y": 0
-                                }
-                            ]
-                        },
-                        "cover": {
-                            "id": 3692909,
-                            "createdAt": "2024-01-18T07:53:57.418Z",
-                            "updatedAt": "2024-01-24T07:53:49.817Z",
-                            "deletedAt": 0,
-                            "refID": 3550896,
-                            "type": "Cover",
-                            "originFilename": "97JyiQA9jVgw995h.HDSTORM 명함 목업.png",
-                            "filename": "myaXyLbRC7ngQwRa.97JyiQA9jVgw995h.HDSTORM 명함 목업.png",
-                            "url": "https://cdn-dantats.stunning.kr/prod/portfolios/37907aae-c8b0-4ef5-8ec3-75a4a0ac93a2/covers/myaXyLbRC7ngQwRa.97JyiQA9jVgw995h.HDSTORM%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B7%20%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8.png",
-                            "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/37907aae-c8b0-4ef5-8ec3-75a4a0ac93a2/covers/myaXyLbRC7ngQwRa.97JyiQA9jVgw995h.HDSTORM%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B7%20%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8.png.small",
-                            "size": 2867255,
-                            "nextOffset": 0,
-                            "state": "Completed",
-                            "mimeType": "",
-                            "width": 1476,
-                            "height": 1107
-                        }
-                    }
-                }
-            ],
-            "pays": null,
-            "category": {
-                "id": 103,
-                "type": "Contest",
-                "key": "contest.common.nettiesanford",
-                "tag": "contest.subCategory.lorrainehane",
-                "parentID": 102,
-                "extra": {
-                    "portfolioCountPerDay": [
-                        51128,
-                        12544,
-                        4630,
-                        3318,
-                        2041
-                    ],
-                    "portfolioMostUploadTime": 0,
-                    "portfolioMostUploadedTime": 115847
-                },
-                "subCategories": null
-            },
-            "portfolios": null
+  "trID": "20240125170604564621",
+  "resultCode": "0200",
+  "resultMsg": "GetLatestWinContestList OK",
+  "resultData": [
+    {
+      "id": 120215,
+      "createdAt": "2023-12-19T01:56:18.15Z",
+      "updatedAt": "2024-01-25T02:32:19.362Z",
+      "deletedAt": 0,
+      "clientUID": "24dd5957-1624-40a1-90bc-76b3e958a5f6",
+      "label": "라벨 + 박스",
+      "title": "쌍화차 패키지 디자인 콘테스트",
+      "startDate": "2024-01-12T04:09:04Z",
+      "recruitEndDate": "2024-01-18T14:59:59.999Z",
+      "endDate": "2024-01-25T14:59:59.999Z",
+      "prizePolicy": "Distribution",
+      "totalPrize": 1300000,
+      "allPrize": "N",
+      "state": "End",
+      "secret": "N",
+      "nda": "N",
+      "avoidSearch": "N",
+      "typeID": 1,
+      "typeEnum": "AllOptionContest",
+      "productTypeID": 5,
+      "productID": 1164,
+      "categoryID": 111,
+      "adminExamine": "None",
+      "blind": "N",
+      "visible": "Y",
+      "preExamine": "N",
+      "winnerDate": "2024-01-25T02:32:19.117Z",
+      "remark": null,
+      "binaryWorkFile": "N",
+      "briefOpen": "N",
+      "pollAvailable": "N",
+      "contestInfo": {
+        "contestID": 120215,
+        "viewCount": 6623,
+        "bookmarkCount": 120,
+        "postCount": 3,
+        "portfolioCount": 31,
+        "passPortfolioCount": 0,
+        "designerCount": 28,
+        "participationCount": 0
+      },
+      "clientInfo": {
+        "contestID": 120215,
+        "company": "태후자연식품 영농조합법인",
+        "companyDescription": "태후자연식품 \"이제부터\" 브랜드는 더 건강하게, 더 맛있게, 더 신선하게 만든 프리미엄 건강 식(食) 전문 브랜드입니다.",
+        "industryID": 149,
+        "industry": {
+          "id": 149,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.charliewalsh",
+          "parentID": 0,
+          "subCategories": null
         }
-    ],
-    "seoItem": null
+      },
+      "prizes": [
+        {
+          "id": 55185,
+          "createdAt": "2023-12-19T02:51:33.979Z",
+          "winAt": "2024-01-25T02:32:18.307Z",
+          "contestID": 120215,
+          "prize": 1300000,
+          "rank": 1,
+          "portfolioID": 3546712,
+          "portfolio": {
+            "id": 3546712,
+            "createdAt": "0001-01-01T00:00:00Z",
+            "updatedAt": "0001-01-01T00:00:00Z",
+            "deletedAt": 0,
+            "coverCropBlob": {
+              "crops": [
+                {
+                  "height": 2500,
+                  "type": "square",
+                  "width": 2500,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 0,
+                  "type": "rectangle",
+                  "width": 0,
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            },
+            "cover": {
+              "id": 3677162,
+              "createdAt": "2024-01-14T12:20:09.679Z",
+              "updatedAt": "2024-01-14T12:20:13.891Z",
+              "deletedAt": 0,
+              "refID": 3546712,
+              "type": "Cover",
+              "originFilename": "이제부터 쌍화차 600X600_아웃박스.jpg",
+              "filename": "LKqJS5Bs6m7doP3d.이제부터 쌍화차 600X600_아웃박스.jpg",
+              "url": "https://cdn-dantats.stunning.kr/prod/portfolios/e57e35f5-dc46-40ce-bf1f-a485dba279a1/covers/LKqJS5Bs6m7doP3d.%EC%9D%B4%EC%A0%9C%EB%B6%80%ED%84%B0%20%EC%8C%8D%ED%99%94%EC%B0%A8%20600X600_%EC%95%84%EC%9B%83%EB%B0%95%EC%8A%A4.jpg",
+              "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/e57e35f5-dc46-40ce-bf1f-a485dba279a1/covers/LKqJS5Bs6m7doP3d.%EC%9D%B4%EC%A0%9C%EB%B6%80%ED%84%B0%20%EC%8C%8D%ED%99%94%EC%B0%A8%20600X600_%EC%95%84%EC%9B%83%EB%B0%95%EC%8A%A4.jpg.small",
+              "size": 416567,
+              "nextOffset": 0,
+              "state": "Completed",
+              "mimeType": "",
+              "width": 2500,
+              "height": 2500
+            }
+          }
+        }
+      ],
+      "pays": null,
+      "category": {
+        "id": 111,
+        "type": "Contest",
+        "key": "contest.common.nettiesanford",
+        "tag": "contest.subCategory.joybaumbach",
+        "parentID": 108,
+        "extra": {
+          "portfolioCountPerDay": [1930, 385, 183, 97, 54],
+          "portfolioMostUploadTime": 0,
+          "portfolioMostUploadedTime": 118939
+        },
+        "subCategories": null
+      },
+      "portfolios": null
+    },
+    {
+      "id": 120015,
+      "createdAt": "2023-12-16T07:20:41.901Z",
+      "updatedAt": "2024-01-24T06:05:10.588Z",
+      "deletedAt": 0,
+      "clientUID": "49f2c9d1-c616-4391-948d-298437c03321",
+      "label": "로고 + 간판",
+      "title": "프리미엄 All-in-one 의료 건강 컨설팅 Eva 리브랜딩",
+      "startDate": "2024-01-03T15:00:00Z",
+      "recruitEndDate": "2024-01-17T14:59:59.999Z",
+      "endDate": "2024-01-24T14:59:59.999Z",
+      "prizePolicy": "Distribution",
+      "totalPrize": 1200000,
+      "allPrize": "N",
+      "state": "End",
+      "secret": "N",
+      "nda": "N",
+      "avoidSearch": "N",
+      "typeID": 1,
+      "typeEnum": "AllOptionContest",
+      "productTypeID": 1,
+      "productID": 1166,
+      "categoryID": 105,
+      "adminExamine": "None",
+      "blind": "N",
+      "visible": "Y",
+      "preExamine": "N",
+      "winnerDate": "2024-01-24T06:05:10.331Z",
+      "remark": null,
+      "binaryWorkFile": "N",
+      "briefOpen": "N",
+      "pollAvailable": "N",
+      "contestInfo": {
+        "contestID": 120015,
+        "viewCount": 5155,
+        "bookmarkCount": 92,
+        "postCount": 2,
+        "portfolioCount": 66,
+        "passPortfolioCount": 0,
+        "designerCount": 63,
+        "participationCount": 0
+      },
+      "clientInfo": {
+        "contestID": 120015,
+        "company": "Nimbyx",
+        "companyDescription": "Innovating for a Healthier World",
+        "industryID": 150,
+        "industry": {
+          "id": 150,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.almabreitenberg",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "prizes": [
+        {
+          "id": 55085,
+          "createdAt": "2023-12-16T07:25:44.638Z",
+          "winAt": "2024-01-24T06:05:09.245Z",
+          "contestID": 120015,
+          "prize": 1200000,
+          "rank": 1,
+          "portfolioID": 3544348,
+          "portfolio": {
+            "id": 3544348,
+            "createdAt": "0001-01-01T00:00:00Z",
+            "updatedAt": "0001-01-01T00:00:00Z",
+            "deletedAt": 0,
+            "coverCropBlob": {
+              "crops": [
+                {
+                  "height": 1247.0111846923828,
+                  "type": "square",
+                  "width": 1247.0111846923828,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 0,
+                  "type": "rectangle",
+                  "width": 0,
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            },
+            "cover": {
+              "id": 3670831,
+              "createdAt": "2024-01-12T02:59:07.208Z",
+              "updatedAt": "2024-01-12T03:04:53.111Z",
+              "deletedAt": 0,
+              "refID": 3544348,
+              "type": "Cover",
+              "originFilename": "eva-02.jpg",
+              "filename": "QChTaedMnz52gsZN.eva-02.jpg",
+              "url": "https://github.com/gyurison7/loud-clone/assets/135217349/a6338765-9276-40dd-9242-05b27573bbd1",
+              "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/22b9ffbc-7da4-40dd-8c5f-c7c33706b0af/covers/QChTaedMnz52gsZN.eva-02.jpg.small",
+              "size": 309677,
+              "nextOffset": 0,
+              "state": "Completed",
+              "mimeType": "",
+              "width": 1250,
+              "height": 1250
+            }
+          }
+        }
+      ],
+      "pays": null,
+      "category": {
+        "id": 105,
+        "type": "Contest",
+        "key": "contest.common.nettiesanford",
+        "tag": "contest.subCategory.crystalsimonis",
+        "parentID": 102,
+        "extra": {
+          "portfolioCountPerDay": [11209, 2723, 1098, 719, 437],
+          "portfolioMostUploadTime": 0,
+          "portfolioMostUploadedTime": 118688
+        },
+        "subCategories": null
+      },
+      "portfolios": null
+    },
+    {
+      "id": 122098,
+      "createdAt": "2024-01-10T07:58:56.82Z",
+      "updatedAt": "2024-01-24T04:56:36.386Z",
+      "deletedAt": 0,
+      "clientUID": "e3ade5f1-8fde-4cba-9088-51237e7ae9aa",
+      "label": "로고",
+      "title": "건기식 브랜드 로고 콘테스트",
+      "startDate": "2024-01-10T15:00:00Z",
+      "recruitEndDate": "2024-01-17T14:59:59.999Z",
+      "endDate": "2024-01-24T14:59:59.999Z",
+      "prizePolicy": "Distribution",
+      "totalPrize": 1000000,
+      "allPrize": "N",
+      "state": "End",
+      "secret": "N",
+      "nda": "N",
+      "avoidSearch": "N",
+      "typeID": 1,
+      "typeEnum": "AllOptionContest",
+      "productTypeID": 1,
+      "productID": 1168,
+      "categoryID": 103,
+      "adminExamine": "None",
+      "blind": "N",
+      "visible": "Y",
+      "preExamine": "Y",
+      "winnerDate": "2024-01-24T04:56:36.138Z",
+      "remark": null,
+      "binaryWorkFile": "N",
+      "briefOpen": "N",
+      "pollAvailable": "N",
+      "contestInfo": {
+        "contestID": 122098,
+        "viewCount": 5346,
+        "bookmarkCount": 104,
+        "postCount": 2,
+        "portfolioCount": 64,
+        "passPortfolioCount": 1,
+        "designerCount": 59,
+        "participationCount": 0
+      },
+      "clientInfo": {
+        "contestID": 122098,
+        "company": "주식회사 엠델",
+        "companyDescription": "엠델 뉴트리웰은 엠델의 건기식 브랜드로 영양과 웰빙을 결합하여 건강하고 영양가 있는 삶을 지향하는 브랜드입니다. 출시될 제품으로는 여성갱년기건강, 혈행건강, 관절건강 등과 청소년 타겟용 비타민 등을 출시할 것으로 예상됩니다. 추후에는 화장품 쪽 브랜드를 하나 더 만들 예정입니다.",
+        "industryID": 149,
+        "industry": {
+          "id": 149,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.charliewalsh",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "prizes": [
+        {
+          "id": 55961,
+          "createdAt": "2024-01-10T08:24:48.564Z",
+          "winAt": "2024-01-24T04:56:35.352Z",
+          "contestID": 122098,
+          "prize": 1000000,
+          "rank": 1,
+          "portfolioID": 3551508,
+          "portfolio": {
+            "id": 3551508,
+            "createdAt": "0001-01-01T00:00:00Z",
+            "updatedAt": "0001-01-01T00:00:00Z",
+            "deletedAt": 0,
+            "coverCropBlob": {
+              "crops": [
+                {
+                  "height": 480,
+                  "type": "square",
+                  "width": 480,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 0,
+                  "type": "rectangle",
+                  "width": 0,
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            },
+            "cover": {
+              "id": 3690248,
+              "createdAt": "2024-01-17T13:58:50.243Z",
+              "updatedAt": "2024-01-17T13:59:10.419Z",
+              "deletedAt": 0,
+              "refID": 3551508,
+              "type": "Cover",
+              "originFilename": "480_480.jpg",
+              "filename": "DUkGafPczERvRVQn.480_480.jpg",
+              "url": "https://cdn-dantats.stunning.kr/prod/portfolios/12c49302-9a3e-4922-af7d-bb930f692ba9/covers/DUkGafPczERvRVQn.480_480.jpg",
+              "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/12c49302-9a3e-4922-af7d-bb930f692ba9/covers/DUkGafPczERvRVQn.480_480.jpg.small",
+              "size": 109039,
+              "nextOffset": 0,
+              "state": "Completed",
+              "mimeType": "",
+              "width": 480,
+              "height": 480
+            }
+          }
+        }
+      ],
+      "pays": null,
+      "category": {
+        "id": 103,
+        "type": "Contest",
+        "key": "contest.common.nettiesanford",
+        "tag": "contest.subCategory.lorrainehane",
+        "parentID": 102,
+        "extra": {
+          "portfolioCountPerDay": [51128, 12544, 4630, 3318, 2041],
+          "portfolioMostUploadTime": 0,
+          "portfolioMostUploadedTime": 115847
+        },
+        "subCategories": null
+      },
+      "portfolios": null
+    },
+    {
+      "id": 122438,
+      "createdAt": "2024-01-14T05:07:38.604Z",
+      "updatedAt": "2024-01-23T14:12:28.95Z",
+      "deletedAt": 0,
+      "clientUID": "d36fc02d-c245-416a-bf04-487c44038de7",
+      "label": "브랜딩",
+      "title": "파인땡큐앤드유외과 브랜딩 콘테스트",
+      "startDate": "2024-01-14T06:07:24Z",
+      "recruitEndDate": "2024-01-20T14:59:59.999Z",
+      "endDate": "2024-01-27T14:59:59.999Z",
+      "prizePolicy": "Distribution",
+      "totalPrize": 1000000,
+      "allPrize": "N",
+      "state": "End",
+      "secret": "N",
+      "nda": "N",
+      "avoidSearch": "N",
+      "typeID": 1,
+      "typeEnum": "AllOptionContest",
+      "productTypeID": 1,
+      "productID": 1196,
+      "categoryID": 107,
+      "adminExamine": "None",
+      "blind": "N",
+      "visible": "Y",
+      "preExamine": "Y",
+      "winnerDate": "2024-01-23T14:12:28.716Z",
+      "remark": null,
+      "binaryWorkFile": "N",
+      "briefOpen": "N",
+      "pollAvailable": "N",
+      "contestInfo": {
+        "contestID": 122438,
+        "viewCount": 2502,
+        "bookmarkCount": 74,
+        "postCount": 0,
+        "portfolioCount": 49,
+        "passPortfolioCount": 1,
+        "designerCount": 46,
+        "participationCount": 0
+      },
+      "clientInfo": {
+        "contestID": 122438,
+        "company": "파인땡큐앤드유외과",
+        "companyDescription": "유방외과 입니다 보통 ㅇㅇㅇ 유 외과로 많이 짓는데, 하기 싫은 유방검사를\n편하고 부끄럽지 않게 안녕하게 한다는 의미로 파인땡큐앤드유 외과로 이름을 지었습니다",
+        "industryID": 152,
+        "industry": {
+          "id": 152,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.almajacobi",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "prizes": [
+        {
+          "id": 56124,
+          "createdAt": "2024-01-14T05:48:32.086Z",
+          "winAt": "2024-01-23T14:12:27.933Z",
+          "contestID": 122438,
+          "prize": 1000000,
+          "rank": 1,
+          "portfolioID": 3552994,
+          "portfolio": {
+            "id": 3552994,
+            "createdAt": "0001-01-01T00:00:00Z",
+            "updatedAt": "0001-01-01T00:00:00Z",
+            "deletedAt": 0,
+            "coverCropBlob": {
+              "crops": [
+                {
+                  "height": 900.0000000000001,
+                  "type": "square",
+                  "width": 900.0000000000001,
+                  "x": 300,
+                  "y": 112.50000000000001
+                },
+                {
+                  "height": 0,
+                  "type": "rectangle",
+                  "width": 0,
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            },
+            "cover": {
+              "id": 3694232,
+              "createdAt": "2024-01-18T12:41:43.735Z",
+              "updatedAt": "2024-01-18T15:06:31.053Z",
+              "deletedAt": 0,
+              "refID": 3552994,
+              "type": "Cover",
+              "originFilename": "223N6BZDN28sW6ZK.명함2-목업.jpg",
+              "filename": "3fBaEmzusuNqQ2Ke.223N6BZDN28sW6ZK.명함2-목업.jpg",
+              "url": "https://cdn-dantats.stunning.kr/prod/portfolios/966d1bef-1331-483a-bcb7-bb0cca39d757/covers/3fBaEmzusuNqQ2Ke.223N6BZDN28sW6ZK.%E1%84%86%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B72-%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8.jpg",
+              "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/966d1bef-1331-483a-bcb7-bb0cca39d757/covers/3fBaEmzusuNqQ2Ke.223N6BZDN28sW6ZK.%E1%84%86%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B72-%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8.jpg.small",
+              "size": 649836,
+              "nextOffset": 0,
+              "state": "Completed",
+              "mimeType": "",
+              "width": 1500,
+              "height": 1125
+            }
+          }
+        }
+      ],
+      "pays": null,
+      "category": {
+        "id": 107,
+        "type": "Contest",
+        "key": "contest.common.nettiesanford",
+        "tag": "contest.subCategory.paulahagenes",
+        "parentID": 102,
+        "extra": {
+          "portfolioCountPerDay": [4430, 1065, 437, 289, 173],
+          "portfolioMostUploadTime": 0,
+          "portfolioMostUploadedTime": 165238
+        },
+        "subCategories": null
+      },
+      "portfolios": null
+    },
+    {
+      "id": 122272,
+      "createdAt": "2024-01-11T14:12:48.523Z",
+      "updatedAt": "2024-01-22T09:15:19.419Z",
+      "deletedAt": 0,
+      "clientUID": "cae775da-c2a7-41a2-b49c-0f5c3a4ddc6e",
+      "label": "로고",
+      "title": "LLL.f 로고 콘테스트",
+      "startDate": "2024-01-11T15:00:54Z",
+      "recruitEndDate": "2024-01-18T14:59:59.999Z",
+      "endDate": "2024-01-25T14:59:59.999Z",
+      "prizePolicy": "Distribution",
+      "totalPrize": 1000000,
+      "allPrize": "Y",
+      "state": "End",
+      "secret": "N",
+      "nda": "N",
+      "avoidSearch": "N",
+      "typeID": 1,
+      "typeEnum": "AllOptionContest",
+      "productTypeID": 1,
+      "productID": 1168,
+      "categoryID": 103,
+      "adminExamine": "None",
+      "blind": "N",
+      "visible": "Y",
+      "preExamine": "N",
+      "winnerDate": "2024-01-22T09:15:19.176Z",
+      "remark": null,
+      "binaryWorkFile": "N",
+      "briefOpen": "N",
+      "pollAvailable": "N",
+      "contestInfo": {
+        "contestID": 122272,
+        "viewCount": 10853,
+        "bookmarkCount": 237,
+        "postCount": 9,
+        "portfolioCount": 197,
+        "passPortfolioCount": 0,
+        "designerCount": 171,
+        "participationCount": 0
+      },
+      "clientInfo": {
+        "contestID": 122272,
+        "company": "LLL.f 가구 디자인 쇼룸",
+        "companyDescription": "저희는 가구 디자인 쇼룸입니다.\n크게는 소파, 작게는 라이프 스타일 굿즈들 \n만들어서 시즌별로 새로운 디자인 + 공간을 다르게 구성하여\n그 속에서 커피도 마실 수 있고\n머물다 갈 수 있는 공간입니다\n\n- Furniture design studio \n- Cafe\n- Vintage product select shop\n\n",
+        "industryID": 148,
+        "industry": {
+          "id": 148,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.randyrolfson",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "prizes": [
+        {
+          "id": 56037,
+          "createdAt": "2024-01-11T14:33:36.119Z",
+          "winAt": "2024-01-22T09:15:18.347Z",
+          "contestID": 122272,
+          "prize": 1000000,
+          "rank": 1,
+          "portfolioID": 3552972,
+          "portfolio": {
+            "id": 3552972,
+            "createdAt": "0001-01-01T00:00:00Z",
+            "updatedAt": "0001-01-01T00:00:00Z",
+            "deletedAt": 0,
+            "coverCropBlob": {
+              "crops": [
+                {
+                  "height": 595.5029585798817,
+                  "type": "square",
+                  "width": 595.5029585798817,
+                  "x": 321.9726273576183,
+                  "y": 138.10999618620497
+                },
+                {
+                  "height": 0,
+                  "type": "rectangle",
+                  "width": 0,
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            },
+            "cover": {
+              "id": 3694174,
+              "createdAt": "2024-01-18T12:30:29.712Z",
+              "updatedAt": "2024-01-18T12:32:20.961Z",
+              "deletedAt": 0,
+              "refID": 3552972,
+              "type": "Cover",
+              "originFilename": "6zruEMQYSZmoe4eW.LLLF2pt.jpg",
+              "filename": "DH8vaWgMURm89gty.6zruEMQYSZmoe4eW.LLLF2pt.jpg",
+              "url": "https://github.com/gyurison7/loud-clone/assets/135217349/9c71f726-3faa-4cfb-8afa-52da1283d3a8",
+              "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/ccb9e9b9-a485-4eae-9299-029d183db583/covers/DH8vaWgMURm89gty.6zruEMQYSZmoe4eW.LLLF2pt.jpg.small",
+              "size": 5235117,
+              "nextOffset": 0,
+              "state": "Completed",
+              "mimeType": "",
+              "width": 1200,
+              "height": 9252
+            }
+          }
+        }
+      ],
+      "pays": null,
+      "category": {
+        "id": 103,
+        "type": "Contest",
+        "key": "contest.common.nettiesanford",
+        "tag": "contest.subCategory.lorrainehane",
+        "parentID": 102,
+        "extra": {
+          "portfolioCountPerDay": [51128, 12544, 4630, 3318, 2041],
+          "portfolioMostUploadTime": 0,
+          "portfolioMostUploadedTime": 115847
+        },
+        "subCategories": null
+      },
+      "portfolios": null
+    },
+    {
+      "id": 121489,
+      "createdAt": "2024-01-04T01:21:30.961Z",
+      "updatedAt": "2024-01-22T02:42:54.626Z",
+      "deletedAt": 0,
+      "clientUID": "df5a2620-db4b-40d0-b99e-cb42952bb1e5",
+      "label": "로고",
+      "title": "(주)뉴텍웰니스 로고 콘테스트",
+      "startDate": "2024-01-05T01:23:22Z",
+      "recruitEndDate": "2024-01-18T14:59:59.999Z",
+      "endDate": "2024-01-25T14:59:59.999Z",
+      "prizePolicy": "Distribution",
+      "totalPrize": 1800000,
+      "allPrize": "N",
+      "state": "End",
+      "secret": "N",
+      "nda": "N",
+      "avoidSearch": "N",
+      "typeID": 1,
+      "typeEnum": "AllOptionContest",
+      "productTypeID": 1,
+      "productID": 1206,
+      "categoryID": 103,
+      "adminExamine": "None",
+      "blind": "N",
+      "visible": "Y",
+      "preExamine": "N",
+      "winnerDate": "2024-01-22T02:42:54.391Z",
+      "remark": null,
+      "binaryWorkFile": "N",
+      "briefOpen": "N",
+      "pollAvailable": "N",
+      "contestInfo": {
+        "contestID": 121489,
+        "viewCount": 15922,
+        "bookmarkCount": 312,
+        "postCount": 0,
+        "portfolioCount": 181,
+        "passPortfolioCount": 0,
+        "designerCount": 168,
+        "participationCount": 0
+      },
+      "clientInfo": {
+        "contestID": 121489,
+        "company": "(주)뉴텍웰니스",
+        "companyDescription": "저희는 헬스기구 개발 및 제조업체입니다.",
+        "industryID": 149,
+        "industry": {
+          "id": 149,
+          "type": "Industry",
+          "key": "industry.common.shaunhickle",
+          "tag": "industry.category.charliewalsh",
+          "parentID": 0,
+          "subCategories": null
+        }
+      },
+      "prizes": [
+        {
+          "id": 55696,
+          "createdAt": "2024-01-04T02:39:23.379Z",
+          "winAt": "2024-01-22T02:42:53.578Z",
+          "contestID": 121489,
+          "prize": 1800000,
+          "rank": 1,
+          "portfolioID": 3550896,
+          "portfolio": {
+            "id": 3550896,
+            "createdAt": "0001-01-01T00:00:00Z",
+            "updatedAt": "0001-01-01T00:00:00Z",
+            "deletedAt": 0,
+            "coverCropBlob": {
+              "crops": [
+                {
+                  "height": 885.6000000000001,
+                  "type": "square",
+                  "width": 885.6000000000001,
+                  "x": 295.19999999999993,
+                  "y": 110.69999999999993
+                },
+                {
+                  "height": 0,
+                  "type": "rectangle",
+                  "width": 0,
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            },
+            "cover": {
+              "id": 3692909,
+              "createdAt": "2024-01-18T07:53:57.418Z",
+              "updatedAt": "2024-01-24T07:53:49.817Z",
+              "deletedAt": 0,
+              "refID": 3550896,
+              "type": "Cover",
+              "originFilename": "97JyiQA9jVgw995h.HDSTORM 명함 목업.png",
+              "filename": "myaXyLbRC7ngQwRa.97JyiQA9jVgw995h.HDSTORM 명함 목업.png",
+              "url": "https://cdn-dantats.stunning.kr/prod/portfolios/37907aae-c8b0-4ef5-8ec3-75a4a0ac93a2/covers/myaXyLbRC7ngQwRa.97JyiQA9jVgw995h.HDSTORM%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B7%20%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8.png",
+              "smallUrl": "https://cdn-dantats.stunning.kr/prod/portfolios/37907aae-c8b0-4ef5-8ec3-75a4a0ac93a2/covers/myaXyLbRC7ngQwRa.97JyiQA9jVgw995h.HDSTORM%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B7%20%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8.png.small",
+              "size": 2867255,
+              "nextOffset": 0,
+              "state": "Completed",
+              "mimeType": "",
+              "width": 1476,
+              "height": 1107
+            }
+          }
+        }
+      ],
+      "pays": null,
+      "category": {
+        "id": 103,
+        "type": "Contest",
+        "key": "contest.common.nettiesanford",
+        "tag": "contest.subCategory.lorrainehane",
+        "parentID": 102,
+        "extra": {
+          "portfolioCountPerDay": [51128, 12544, 4630, 3318, 2041],
+          "portfolioMostUploadTime": 0,
+          "portfolioMostUploadedTime": 115847
+        },
+        "subCategories": null
+      },
+      "portfolios": null
+    }
+  ],
+  "seoItem": null
 }
