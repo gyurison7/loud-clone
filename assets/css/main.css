@@ -676,6 +676,7 @@ svg {
   width: 100%;
 }
 .sc-trend .trend-slide .img-wrapper {
+  position: relative;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -688,6 +689,25 @@ svg {
 }
 .sc-trend .trend-slide img:hover {
   transform: scale(1.1);
+}
+.sc-trend .trend-slide .like {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+}
+.sc-trend .trend-slide .like svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 4px;
+}
+.sc-trend .trend-slide .like span {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px;
 }
 .sc-trend .trend-slide .content-wrapper {
   display: flex;
