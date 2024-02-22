@@ -256,6 +256,9 @@ header .bottom-row .request-design .hover-request {
   line-height: 23px;
   letter-spacing: -0.5px;
 }
+.gnb .gnb-link:hover {
+  color: rgb(38, 86, 246);
+}
 .gnb .category .gnb-link {
   display: flex;
   align-items: center;

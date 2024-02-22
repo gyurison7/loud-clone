@@ -884,6 +884,10 @@ svg {
   letter-spacing: -0.25px;
   gap: 4px;
 }
+.sc-sourcing .slider-btn.tab-2,
+.sc-sourcing .slider-btn.tab-3 {
+  display: none;
+}
 .sc-sourcing .link-more {
   width: 343px;
   margin: 40px auto 0px;
